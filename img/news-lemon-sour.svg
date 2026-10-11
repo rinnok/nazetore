@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FFF6D6"/>
+  <circle cx="660" cy="90" r="150" fill="#FFEFB8"/>
+  <circle cx="110" cy="440" r="120" fill="#FFF0BE"/>
+  <rect y="420" width="800" height="80" fill="#FBE6A0"/>
+  <g transform="translate(300 90)">
+    <circle cx="100" cy="30" r="64" fill="#FAC775"/>
+    <circle cx="100" cy="30" r="52" fill="#FFF6D6"/>
+    <circle cx="100" cy="30" r="14" fill="#FAEEDA"/>
+    <g stroke="#FAC775" stroke-width="6" stroke-linecap="round"><path d="M100 30 V-18"/><path d="M100 30 L141 6"/><path d="M100 30 L141 54"/><path d="M100 30 V78"/><path d="M100 30 L59 54"/><path d="M100 30 L59 6"/></g>
+  </g>
+  <g fill="none" stroke="#85B7EB" stroke-width="5">
+    <circle cx="260" cy="150" r="10"/><circle cx="230" cy="215" r="6"/><circle cx="550" cy="170" r="9"/><circle cx="575" cy="230" r="5"/>
+  </g>
+  <g transform="translate(320 190)">
+    <rect x="0" y="0" width="160" height="260" rx="22" fill="#FFFFFF"/>
+    <rect x="14" y="-12" width="132" height="26" rx="10" fill="#B4B2A9"/>
+    <rect x="30" y="-6" width="100" height="10" rx="5" fill="#D3D1C7"/>
+    <rect x="0" y="60" width="160" height="150" fill="#97C459"/>
+    <rect x="0" y="90" width="160" height="18" fill="#C0DD97"/>
+    <rect x="0" y="162" width="160" height="18" fill="#C0DD97"/>
+    <path d="M0 238 H160 V240 Q160 260 138 260 H22 Q0 260 0 240Z" fill="#B4B2A9"/>
+    <circle cx="80" cy="135" r="26" fill="#FAEEDA" opacity=".9"/>
+    <path d="M80 118 V152 M63 135 H97" stroke="#639922" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(300 250) rotate(-35 40 40)">
+    <rect x="-20" y="30" width="200" height="46" fill="#E24B4A"/>
+    <rect x="-20" y="30" width="200" height="8" fill="#A32D2D"/>
+    <rect x="-20" y="68" width="200" height="8" fill="#A32D2D"/>
+    <g fill="#FFFFFF" opacity=".85"><circle cx="40" cy="53" r="5"/><circle cx="90" cy="53" r="5"/><circle cx="140" cy="53" r="5"/></g>
+  </g>
+  <g transform="translate(580 340)">
+    <ellipse cx="60" cy="50" rx="60" ry="44" fill="#FAC775"/>
+    <path d="M0 50 Q-14 50 -10 44 L2 44Z M120 50 Q134 50 130 44 L118 44Z" fill="#FAC775"/>
+    <ellipse cx="60" cy="50" rx="60" ry="44" fill="none" stroke="#EF9F27" stroke-width="5"/>
+    <path d="M30 28 Q60 8 92 28" stroke="#FFF6D6" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M60 6 Q68 -14 90 -18 Q84 2 60 6Z" fill="#639922"/>
+  </g>
+</svg>
