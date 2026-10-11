@@ -57,9 +57,20 @@
   // ---------- ui helpers ----------
   function toast(msg) { const el = document.getElementById('toast'); el.textContent = msg; el.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('show'), 2000); }
   const go = h => { location.hash = h; };
-  const segs = (total, cur, past) => `<div class="segs" aria-label="${cur + 1} / ${total} 問">${Array.from({ length: total }, (_, i) => `<div class="seg ${i === cur ? 'cur' : i < past ? 'past' : ''}"></div>`).join('')}</div>`;
-  const glyph = t => TAGS[t.tags[0]] ? TAGS[t.tags[0]].g : '問';
-  const tagLine = t => t.tags.map(k => TAGS[k] ? TAGS[k].name : k).join(' / ');
+  const img = t => t.image ? `<img src="${esc(t.image)}" alt="" loading="lazy" decoding="async">` : '';
+  const tagLine = t => t.tags.map(k => TAGS[k] ? TAGS[k].name : k).join('・');
+  const prog = (total, idx) => `<div class="prog" aria-hidden="true">${Array.from({ length: total }, (_, i) => `<i class="${i <= idx ? 'on' : ''}"></i>`).join('')}</div>`;
+  const mins = t => `${t.questions.length}問・約${Math.max(2, Math.round(t.questions.length * 0.6))}分`;
+  function streak() {
+    let d = today(), n = 0;
+    if (!S.days[d]) d = addDays(d, -1);
+    while (S.days[d]) { n++; d = addDays(d, -1); }
+    return n;
+  }
+  function status(t) {
+    const p = progress(t);
+    return p.done ? `<span class="chip done num">${p.ok}/${p.total} 正解</span>` : p.n ? `<span class="chip num">${p.n}/${p.total}</span>` : '';
+  }
 
   // ---------- views ----------
   function viewHome() {
@@ -70,44 +81,46 @@
     const rev = dueReviews();
     $app.innerHTML = `
       <header class="top">
-        <div class="brand">ナゼ<small>トレ</small></div>
-        <div class="pt num" aria-label="今週のポイント"><b>${weekPoints()}</b> pt <span style="font-size:12px">今週</span></div>
+        <div class="brand"><i></i>ナゼトレ</div>
+        <div class="ptpill num" aria-label="今週のポイント">今週 ${weekPoints()} pt</div>
       </header>
-      <div class="week">${wk.map((d, i) => `<div class="day ${S.days[d] ? 'on' : ''} ${d === td ? 'today' : ''}"><div class="dot">${S.days[d] ? '✓' : ''}</div>${WD[(i + 1) % 7]}</div>`).join('')}</div>
+      <div class="greet">${jpDate(td)}</div>
+      <div class="streak">
+        <div class="lab">連続記録<b class="num">${streak()}日</b></div>
+        <div class="days">${wk.map((d, i) => `<div class="${S.days[d] ? 'on' : ''} ${d === td ? 'today' : ''}"><i></i><span>${WD[(i + 1) % 7]}</span></div>`).join('')}</div>
+      </div>
       ${!online ? '<div class="offline">オフライン中：保存済みの問題で解けます</div>' : ''}
-      <div class="dateline">${jpDate(td)}の配信</div>
+      <div class="sec"><h2>${fresh.length ? '今日のテーマ' : 'もう一度解く'}</h2><span>${rail.length}本</span></div>
       ${rail.length ? `<div class="rail">${rail.map(card).join('')}</div>` : '<div class="empty">問題データを読み込めませんでした。電波のある場所で一度開いてください。</div>'}
-      ${rev.length ? `<div class="sec">復習 <span>${rev.length}問</span></div><div class="list"><button class="row" data-go="#/review"><span class="t">間違えた問題をもう一度<span class="s">3日後・7日後に出題されます</span></span><span class="r">はじめる ›</span></button></div>` : ''}
-      <div class="sec">これまでの配信</div>
-      <div class="list">${list.map(t => { const p = progress(t); return `<button class="row" data-go="#/t/${t.id}"><span class="t">${esc(t.title)}<span class="s">${jpDate(t.date)}・${esc(tagLine(t))}</span></span><span class="r num">${p.done ? `${p.ok}/${p.total}` : p.n ? '途中' : '未回答'}</span></button>`; }).join('') || '<div class="empty">まだ配信がありません</div>'}</div>
-      <div class="sec">記録</div>
-      <div class="list">
-        <button class="row" data-act="copyhyp"><span class="t">書いた仮説をまとめてコピー<span class="s">Claudeに貼って添削してもらう用</span></span><span class="r">›</span></button>
-      </div>`;
+      ${rev.length ? `<div class="sec"><h2>復習</h2><span>${rev.length}問</span></div><div class="list"><button class="row" data-go="#/review"><span class="ic">復</span><span class="t"><span class="s">3日後・7日後に再出題</span>間違えた問題をもう一度</span><span class="r">›</span></button></div>` : ''}
+      <div class="sec"><h2>これまでの配信</h2></div>
+      <div class="list">${list.map(t => { const p = progress(t); return `<button class="row" data-go="#/t/${t.id}"><span class="mini">${img(t)}</span><span class="t"><span class="s">${esc(t.topic || '')}・${jpDate(t.date)}</span>${esc(t.title)}</span><span class="r num">${p.done ? `${p.ok}/${p.total}` : p.n ? '途中' : '未回答'}</span></button>`; }).join('') || '<div class="empty">まだ配信がありません</div>'}</div>
+      <div class="sec"><h2>記録</h2></div>
+      <div class="list"><button class="row" data-act="copyhyp"><span class="ic">仮</span><span class="t"><span class="s">Claudeに貼って添削してもらう用</span>書いた仮説をまとめてコピー</span><span class="r">›</span></button></div>`;
   }
   function card(t) {
-    const p = progress(t);
     return `<button class="card" data-go="#/t/${t.id}">
-      <div class="cover h-${t.hue || 'amber'}"><div class="glyph" aria-hidden="true">${glyph(t)}</div><span class="badge h-${t.hue || 'amber'}">テーマ</span></div>
-      <div class="body"><h3>${esc(t.title)}</h3><div style="font-size:14px;color:var(--text-2)">${esc(t.learn)}</div>
-      <div class="meta"><span>${esc(tagLine(t))}</span>${p.done ? `<span class="done-chip num">${p.ok}/${p.total}</span>` : p.n ? `<span class="num">${p.n}/${p.total}</span>` : ''}</div></div></button>`;
+      <div class="thumb">${img(t)}<span class="chip">${esc(t.topic || 'テーマ')}</span><span class="state">${status(t)}</span></div>
+      <div class="body"><h3>${esc(t.title)}</h3><p>${esc(t.learn)}</p>
+      <div class="foot"><span>${mins(t)}・${esc(tagLine(t))}</span><span class="go" aria-hidden="true">→</span></div></div></button>`;
   }
 
   function viewTheme(id) {
     const t = themeById(id); if (!t) return viewHome();
     const p = progress(t);
     $app.innerHTML = `
-      <div class="hero h-${t.hue || 'amber'}"><div class="glyph" aria-hidden="true">${glyph(t)}</div><button class="close" data-go="#/" aria-label="閉じる">×</button><span class="pill">テーマ</span></div>
-      <div class="detail">
+      <div class="hero">${img(t)}<button class="fab l" data-go="#/" aria-label="戻る">‹</button></div>
+      <div class="sheet">
+        <span class="chip">${esc(t.topic || 'テーマ')}</span>
         <h1>${esc(t.title)}</h1>
-        <div style="font-size:14px;color:var(--text-3);display:flex;gap:16px;align-items:center;justify-content:space-between"><span>${jpDate(t.date)} 配信</span>${segs(t.questions.length, -1, p.n)}</div>
-        <div class="box"><div class="lbl">なにを学ぶ？</div><div>${esc(t.learn)}</div></div>
-        <div class="box" style="margin-top:8px"><div class="lbl">身につく思考の癖</div>
-          ${t.tags.map(k => TAGS[k]).filter(Boolean).map(g => `<div class="habit"><div class="ic h-${g.hue}">${g.g}</div><div><b>${g.name}</b><span>${g.ask}</span></div></div>`).join('')}
+        <div class="meta num">${jpDate(t.date)} 配信・${mins(t)}${p.n && !p.done ? `・${p.n}/${p.total} 回答済み` : ''}${p.done ? `・${p.ok}/${p.total} 正解` : ''}</div>
+        <div class="panel"><div class="lbl">なにを学ぶ？</div><div>${esc(t.learn)}</div></div>
+        <div class="panel"><div class="lbl">身につく思考の癖</div>
+          ${t.tags.map(k => TAGS[k]).filter(Boolean).map(g => `<div class="habit"><span class="hic">${g.g}</span><div><b>${g.name}</b><span>${g.ask}</span></div></div>`).join('')}
         </div>
-        <div class="src" style="padding:16px 0 0">出典：${t.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('／')}</div>
+        <div class="src">出典：${t.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('／')}</div>
       </div>
-      <button class="btn" data-go="#/q/${t.id}/${p.done ? 0 : Math.min(p.n, t.questions.length - 1)}">${p.done ? 'もう一度解く' : p.n ? '続きから' : 'ナゼを解く'}</button>`;
+      <div class="bar"><button class="btn" data-go="#/q/${t.id}/${p.done ? 0 : Math.min(p.n, t.questions.length - 1)}">${p.done ? 'もう一度解く' : p.n ? '続きから解く' : 'はじめる'}</button></div>`;
   }
 
   // quiz state for current screen
@@ -120,17 +133,23 @@
     const total = mode === 'review' ? reviewQueue.length : t.questions.length;
     const idx = mode === 'review' ? reviewPos : qi;
     $app.innerHTML = `
-      <div class="qtop">
-        <button class="iconbtn l" data-act="prev" ${idx === 0 ? 'style="visibility:hidden"' : ''}>‹ 前の問題へ</button>
-        ${segs(total, idx, idx)}
-        <button class="iconbtn r" data-go="#/">閉じる</button>
+      <div class="qhead">
+        <div class="qnav">
+          <button data-act="prev" aria-label="前の問題" ${idx === 0 ? 'style="visibility:hidden"' : ''}>‹</button>
+          <div class="ctr num">${mode === 'review' ? '復習 ' : ''}${idx + 1} / ${total}</div>
+          <button data-go="#/" aria-label="閉じる">×</button>
+        </div>
+        ${prog(total, idx)}
       </div>
-      <div class="qbody"><span class="tagpill">${mode === 'review' ? '復習' : '問題'}</span><p class="qtext">${esc(q.q)}</p></div>
+      <div class="qcard">
+        <div class="strip">${img(t)}<span>${esc(t.topic || '')}｜${esc(t.title)}</span></div>
+        <p class="qtext">${esc(q.q)}</p>
+      </div>
       ${q.hyp ? `<div class="hyp"><label for="hyp">選ぶ前に、自分の仮説を一言</label><textarea id="hyp" placeholder="例：食品は味が伝わらないので、実演を見せる売り方が効くはず">${prev && prev.hyp ? esc(prev.hyp) : ''}</textarea></div><div class="err" id="herr"></div>` : ''}
-      <div class="opts">${q.o.map((o, k) => `<button class="opt" data-opt="${k}">${esc(o)}</button>`).join('')}</div>
+      <div class="opts">${q.o.map((o, k) => `<button class="opt" data-opt="${k}"><span class="k">${'ABCDE'[k]}</span><span class="tx">${esc(o)}</span></button>`).join('')}</div>
       <div class="err" id="oerr"></div>
-      <button class="btn" id="answer" data-act="answer">回答する</button>
-      <div id="after"></div>`;
+      <div id="after"></div>
+      <div class="bar"><button class="btn wait" id="cta" data-act="answer">回答する</button></div>`;
     const h = document.getElementById('hyp'); if (h) h.addEventListener('input', () => { document.getElementById('herr').textContent = ''; });
     window.scrollTo(0, 0);
   }
@@ -138,6 +157,7 @@
     if (!Q || Q.done) return;
     Q.sel = k;
     document.querySelectorAll('.opt').forEach(b => b.classList.toggle('sel', +b.dataset.opt === k));
+    document.getElementById('cta').classList.remove('wait');
     document.getElementById('oerr').textContent = '';
   }
   function answer() {
@@ -165,19 +185,23 @@
     document.querySelectorAll('.opt').forEach(b => {
       const k = +b.dataset.opt;
       b.classList.remove('sel');
-      if (k === q.a) { b.classList.add('ok'); b.insertAdjacentHTML('beforeend', '<span class="mark"><span>正解</span></span>'); }
-      else if (k === Q.sel) { b.classList.add('ng'); b.insertAdjacentHTML('beforeend', '<span class="mark"><span>あなたの回答</span></span>'); }
+      if (k === q.a) { b.classList.add('ok'); b.insertAdjacentHTML('beforeend', '<span class="mk">正解</span>'); }
+      else if (k === Q.sel) { b.classList.add('ng'); b.insertAdjacentHTML('beforeend', '<span class="mk">あなた</span>'); }
       else b.classList.add('dim');
     });
     const last = Q.mode === 'review' ? reviewPos >= reviewQueue.length - 1 : qi >= t.questions.length - 1;
-    document.getElementById('answer').remove();
-    document.getElementById('after').innerHTML = `
-      <div class="why"><div class="q" aria-hidden="true">?</div><h2>なぜか、を知ろう</h2></div>
-      <div class="exp"><span class="tagpill" style="border-color:var(--accent-ink);color:var(--accent-ink)">解説</span><p>${esc(q.e)}</p>
-      ${hyp ? `<div class="myhyp"><b>あなたの仮説</b><br>${esc(hyp)}</div>` : ''}</div>
-      <button class="btn" data-act="next">${last ? '結果を見る' : '次へ'}</button>`;
+    const cta = document.getElementById('cta');
+    cta.dataset.act = 'next'; cta.textContent = last ? '結果を見る' : '次の問題へ'; cta.classList.remove('wait');
+    const after = document.getElementById('after');
+    after.innerHTML = `
+      <div class="exp">
+        <div class="hd"><i aria-hidden="true">?</i><b>なぜか、を知ろう</b><span class="verdict ${correct ? 'ok' : 'ng'}">${correct ? '正解' : '不正解'}</span></div>
+        <p>${esc(q.e)}</p>
+        ${hyp ? `<div class="myhyp"><b>あなたの仮説</b>${esc(hyp)}</div>` : ''}
+      </div>`;
+    setTimeout(() => after.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
     if (firstToday) toast('今日の1問目！ 連続記録を更新');
-    else toast(correct ? '正解' : '復習リストに追加しました');
+    else if (!correct) toast('復習リストに追加しました');
   }
   function next() {
     if (!Q) return;
@@ -196,12 +220,15 @@
     const p = progress(t);
     const hyps = Object.entries(S.answers[id] || {}).filter(([, a]) => a.hyp);
     $app.innerHTML = `
-      <div class="qtop"><span></span>${segs(t.questions.length, -1, t.questions.length)}<button class="iconbtn r" data-go="#/">閉じる</button></div>
-      <div class="result"><div style="font-size:14px;color:var(--text-2)">${esc(t.title)}</div><div class="big num">${p.ok}<small> / ${p.total}</small></div>
-      <p>今週 <b class="num">${weekPoints()}</b> pt</p></div>
-      ${hyps.length ? `<div class="sec">あなたの仮説</div><div class="list">${hyps.map(([qi, a]) => `<div class="row"><span class="t">${esc(a.hyp)}<span class="s">問${+qi + 1}</span></span></div>`).join('')}</div>
-      <button class="btn ghost" data-act="copyone" data-id="${t.id}">仮説と問題をコピー（Claudeで添削）</button>` : ''}
-      <button class="btn" data-go="#/">ホームへ</button>`;
+      <div class="qhead"><div class="qnav"><span></span><div class="ctr">結果</div><button data-go="#/" aria-label="閉じる">×</button></div></div>
+      <div class="result">${img(t)}<div class="in"><div style="font-size:13px;color:var(--text-3)">${esc(t.topic || '')}</div><div style="font-weight:700;font-size:15px">${esc(t.title)}</div>
+      <div class="big num" style="margin-top:12px">${p.ok}<small> / ${p.total}</small></div>
+      <p class="num">今週 ${weekPoints()} pt・連続 ${streak()}日</p></div></div>
+      ${hyps.length ? `<div class="sec"><h2>あなたの仮説</h2></div><div class="list">${hyps.map(([qi, a]) => `<div class="row"><span class="ic">${+qi + 1}</span><span class="t" style="font-weight:400">${esc(a.hyp)}</span></div>`).join('')}</div>` : ''}
+      <div class="pad" style="margin-top:20px">
+        ${hyps.length ? `<button class="btn ghost" data-act="copyone" data-id="${t.id}">仮説と問題をコピー（Claudeで添削）</button>` : ''}
+        <button class="btn" data-go="#/">ホームへ</button>
+      </div>`;
   }
 
   let reviewQueue = [], reviewPos = 0;
