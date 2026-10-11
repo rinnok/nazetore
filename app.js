@@ -6,7 +6,8 @@
     customer: { name: '顧客思考', ask: '顧客の視点で考えると？', g: '客', hue: 'coral' },
     channel:  { name: 'チャネル思考', ask: 'どこで、どう売る？', g: '場', hue: 'teal' },
     numbers:  { name: '数字思考', ask: 'その数字の中身は？', g: '数', hue: 'amber' },
-    future:   { name: '未来思考', ask: 'この先どうなる？', g: '先', hue: 'violet' }
+    future:   { name: '未来思考', ask: 'この先どうなる？', g: '先', hue: 'violet' },
+    strategy: { name: '戦略思考', ask: '何を捨て、どこに賭ける？', g: '戦', hue: 'teal' }
   };
   const WD = ['日', '月', '火', '水', '木', '金', '土'];
   const KEY = 'nazetore.v1';
@@ -46,7 +47,7 @@
       if (changed && !Q && !/^#\/?review/.test(location.hash)) route();
     } catch { online = false; if (!DATA) route(); }
   }
-  const themes = () => (DATA && DATA.themes ? DATA.themes.slice().sort((a, b) => b.date.localeCompare(a.date)) : []);
+  const themes = () => (DATA && DATA.themes ? DATA.themes.filter(t => t.date <= today()).sort((a, b) => b.date.localeCompare(a.date)) : []);
   const themeById = id => themes().find(t => t.id === id);
   const progress = t => { const a = S.answers[t.id] || {}; const n = Object.keys(a).length; const ok = Object.values(a).filter(x => x.correct).length; return { n, ok, total: t.questions.length, done: n >= t.questions.length }; };
   function dueReviews() {

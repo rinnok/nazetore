@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#E6F1FB"/>
+  <circle cx="690" cy="90" r="140" fill="#D3E6F7"/>
+  <circle cx="90" cy="440" r="120" fill="#D8E9F8"/>
+  <g transform="translate(250 30)">
+    <rect x="0" y="0" width="240" height="400" rx="120" fill="#FFFFFF"/>
+    <rect x="12" y="12" width="216" height="376" rx="108" fill="#85B7EB"/>
+    <rect x="12" y="12" width="216" height="130" rx="60" fill="#B5D4F4"/>
+    <path d="M30 140 q20 -10 40 0 t40 0 t40 0 t40 0" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <rect x="-16" y="388" width="272" height="26" rx="8" fill="#0C447C"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="5"><circle cx="50" cy="300" r="12"/><circle cx="76" cy="250" r="7"/><circle cx="190" cy="330" r="10"/><circle cx="170" cy="280" r="6"/><circle cx="60" cy="200" r="5"/></g>
+    <g transform="translate(120 230) rotate(-70)">
+      <ellipse cx="0" cy="0" rx="30" ry="72" fill="#1C1A17"/>
+      <ellipse cx="6" cy="8" rx="20" ry="56" fill="#FFFFFF"/>
+      <circle cx="-4" cy="-62" r="20" fill="#1C1A17"/>
+      <path d="M-4 -80 l-4 -18 l16 8Z" fill="#EF9F27"/>
+      <circle cx="-8" cy="-64" r="3" fill="#FFFFFF"/>
+      <path d="M-22 0 q-30 22 -34 52 q22 -6 38 -30Z" fill="#1C1A17"/>
+      <path d="M12 60 l-6 22 l24 -8Z" fill="#EF9F27"/>
+    </g>
+  </g>
+  <g transform="translate(520 150)">
+    <circle cx="20" cy="110" r="32" fill="#FFFFFF"/><circle cx="170" cy="110" r="32" fill="#FFFFFF"/>
+    <circle cx="20" cy="110" r="16" fill="#D3D1C7"/><circle cx="170" cy="110" r="16" fill="#D3D1C7"/>
+    <ellipse cx="95" cy="150" rx="100" ry="84" fill="#FFFFFF"/>
+    <ellipse cx="95" cy="176" rx="46" ry="34" fill="#F1EFE8"/>
+    <ellipse cx="95" cy="162" rx="18" ry="12" fill="#1C1A17"/>
+    <circle cx="58" cy="128" r="9" fill="#1C1A17"/><circle cx="132" cy="128" r="9" fill="#1C1A17"/>
+    <path d="M95 174 v14 M80 194 q15 10 30 0" stroke="#1C1A17" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(90 250)">
+    <rect x="52" y="0" width="14" height="200" fill="#633806"/>
+    <rect x="0" y="30" width="116" height="52" rx="8" fill="#1D9E75"/>
+    <rect x="10" y="40" width="96" height="32" rx="4" fill="#5DCAA5"/>
+    <circle cx="36" cy="56" r="9" fill="#FFFFFF"/><circle cx="68" cy="56" r="9" fill="#FFFFFF"/><circle cx="92" cy="56" r="5" fill="#FFFFFF"/>
+    <rect x="30" y="196" width="66" height="12" rx="4" fill="#854F0B"/>
+  </g>
+</svg>

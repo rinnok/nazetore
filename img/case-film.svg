@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#EEEDFE"/>
+  <circle cx="650" cy="90" r="150" fill="#DEDCFB"/>
+  <circle cx="110" cy="440" r="120" fill="#E4E2FC"/>
+  <g transform="translate(70 150)">
+    <rect x="30" y="0" width="140" height="22" rx="8" fill="#534AB7"/>
+    <rect x="0" y="16" width="200" height="200" rx="26" fill="#1C1A17"/>
+    <rect x="26" y="40" width="148" height="152" rx="10" fill="#EF9F27"/>
+    <circle cx="100" cy="116" r="42" fill="#1C1A17"/><circle cx="100" cy="116" r="16" fill="#EEEDFE"/>
+    <rect x="184" y="90" width="90" height="46" fill="#3C3489"/>
+    <g fill="#EEEDFE"><rect x="190" y="96" width="12" height="9"/><rect x="210" y="96" width="12" height="9"/><rect x="230" y="96" width="12" height="9"/><rect x="250" y="96" width="12" height="9"/>
+    <rect x="190" y="121" width="12" height="9"/><rect x="210" y="121" width="12" height="9"/><rect x="230" y="121" width="12" height="9"/><rect x="250" y="121" width="12" height="9"/></g>
+    <rect x="198" y="109" width="68" height="12" fill="#7F77DD"/>
+  </g>
+  <path d="M360 130 C 420 60, 500 60, 560 110" stroke="#534AB7" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M536 82 L564 112 L526 124" stroke="#534AB7" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(470 220)">
+    <rect x="0" y="40" width="130" height="100" rx="14" fill="#FFFFFF"/>
+    <rect x="-6" y="20" width="142" height="34" rx="12" fill="#AFA9EC"/>
+    <rect x="12" y="62" width="106" height="62" rx="10" fill="#F4C0D1"/>
+    <path d="M30 100 q35 -26 70 0" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="95" cy="70" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(610 250)">
+    <rect x="0" y="0" width="150" height="100" rx="8" fill="#1C1A17"/>
+    <rect x="8" y="8" width="134" height="84" rx="4" fill="#B5D4F4"/>
+    <path d="M8 76 l36 -28 l30 20 l30 -34 l38 36 v22 h-134z" fill="#1D9E75"/>
+    <circle cx="112" cy="30" r="9" fill="#EF9F27"/>
+    <rect x="64" y="100" width="22" height="22" fill="#444441"/><rect x="40" y="120" width="70" height="8" rx="4" fill="#444441"/>
+  </g>
+</svg>
