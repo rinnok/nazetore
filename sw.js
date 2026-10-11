@@ -1,5 +1,5 @@
-const VERSION = 'nazetore-v1';
-const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'data/themes.json'];
+const VERSION = 'nazetore-v2';
+const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/icon-maskable-512.png', 'data/themes.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -13,7 +13,7 @@ self.addEventListener('fetch', e => {
   const isData = url.pathname.endsWith('/data/themes.json');
   if (isData) {
     // network first: 新しい問題があれば取り、なければ保存済みで動かす
-    e.respondWith(fetch(e.request).then(r => { const cp = r.clone(); caches.open(VERSION).then(c => c.put(e.request, cp)); return r; })
+    e.respondWith(fetch(e.request).then(r => { if (!r.ok) throw new Error(r.status); const cp = r.clone(); caches.open(VERSION).then(c => c.put(e.request, cp)); return r; })
       .catch(() => caches.match(e.request, { ignoreSearch: true })));
     return;
   }

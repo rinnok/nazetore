@@ -42,8 +42,8 @@
       if (!r.ok) throw new Error(r.status);
       const j = await r.json();
       const changed = !DATA || DATA.updated !== j.updated || DATA.version !== j.version;
-      DATA = j; save(DATA_KEY, j); online = true;
-      if (changed) route();
+      DATA = j; save(DATA_KEY, j); online = navigator.onLine;
+      if (changed && !Q && !/^#\/?review/.test(location.hash)) route();
     } catch { online = false; if (!DATA) route(); }
   }
   const themes = () => (DATA && DATA.themes ? DATA.themes.slice().sort((a, b) => b.date.localeCompare(a.date)) : []);
@@ -153,9 +153,9 @@
     const firstToday = !S.days[td];
     S.answers[t.id] = S.answers[t.id] || {};
     const had = S.answers[t.id][qi];
-    S.answers[t.id][qi] = { sel: Q.sel, correct: had ? had.correct : correct, hyp: hyp || (had && had.hyp) || '', at: td };
+    S.answers[t.id][qi] = { sel: Q.sel, correct: had ? had.correct : correct, hyp: hyp || (had && had.hyp) || '', at: had ? had.at : td };
     S.days[td] = true;
-    if (correct && !(had && had.correct) && Q.mode !== 'review') S.points[td] = (S.points[td] || 0) + 1;
+    if (correct && !had && Q.mode !== 'review') S.points[td] = (S.points[td] || 0) + 1;
     const rk = `${t.id}#${qi}`;
     if (Q.mode === 'review') {
       if (correct) { const r = S.review[rk]; if (r && r.stage + 1 < REVIEW_GAPS.length) S.review[rk] = { stage: r.stage + 1, due: addDays(td, REVIEW_GAPS[r.stage + 1]) }; else delete S.review[rk]; }
