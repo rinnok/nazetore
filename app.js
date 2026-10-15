@@ -20,14 +20,15 @@
   // ---------- storage ----------
   function load(k, def) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : def; } catch { return def; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
-  const S = Object.assign({ answers: {}, days: {}, points: {}, review: {} }, load(KEY, {}));
+  const S = Object.assign({ answers: {}, days: {}, points: {}, review: {}, completed: {} }, load(KEY, {}));
+  const GOAL = 2;
   const persist = () => save(KEY, S);
 
   // ---------- dates ----------
   const ymd = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   const today = () => ymd(new Date());
   const addDays = (s, n) => { const d = new Date(s + 'T00:00:00'); d.setDate(d.getDate() + n); return ymd(d); };
-  const jpDate = s => { const d = new Date(s + 'T00:00:00'); return `${d.getMonth() + 1}月${d.getDate()}日（${WD[d.getDay()]}）`; };
+  const jpDate = s => { if (!/^\d{4}-/.test(s)) return 'ストック'; const d = new Date(s + 'T00:00:00'); return `${d.getMonth() + 1}月${d.getDate()}日（${WD[d.getDay()]}）`; };
   function weekDays() {
     const d = new Date(); const off = (d.getDay() + 6) % 7; d.setDate(d.getDate() - off);
     return Array.from({ length: 7 }, (_, i) => { const x = new Date(d); x.setDate(d.getDate() + i); return ymd(x); });
@@ -47,8 +48,12 @@
       if (changed && !Q && !/^#\/?review/.test(location.hash)) route();
     } catch { online = false; if (!DATA) route(); }
   }
-  const themes = () => (DATA && DATA.themes ? DATA.themes.filter(t => t.date <= today()).sort((a, b) => b.date.localeCompare(a.date)) : []);
-  const themeById = id => themes().find(t => t.id === id);
+  const all = () => (DATA && DATA.themes ? DATA.themes : []);
+  const themes = () => all().filter(t => t.date <= today()).sort((a, b) => b.date.localeCompare(a.date));
+  const themeById = id => all().find(t => t.id === id);
+  const todays = () => all().filter(t => t.date === today());
+  const extras = () => [...themes().filter(t => t.date < today() && !progress(t).done), ...all().filter(t => t.date > today()).sort((a, b) => a.date.localeCompare(b.date))];
+  const goalMet = d => (S.completed[d] || 0) >= GOAL;
   const progress = t => { const a = S.answers[t.id] || {}; const n = Object.keys(a).length; const ok = Object.values(a).filter(x => x.correct).length; return { n, ok, total: t.questions.length, done: n >= t.questions.length }; };
   function dueReviews() {
     const td = today();
@@ -64,8 +69,8 @@
   const mins = t => `${t.questions.length}問・約${Math.max(2, Math.round(t.questions.length * 0.6))}分`;
   function streak() {
     let d = today(), n = 0;
-    if (!S.days[d]) d = addDays(d, -1);
-    while (S.days[d]) { n++; d = addDays(d, -1); }
+    if (!goalMet(d)) d = addDays(d, -1);
+    while (goalMet(d)) { n++; d = addDays(d, -1); }
     return n;
   }
   function status(t) {
@@ -76,9 +81,10 @@
   // ---------- views ----------
   function viewHome() {
     const wk = weekDays(), td = today();
-    const list = themes();
-    const fresh = list.filter(t => !progress(t).done);
-    const rail = (fresh.length ? fresh : list.slice(0, 3)).slice(0, 6);
+    const list = themes().filter(t => t.date < td);
+    const tdy = todays();
+    const doneN = tdy.filter(t => progress(t).done).length;
+    const ex = extras().slice(0, 8);
     const rev = dueReviews();
     $app.innerHTML = `
       <header class="top">
@@ -87,17 +93,23 @@
       </header>
       <div class="greet">${jpDate(td)}</div>
       <div class="streak">
-        <div class="lab">連続記録<b class="num">${streak()}日</b></div>
-        <div class="days">${wk.map((d, i) => `<div class="${S.days[d] ? 'on' : ''} ${d === td ? 'today' : ''}"><i></i><span>${WD[(i + 1) % 7]}</span></div>`).join('')}</div>
+        <div class="lab">連続達成<b class="num">${streak()}日</b></div>
+        <div class="days">${wk.map((d, i) => `<div class="${goalMet(d) ? 'on' : S.days[d] ? 'part' : ''} ${d === td ? 'today' : ''}"><i></i><span>${WD[(i + 1) % 7]}</span></div>`).join('')}</div>
       </div>
       ${!online ? '<div class="offline">オフライン中：保存済みの問題で解けます</div>' : ''}
-      <div class="sec"><h2>${fresh.length ? '今日のテーマ' : 'もう一度解く'}</h2><span>${rail.length}本</span></div>
-      ${rail.length ? `<div class="rail">${rail.map(card).join('')}</div>` : '<div class="empty">問題データを読み込めませんでした。電波のある場所で一度開いてください。</div>'}
+      <div class="sec"><h2>今日の2本</h2><span class="num ${doneN >= GOAL ? 'goal' : ''}">${doneN >= GOAL ? '達成 ✓' : `${doneN}/${Math.max(GOAL, tdy.length)} 完了`}</span></div>
+      ${tdy.length ? `<div class="rail">${tdy.map(card).join('')}</div>` : '<div class="empty">今日の配信はまだ届いていません。下の「おかわり」から解けます。</div>'}
+      ${ex.length ? `<div class="sec"><h2>おかわり</h2><span>もっとやりたい日に</span></div><div class="list">${ex.map(t => row(t, t.date > td ? '先取り' : '未完了')).join('')}</div>` : ''}
       ${rev.length ? `<div class="sec"><h2>復習</h2><span>${rev.length}問</span></div><div class="list"><button class="row" data-go="#/review"><span class="ic">復</span><span class="t"><span class="s">3日後・7日後に再出題</span>間違えた問題をもう一度</span><span class="r">›</span></button></div>` : ''}
       <div class="sec"><h2>これまでの配信</h2></div>
-      <div class="list">${list.map(t => { const p = progress(t); return `<button class="row" data-go="#/t/${t.id}"><span class="mini">${img(t)}</span><span class="t"><span class="s">${esc(t.topic || '')}・${jpDate(t.date)}</span>${esc(t.title)}</span><span class="r num">${p.done ? `${p.ok}/${p.total}` : p.n ? '途中' : '未回答'}</span></button>`; }).join('') || '<div class="empty">まだ配信がありません</div>'}</div>
+      <div class="list">${list.map(t => row(t)).join('') || '<div class="empty">まだ配信がありません</div>'}</div>
       <div class="sec"><h2>記録</h2></div>
       <div class="list"><button class="row" data-act="copyhyp"><span class="ic">仮</span><span class="t"><span class="s">Claudeに貼って添削してもらう用</span>書いた仮説をまとめてコピー</span><span class="r">›</span></button></div>`;
+  }
+  function row(t, label) {
+    const p = progress(t);
+    const when = /^\d{4}-/.test(t.date) ? jpDate(t.date) : 'ストック';
+    return `<button class="row" data-go="#/t/${t.id}"><span class="mini">${img(t)}</span><span class="t"><span class="s">${esc(t.topic || '')}・${label || when}</span>${esc(t.title)}</span><span class="r num">${p.done ? `${p.ok}/${p.total}` : p.n ? '途中' : label ? '›' : '未回答'}</span></button>`;
   }
   function card(t) {
     return `<button class="card" data-go="#/t/${t.id}">
@@ -173,9 +185,12 @@
     const td = today();
     const firstToday = !S.days[td];
     S.answers[t.id] = S.answers[t.id] || {};
+    const wasDone = progress(t).done;
     const had = S.answers[t.id][qi];
     S.answers[t.id][qi] = { sel: Q.sel, correct: had ? had.correct : correct, hyp: hyp || (had && had.hyp) || '', at: had ? had.at : td };
     S.days[td] = true;
+    let reached = false;
+    if (!wasDone && progress(t).done) { S.completed[td] = (S.completed[td] || 0) + 1; reached = S.completed[td] === GOAL; }
     if (correct && !had && Q.mode !== 'review') S.points[td] = (S.points[td] || 0) + 1;
     const rk = `${t.id}#${qi}`;
     if (Q.mode === 'review') {
@@ -201,7 +216,8 @@
         ${hyp ? `<div class="myhyp"><b>あなたの仮説</b>${esc(hyp)}</div>` : ''}
       </div>`;
     setTimeout(() => after.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
-    if (firstToday) toast('今日の1問目！ 連続記録を更新');
+    if (reached) toast('今日の2本を達成！');
+    else if (firstToday) toast('今日の1問目！');
     else if (!correct) toast('復習リストに追加しました');
   }
   function next() {

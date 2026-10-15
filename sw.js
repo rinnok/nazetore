@@ -1,4 +1,4 @@
-const VERSION = 'nazetore-v5';
+const VERSION = 'nazetore-v6';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/icon-maskable-512.png', 'data/themes.json', 'img/case-film.svg', 'img/case-izakaya.svg', 'img/case-onsen-dmo.svg', 'img/case-onsen-town.svg', 'img/case-sake.svg', 'img/case-university.svg', 'img/case-workwear.svg', 'img/case-zoo.svg', 'img/news-ai-marketing.svg', 'img/news-inbound.svg', 'img/news-lemon-sour.svg', 'img/news-pb-price.svg', 'img/summer-budget.svg', 'img/tiktok-shop.svg'];
 
 self.addEventListener('install', e => {
