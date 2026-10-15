@@ -614,7 +614,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 42,
@@ -629,7 +629,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 43,
@@ -644,7 +644,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 44,
@@ -659,7 +659,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 45,
@@ -674,13 +674,13 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 46,
       "cat": "E",
       "catName": "リサーチとデータの読み方",
-      "title": "ボタンの文言1つで、なぜ寄付が大きく変わった？",
+      "title": "ボタンの文言1つで、なぜ登録が大きく変わった？",
       "gain": "A/Bテストの考え方（2008年米大統領選陣営）",
       "effects": "🔍🤖",
       "src": "報・書",
@@ -689,7 +689,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 47,
@@ -704,7 +704,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 48,
@@ -719,7 +719,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 49,
@@ -734,7 +734,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 50,
@@ -749,7 +749,7 @@
         "numbers"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 51,
