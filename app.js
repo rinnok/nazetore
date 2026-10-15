@@ -48,7 +48,7 @@
       if (changed && !Q && !/^#\/?review/.test(location.hash)) route();
     } catch { online = false; if (!DATA) route(); }
   }
-  const all = () => (DATA && DATA.themes ? DATA.themes : []);
+  const all = () => (DATA && DATA.themes ? DATA.themes.filter(t => !t.review || t.review === 'passed') : []);
   const themes = () => all().filter(t => t.date <= today()).sort((a, b) => b.date.localeCompare(a.date));
   const themeById = id => all().find(t => t.id === id);
   const todays = () => all().filter(t => t.date === today());
@@ -78,6 +78,56 @@
     return p.done ? `<span class="chip done num">${p.ok}/${p.total} 正解</span>` : p.n ? `<span class="chip num">${p.n}/${p.total}</span>` : '';
   }
 
+  // ---------- stats ----------
+  const AXES = ['logical', 'customer', 'channel', 'numbers', 'future', 'strategy'];
+  function skillStats() {
+    const st = Object.fromEntries(AXES.map(k => [k, { n: 0, ok: 0, themes: 0 }]));
+    for (const t of all()) {
+      const a = S.answers[t.id]; if (!a) continue;
+      const n = Object.keys(a).length, ok = Object.values(a).filter(x => x.correct).length;
+      for (const k of t.tags) if (st[k]) { st[k].n += n; st[k].ok += ok; if (n >= t.questions.length) st[k].themes++; }
+    }
+    for (const k of AXES) st[k].xp = st[k].n + st[k].ok;
+    return st;
+  }
+  function radar(st) {
+    const W = 320, C = 160, R = 112, n = AXES.length;
+    const maxXp = Math.max(...AXES.map(k => st[k].xp));
+    const scale = Math.max(20, Math.ceil(maxXp * 1.15 / 10) * 10);
+    const pt = (i, r) => { const ang = -Math.PI / 2 + (2 * Math.PI * i) / n; return [C + r * Math.cos(ang), C + r * Math.sin(ang)]; };
+    const poly = rs => rs.map((r, i) => pt(i, r).map(v => v.toFixed(1)).join(',')).join(' ');
+    const rings = [0.25, 0.5, 0.75, 1].map(f => `<polygon points="${poly(AXES.map(() => R * f))}" class="rg-ring${f === 1 ? ' outer' : ''}"/>`).join('');
+    const spokes = AXES.map((_, i) => { const [x, y] = pt(i, R); return `<line x1="${C}" y1="${C}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" class="rg-spoke"/>`; }).join('');
+    const vals = AXES.map(k => Math.max(R * 0.06, R * Math.min(1, st[k].xp / scale)));
+    const dots = vals.map((r, i) => { const [x, y] = pt(i, r); return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3.5" class="rg-dot"/>`; }).join('');
+    const labels = AXES.map((k, i) => {
+      const [x, y] = pt(i, R + 26); const anchor = Math.abs(x - C) < 4 ? 'middle' : x > C ? 'start' : 'end';
+      return `<text x="${x.toFixed(1)}" y="${(y + 4).toFixed(1)}" text-anchor="${anchor}" class="rg-lab">${TAGS[k].name.replace('思考', '')}</text><text x="${x.toFixed(1)}" y="${(y + 19).toFixed(1)}" text-anchor="${anchor}" class="rg-num">${st[k].xp}</text>`;
+    }).join('');
+    return `<svg viewBox="-40 -10 ${W + 80} ${W + 20}" class="radar" role="img" aria-label="思考スキルのレーダーチャート">${rings}${spokes}<polygon points="${poly(vals)}" class="rg-val"/>${dots}${labels}</svg>`;
+  }
+  function viewStats() {
+    const st = skillStats();
+    const answers = Object.values(S.answers).flatMap(a => Object.values(a));
+    const n = answers.length, ok = answers.filter(x => x.correct).length;
+    const goalDays = Object.keys(S.completed).filter(goalMet).length;
+    const ranked = AXES.slice().sort((a, b) => st[b].xp - st[a].xp);
+    const weak = ranked[ranked.length - 1];
+    const next = all().find(t => t.tags.includes(weak) && !progress(t).done && t.date !== 'stock') || all().find(t => t.tags.includes(weak) && !progress(t).done);
+    $app.innerHTML = `
+      <div class="qhead"><div class="qnav"><button data-go="#/" aria-label="戻る">‹</button><div class="ctr">分析</div><span></span></div></div>
+      <div class="metrics">
+        <div><span>解いた問題</span><b class="num">${n}</b></div>
+        <div><span>正答率</span><b class="num">${n ? Math.round(ok / n * 100) : 0}%</b></div>
+        <div><span>2本達成</span><b class="num">${goalDays}日</b></div>
+        <div><span>連続達成</span><b class="num">${streak()}日</b></div>
+      </div>
+      <div class="panel radar-wrap"><div class="lbl">思考スキル（経験値＝解いた数＋正解数）</div>${n ? radar(st) : '<div class="empty">問題を解くと、ここに形が出てきます</div>'}</div>
+      <div class="sec"><h2>スキル別</h2><span>経験値の多い順</span></div>
+      <div class="list">${ranked.map(k => { const s = st[k]; const acc = s.n ? Math.round(s.ok / s.n * 100) : 0; return `<div class="row skill"><span class="ic">${TAGS[k].g}</span><span class="t">${TAGS[k].name}<span class="s">${TAGS[k].ask}・テーマ${s.themes}本・${s.n}問</span><span class="meter"><i style="width:${acc}%"></i></span></span><span class="r num">正答 ${acc}%</span></div>`; }).join('')}</div>
+      ${n && next ? `<div class="sec"><h2>次に伸ばすなら</h2><span>${TAGS[weak].name}</span></div><div class="list">${row(next, '伸びしろ')}</div>` : ''}`;
+  }
+
   // ---------- views ----------
   function viewHome() {
     const wk = weekDays(), td = today();
@@ -89,7 +139,7 @@
     $app.innerHTML = `
       <header class="top">
         <div class="brand"><i></i>ナゼトレ</div>
-        <div class="ptpill num" aria-label="今週のポイント">今週 ${weekPoints()} pt</div>
+        <div class="hd-r"><div class="ptpill num" aria-label="今週のポイント">今週 ${weekPoints()} pt</div><button class="statbtn" data-go="#/stats" aria-label="分析を見る"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><polygon points="12,3 20,8 20,16 12,21 4,16 4,8" fill="none" stroke="currentColor" stroke-width="1.6"/><polygon points="12,7 16,10 15,15 12,17 8,14 8,10" fill="currentColor" opacity=".55"/></svg></button></div>
       </header>
       <div class="greet">${jpDate(td)}</div>
       <div class="streak">
@@ -281,6 +331,7 @@
     else if (h[0] === 'q') viewQuiz(h[1], +h[2] || 0);
     else if (h[0] === 'r') viewResult(h[1]);
     else if (h[0] === 'review') startReview();
+    else if (h[0] === 'stats') viewStats();
     else viewHome();
     if (h[0] !== 'q') window.scrollTo(0, 0);
   }

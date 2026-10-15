@@ -16,6 +16,7 @@ errors = []
 
 d = json.load(open(os.path.join(ROOT, 'data', 'themes.json'), encoding='utf-8'))
 seen = set()
+titles = set()
 for t in d['themes']:
     tid = t.get('id', '?')
     if tid in seen:
@@ -39,7 +40,14 @@ for t in d['themes']:
     for s in t.get('sources', []):
         if not str(s.get('url', '')).startswith('http'):
             errors.append(f'{tid}: 出典URLが不正')
+    if t.get('review') not in (None, 'pending', 'passed', 'rejected'):
+        errors.append(f'{tid}: review は pending / passed / rejected')
+    if t.get('title') in titles:
+        errors.append(f'{tid}: タイトルが他のテーマと重複')
+    titles.add(t.get('title'))
     qs = t.get('questions', [])
+    if len(qs) == 5 and len({q.get('a') for q in qs}) == 1:
+        errors.append(f'{tid}: 正解の位置が5問とも同じ（偏らせない）')
     if len(qs) != 5:
         errors.append(f'{tid}: 問題は5問（いま{len(qs)}問）')
     if qs and not qs[-1].get('hyp'):
