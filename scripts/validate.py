@@ -13,6 +13,7 @@ import xml.dom.minidom
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TAGS = {'logical', 'customer', 'channel', 'numbers', 'future', 'strategy'}
 errors = []
+warnings = []
 
 d = json.load(open(os.path.join(ROOT, 'data', 'themes.json'), encoding='utf-8'))
 seen = set()
@@ -52,9 +53,18 @@ for t in d['themes']:
         errors.append(f'{tid}: 問題は5問（いま{len(qs)}問）')
     if qs and not qs[-1].get('hyp'):
         errors.append(f'{tid}: 5問目は "hyp": true にする')
+    longest = 0
     for i, q in enumerate(qs, 1):
+        if any('推論' in o for o in q.get('o', [])):
+            errors.append(f'{tid}: 問{i} の選択肢に「推論」と書かない（答えがバレる。解説に書く）')
+        os_ = q.get('o', [])
+        if len(os_) == 3 and q.get('a') in (0, 1, 2) and len(os_[q['a']]) > 1.4 * max(len(o) for j, o in enumerate(os_) if j != q['a']):
+            longest += 1
         if len(q.get('o', [])) != 3 or q.get('a') not in (0, 1, 2) or not q.get('q') or not q.get('e'):
             errors.append(f'{tid}: 問{i} の形式が不正（3択・a=0〜2・q/e必須）')
+    if longest >= 3:
+        msg = f'{tid}: 正解だけが極端に長い問題が{longest}問（選択肢の長さと具体性をそろえる）'
+        (errors if t.get('review') == 'pending' else warnings).append(msg)
 
 if len(sys.argv) > 1:
     day = sys.argv[1]
@@ -62,6 +72,9 @@ if len(sys.argv) > 1:
     if n < 2:
         errors.append(f'{day} の配信が{n}本（2本以上必要）')
 
+if warnings:
+    print('WARN（要改善・公開は可）')
+    print('\n'.join(warnings))
 if errors:
     print('NG')
     print('\n'.join(errors))
