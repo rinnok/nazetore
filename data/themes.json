@@ -4169,12 +4169,12 @@
       "image": "img/topic-041.svg",
       "sources": [
         {
-          "name": "1936年リテラリー・ダイジェスト調査の解説（概要）",
-          "url": "https://about.proquest.com/en/blog/2016/That-Time-the-Literary-Digest-Poll-Got-1936-Election-Wrong"
+          "name": "“President” Landon and the 1936 Literary Digest Poll（Lohr & Brick ほか）",
+          "url": "https://gwern.net/doc/statistics/bias/2017-lohr.pdf"
         },
         {
-          "name": "Famous Statistical Blunders in History",
-          "url": "https://mathcenter.oxford.emory.edu/site/math117/historicalBlunders/"
+          "name": "Why the 1936 Literary Digest poll failed（Squire）",
+          "url": "https://criticalthinkingtext.wordpress.com/wp-content/uploads/2017/02/squire-literary-digest.pdf"
         }
       ],
       "questions": [
@@ -4230,8 +4230,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 41
+      "review": "passed",
+      "topicNo": 41,
+      "reviewNote": "出典を確認できたものに差し替えた。"
     },
     {
       "id": "topic-042",
@@ -4251,8 +4252,8 @@
           "url": "https://yukaichou.com/behavioral-analysis/survivorship-bias-abraham-wald-missing-data/"
         },
         {
-          "name": "The Bullet Holes That Aren't There",
-          "url": "https://georgenorwell.substack.com/p/the-bullet-holes-that-arent-there"
+          "name": "Historical Dataviz: Survivorship Bias and Getting the Data Wrong",
+          "url": "https://datavizblog.com/2023/07/02/historical-dataviz-survivorship-bias-and-getting-the-data-wrong/"
         }
       ],
       "questions": [
@@ -4308,8 +4309,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 42
+      "review": "passed",
+      "topicNo": 42,
+      "reviewNote": "出典を確認できたものに差し替えた。"
     },
     {
       "id": "topic-043",
@@ -4325,12 +4327,12 @@
       "image": "img/topic-043.svg",
       "sources": [
         {
-          "name": "Say-Doギャップ（購買意向と実購買のずれ）の解説",
+          "name": "Say-Doギャップの解説（Ipsos）",
           "url": "https://www.ipsos.com/en-us/how-beat-say-do-gap-sustainable-products-and-unlock-growth"
         },
         {
-          "name": "消費者のグリーン購買行動に関する論文（MIT）",
-          "url": "https://sheffi.mit.edu/sites/sheffi.mit.edu/files/2019-08/Consumers%27%20%28not%20so%29%20Green%20Purchase%20Behavior.pdf"
+          "name": "Consumer Buying Trends for Sustainable Products（Deloitte）",
+          "url": "https://www.deloitte.com/us/en/industries/retail/perspectives/deloitte-adcouncil-sustainable-products-consumer-buying-trends.html"
         }
       ],
       "questions": [
@@ -4358,7 +4360,7 @@
           "q": "意向を聞く質問は、実際の購買を予測するうえでどう扱うのが適切でしょうか？",
           "o": [
             "参考にしつつ、実際の行動データと照らして割り引く",
-            "回答をそのまま売上予測に使う",
+            "回答の割合を、そのまま売上予測の元にして使う",
             "意向調査は一切やらず、売上データだけを見る"
           ],
           "a": 0,
@@ -4386,8 +4388,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 43
+      "review": "passed",
+      "topicNo": 43,
+      "reviewNote": "誤答の選択肢の長さを正解にそろえ、出典を差し替えた。"
     },
     {
       "id": "topic-044",
@@ -4464,8 +4467,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 44
+      "review": "passed",
+      "topicNo": 44,
+      "reviewNote": "解き直しで全問一致、数字・定義は出典と一致。"
     },
     {
       "id": "topic-045",
@@ -4534,7 +4538,7 @@
           "q": "クライアントから「顧客の本音を探るインタビュー、何人でやればいい？」と聞かれました。入社後、何と答えますか？",
           "o": [
             "対象の幅と目的に合わせて、まず少人数で始めて追加を決める",
-            "どんな調査でも、一律で5人に決めて進める",
+            "対象や目的にかかわらず、一律で5人に決めて進める",
             "統計的に意味を持たせるため、最低でも1000人"
           ],
           "a": 0,
@@ -4542,8 +4546,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 45
+      "review": "passed",
+      "topicNo": 45,
+      "reviewNote": "誤答の選択肢の長さを正解にそろえた。"
     },
     {
       "id": "topic-046",
@@ -4559,12 +4564,12 @@
       "image": "img/topic-046.svg",
       "sources": [
         {
-          "name": "Optimizely: The secret to winning a presidential campaign (CNN Money)",
-          "url": "https://money.cnn.com/2015/07/29/technology/optimizely-presidential-candidates/index.html"
+          "name": "Obama's $60 million dollar experiment（Optimizely）",
+          "url": "https://blog.optimizely.com/2010/11/29/how-obama-raised-60-million-by-running-a-simple-experiment/"
         },
         {
-          "name": "A/B Testing（Siroker & Koomen）第1章",
-          "url": "https://blogs.ischool.berkeley.edu/i225s14/files/2014/04/ab_testing_ch1_ch2.pdf"
+          "name": "NPR transcript（Siroker インタビュー）",
+          "url": "https://www.npr.org/transcripts/459412925"
         }
       ],
       "questions": [
@@ -4596,7 +4601,7 @@
             "詳しく見る"
           ],
           "a": 2,
-          "e": "英語の「Learn More」が一番でした。「Sign Up」系より、押すハードルが低く感じられたと考えられます。"
+          "e": "英語の「Learn More」が一番でした。「Sign Up」系より、押すハードルが低く感じられたためと考えられます（推論）。"
         },
         {
           "q": "文言と画像の最良の組み合わせで、登録率はおよそどれだけ上がったと紹介されているでしょうか？",
@@ -4620,8 +4625,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 46
+      "review": "passed",
+      "topicNo": 46,
+      "reviewNote": "推測の説明に（推論）を付け、出典を確認済みのものに差し替えた。"
     },
     {
       "id": "topic-047",
@@ -4638,11 +4644,11 @@
       "sources": [
         {
           "name": "Statistics when confounding variables are out of control (Discover)",
-          "url": "https://www.discovermagazine.com/mind/statistics-when-confounding-variables-are-out-of-control"
+          "url": "https://www.discovermagazine.com/statistics-when-confounding-variables-are-out-of-control-9159"
         },
         {
-          "name": "Correlation versus Causation（授業資料）",
-          "url": "https://socialsci.libretexts.org/Courses/Taft_College/Research_Methods_for_the_Social_and_Behavioral_Sciences/06%3A_Analyzing/6.06%3A_Introduction_to_Correlations/6.6.01%3A_Correlation_versus_Causation"
+          "name": "Correlation, causation and forecasting（Hyndman & Athanasopoulos）",
+          "url": "https://otexts.com/fpp3/causality.html"
         }
       ],
       "questions": [
@@ -4698,8 +4704,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 47
+      "review": "passed",
+      "topicNo": 47,
+      "reviewNote": "出典を確認できたものに差し替えた。"
     },
     {
       "id": "topic-048",
@@ -4715,12 +4722,12 @@
       "image": "img/topic-048.svg",
       "sources": [
         {
-          "name": "Simpson's Paradox and Statistical Urban Legends: Gender Bias at Berkeley",
-          "url": "https://www.refsmmat.com/posts/2016-05-08-simpsons-paradox-berkeley.html"
+          "name": "Simpson's paradox（Wikipedia）",
+          "url": "https://en.wikipedia.org/wiki/Simpson%27s_paradox"
         },
         {
-          "name": "Both Numbers Were True - Berkeley Admissions Paradox",
-          "url": "https://www.bigwrinklybrain.com/science/both-numbers-were-true"
+          "name": "UCBAdmissions（R datasets 解説）",
+          "url": "https://www.rdocumentation.org/packages/datasets/versions/3.5.3/topics/UCBAdmissions"
         }
       ],
       "questions": [
@@ -4776,8 +4783,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 48
+      "review": "passed",
+      "topicNo": 48,
+      "reviewNote": "出典を確認できたものに差し替えた。"
     },
     {
       "id": "topic-049",
@@ -4793,12 +4801,12 @@
       "image": "img/topic-049.svg",
       "sources": [
         {
-          "name": "ID-POS分析の解説（電通報）",
-          "url": "https://dentsu-ho.com/en/articles/9000107"
+          "name": "ID-POSとは？POSデータの違いや活用方法（USEN）",
+          "url": "https://usen.com/column/pos/pos-id.html"
         },
         {
-          "name": "購買データの種類と分析手法（Stripe）",
-          "url": "https://stripe.com/resources/more/purchase-data-in-japan"
+          "name": "消費財メーカー・小売業におけるID-POS活用（東芝テック）",
+          "url": "https://www.toshibatec.co.jp/useful/rt/202411-topics08.html"
         }
       ],
       "questions": [
@@ -4854,8 +4862,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 49
+      "review": "passed",
+      "topicNo": 49,
+      "reviewNote": "出典を確認できたものに差し替えた。"
     },
     {
       "id": "topic-050",
@@ -4932,8 +4941,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 50
+      "review": "passed",
+      "topicNo": 50,
+      "reviewNote": "解き直しで全問一致、定義・順序は複数の出典と一致。"
     }
   ]
 }
