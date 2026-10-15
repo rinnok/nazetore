@@ -163,7 +163,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 12,
@@ -178,7 +178,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 13,
@@ -193,7 +193,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 14,
@@ -208,7 +208,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 15,
@@ -223,7 +223,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 16,
@@ -238,7 +238,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 17,
@@ -253,7 +253,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 18,
@@ -268,7 +268,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 19,
@@ -283,7 +283,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 20,
@@ -298,7 +298,7 @@
         "logical"
       ],
       "kind": "case",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 21,
