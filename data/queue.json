@@ -3302,6 +3302,156 @@
       ],
       "kind": "case",
       "status": "generated"
+    },
+    {
+      "n": 221,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "業界のトップ企業は、なぜ顧客の声を聞いたまま負けた？ ハードディスク業界の場合",
+      "gain": "顧客の声に忠実な優良企業ほど、新しい技術に出遅れる理由を知る",
+      "effects": "🧠✨",
+      "src": "論・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 222,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ザッポスは、なぜ送料も返品も無料にして「365日返品OK」にした？",
+      "gain": "サービスの費用を「広告費」と考えて、リピートを生む発想を知る",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 223,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "テレビの視聴率は、何世帯を調べて出している？ 2020年の見直しから",
+      "gain": "少ない世帯で全体を測る標本調査の考え方と、数字の誤差の読み方を知る",
+      "effects": "🔍🧠",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 224,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "新しい商品を新しい客に売るのは、なぜいちばん難しい？ アンゾフの成長マトリクス",
+      "gain": "成長の打ち手を4つに分け、リスクの違いを説明できるようになる",
+      "effects": "🧠",
+      "src": "論・書",
+      "tags": [
+        "strategy",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 225,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "ヒルティは、なぜ工具を「売る」のでなく、月額で「貸す」ことにした？",
+      "gain": "商品を売り切らず、使う分だけ貸す法人向けの売り方を知る",
+      "effects": "🧠💴",
+      "src": "報・公式",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 226,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "シャンプーは、なぜインドで「1回分の小袋」が売れた？",
+      "gain": "収入の少ない客に合わせて、量と価格を小さくする売り方を知る",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 227,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "お米の消費量は、ピークの半分以下に減った？ 1人あたりの数字で見る",
+      "gain": "1人あたりの数字で、市場の縮み方を測る考え方を知る",
+      "effects": "🔍💴",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 228,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "ZOZOは、なぜ採寸ボディスーツ「ZOZOSUIT」を無料で配った？",
+      "gain": "データを集める入り口を、無料で配るという打ち手と、その難しさを知る",
+      "effects": "🧠🤖",
+      "src": "報・公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 229,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "弁護士がAIの作った「存在しない判例」を裁判所に出して、なぜ罰せられた？",
+      "gain": "AIの出した情報を、そのまま使う危うさと、確認の手順を学ぶ",
+      "effects": "🤖🔍",
+      "src": "報",
+      "tags": [
+        "logical",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 230,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "新商品が最初の熱心なファンの先で止まるのは、なぜ？ 「キャズム」の考え方",
+      "gain": "初期の客と、慎重な多数派の違いを、市場の広げ方に生かす",
+      "effects": "🧠",
+      "src": "書・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
     }
   ]
 }
