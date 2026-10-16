@@ -3752,6 +3752,156 @@
       ],
       "kind": "case",
       "status": "generated"
+    },
+    {
+      "n": 251,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ドミノ・ピザは、なぜ「うちのピザはまずい」と自分で認める広告を出した？",
+      "gain": "悪い評判を認めたうえで商品ごと変える、立て直しの進め方を知る",
+      "effects": "🧠🔍",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 252,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "コストコは、なぜホットドッグ＋ドリンクを1985年から1.50ドルのまま売り続けた？",
+      "gain": "赤字覚悟に見える看板商品の、本当の役目を考える",
+      "effects": "💴🧠",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 253,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "サントリーは、なぜ人気の「響17年」「白州12年」を売るのをやめた？",
+      "gain": "「作ってもすぐ売れない」ウイスキーの、需要と供給のズレを知る",
+      "effects": "💴🔍",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 254,
+      "cat": "F",
+      "catName": "企業の転換・戦略",
+      "title": "レディオヘッドは、なぜアルバムの値段を客に決めさせた？",
+      "gain": "「好きな額でどうぞ」の価格設定が、実際にどう払われたかを数字で読む",
+      "effects": "💴🔍",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 255,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "Bingは、なぜ半年放置された広告見出しの変更案で、年1億ドル超の増収を見つけられた？",
+      "gain": "小さく見える案を、実験で確かめる価値を知る",
+      "effects": "🔍🧠",
+      "src": "論・書",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 256,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "くまモンは、なぜ使用料を取らずに絵を貸した？",
+      "gain": "無料で開いた権利が、地域の売上に結びつく仕組みを学ぶ",
+      "effects": "🗾🧠",
+      "src": "官・報",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 257,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "Wordleは、なぜ「色の四角」のシェアで世界に広まった？",
+      "gain": "ネタバレなしで共有できる設計が、口コミを生む仕組みを知る",
+      "effects": "🤖✨",
+      "src": "報",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 258,
+      "cat": "J",
+      "catName": "コンサルの思考法",
+      "title": "プロジェクトを始める前に、なぜ「もう失敗した」前提で理由を考える？ プレモーテム",
+      "gain": "始める前に弱点を見つける、チームでの考え方を知る",
+      "effects": "🧠🔍",
+      "src": "論",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 259,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "キッコーマンは、なぜしょうゆを日本から運ばず、米国に工場を建てた？",
+      "gain": "輸出から現地生産への切り替えの判断を、コストの面から読む",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 260,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "同じ5ドル引きなのに、15ドルの電卓と125ドルの電卓で、なぜ行動が変わる？",
+      "gain": "割引の価値を「元値との比」で感じる、心の働きを知る",
+      "effects": "✨🧠",
+      "src": "論",
+      "tags": [
+        "customer",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
     }
   ]
 }
