@@ -4052,6 +4052,156 @@
       ],
       "kind": "concept",
       "status": "generated"
+    },
+    {
+      "n": 271,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "Googleは、検索を無料で配っているのに、何で稼いでいる？",
+      "gain": "無料サービスの「お金を払う人は誰か」を、決算の数字で読む",
+      "effects": "💴🧠",
+      "src": "IR",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 272,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "「ほとんどの人は期限内に納めています」と書き足すだけで、なぜ納税が増えた？",
+      "gain": "周りの行動を伝える「社会的規範」の効き方を知る",
+      "effects": "✨🧠",
+      "src": "論・公",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 273,
+      "cat": "E",
+      "catName": "リサーチ・統計",
+      "title": "失業率は、どうやって調べている？ 約4万世帯の「労働力調査」",
+      "gain": "公的統計の調べ方と「失業」の定義を知る",
+      "effects": "🔍💴",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 274,
+      "cat": "I",
+      "catName": "財務・数字の読み方",
+      "title": "営業利益と経常利益は、何が違う？ 本業の稼ぎと借入の利息",
+      "gain": "決算書の2つの利益の違いを、例題で読み分ける",
+      "effects": "💴🧠",
+      "src": "書・報",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 275,
+      "cat": "F",
+      "catName": "事業転換・イノベーション",
+      "title": "YouTubeは、なぜ「動画のデートサイト」から、何でも投稿できるサイトになった？",
+      "gain": "想定と違う使われ方から、事業の形を変えた例を知る",
+      "effects": "🧠✨",
+      "src": "報・公",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 276,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "セブン-イレブンは、なぜ本家のアメリカの会社を、日本の会社が救うことになった？",
+      "gain": "提携先の窮地に、ブランドを守るために出資する判断を知る",
+      "effects": "🧠💴",
+      "src": "報・公",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 277,
+      "cat": "G",
+      "catName": "観光・地域",
+      "title": "屋久島は、なぜ登山者に「入山協力金」をお願いしている？",
+      "gain": "観光地が自然を守る費用を、どう集めるかを数字で考える",
+      "effects": "🗾🧠",
+      "src": "公・報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 278,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "トレーダー・ジョーズは、なぜ商品の8割以上を自社ブランドにした？",
+      "gain": "小さな店が大手と戦う、自社ブランドの使い方を知る",
+      "effects": "💴🧠",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 279,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "Alwaysは、なぜ「女の子みたいに」という言葉の意味を変えようとした？",
+      "gain": "言葉への印象を調べて、ブランドの主張に変える考え方を知る",
+      "effects": "✨🧠",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 280,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "国内の化粧品市場は、いくらの規模？ 月次の統計をどう読む",
+      "gain": "業界の統計から、市場の大きさと「ぶれ」を読む",
+      "effects": "🔍💴",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "customer"
+      ],
+      "kind": "concept",
+      "status": "generated"
     }
   ]
 }
