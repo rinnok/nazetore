@@ -1,2707 +1,2857 @@
 {
- "queue": [
-  {
-   "n": 1,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "「スーパードライ」は、なぜ消費者調査から生まれた？",
-   "gain": "大規模な嗜好調査が商品コンセプト（コク・キレ）を決めた例。リサーチが事業を変える瞬間",
-   "effects": "🔍✨",
-   "src": "公式・書",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 2,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "星野リゾートは、なぜ旅館を「持たずに運営」する？",
-   "gain": "所有と運営の分離というビジネスモデルの分解",
-   "effects": "🧠🗾💴",
-   "src": "公式・書",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 3,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "無印良品は、なぜ「ブランドがないこと」がブランドになった？",
-   "gain": "「わけあって、安い」から始まるポジショニング",
-   "effects": "🧠✨",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 4,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "カルビー「フルグラ」は、朝食の市場をどう作り直した？",
-   "gain": "用途の提案（シリアル＝朝ごはん）で市場を広げる",
-   "effects": "🧠🔍",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 5,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "ユニクロ「ヒートテック」は、なぜ素材メーカーと組んだ？",
-   "gain": "東レとの共同開発。機能×価格で定番化する仕組み",
-   "effects": "🧠💴",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 6,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "ヤクルトは、なぜ今も「手渡し」で売る？",
-   "gain": "関係性チャネル（ヤクルトレディ）の強さ",
-   "effects": "🧠✨",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 7,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "「ほぼ日手帳」は、なぜ毎年買い直される？",
-   "gain": "ファンとコミュニティが継続購入を生む構造",
-   "effects": "🧠🔍",
-   "src": "公式・IR",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 8,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "「伊右衛門」は、なぜ老舗茶舗と組んだ？",
-   "gain": "本物感をつくる共同ブランディング",
-   "effects": "🧠",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 9,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "「からあげクン」は、なぜ何十年も飽きられない？",
-   "gain": "定番＋期間限定の組み合わせで鮮度を保つ",
-   "effects": "🧠✨",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 10,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "炎上した「離乳食無料」告知から、ブランドは何を学べる？",
-   "gain": "価値観の発信とSNSの反応、危機対応",
-   "effects": "🧠🤖",
-   "src": "報・公式",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 11,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "ニュー・コークは、味のテストで勝ったのになぜ失敗した？",
-   "gain": "調査で聞けていなかったもの（愛着）。リサーチ設計の落とし穴",
-   "effects": "🔍✨",
-   "src": "公式・書",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 12,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "ミルクシェイクは、なぜ朝に売れていた？",
-   "gain": "ジョブ理論（顧客が片づけたい用事）",
-   "effects": "🧠🔍",
-   "src": "論・書",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 13,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "ダヴは、なぜ「自分を美しいと思う女性は4%」から広告を作った？",
-   "gain": "調査インサイトを起点にしたブランド広告",
-   "effects": "🔍🧠",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 14,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "「買うのは誰か」を変えたオールドスパイスの広告",
-   "gain": "使う人と買う人が違う商品のターゲット設定",
-   "effects": "🧠✨",
-   "src": "報",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 15,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "パタゴニアは、なぜ「このジャケットを買うな」と広告した？",
-   "gain": "逆説的なメッセージとブランドの一貫性",
-   "effects": "🧠✨",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 16,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "Airbnbの創業者は、なぜ自分で写真を撮りに行った？",
-   "gain": "「スケールしないこと」をやって原因を確かめる",
-   "effects": "🧠🔍",
-   "src": "書・報",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 17,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "Netflixは、なぜ自社のDVD事業を食う配信に賭けた？",
-   "gain": "カニバリゼーションを恐れない事業転換",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 18,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "レゴは、どうやって倒産寸前から復活した？",
-   "gain": "多角化の失敗とコア回帰",
-   "effects": "🧠💴",
-   "src": "書・報",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 19,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "スターバックスは、なぜ「サードプレイス」を売った？",
-   "gain": "商品ではなく場所・体験を売る価値設計",
-   "effects": "🧠✨",
-   "src": "公式・書",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 20,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "Amazonプライムは、なぜ年会費を払う人ほど買う？",
-   "gain": "会員制が購買頻度を変える仕組み",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 21,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "コストコは、なぜ商品ではなく「年会費」で稼ぐ？",
-   "gain": "会費モデルと薄利の商品の関係",
-   "effects": "💴🧠✨",
-   "src": "IR",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 22,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "100円ショップは、なぜ原価がバラバラでも儲かる？",
-   "gain": "粗利ミックスという考え方",
-   "effects": "💴✨",
-   "src": "公式・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "skipped",
-   "note": "粗利ミックスの根拠となる原価・粗利の数字を公開資料で確認できなかったため（大創産業は非上場）"
-  },
-  {
-   "n": 23,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "ドン・キホーテは、なぜわざと「探しにくく」並べる？",
-   "gain": "圧縮陳列と宝探し体験",
-   "effects": "🧠✨",
-   "src": "公式",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 24,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "セブン‐イレブンは、なぜ同じ地域に固めて出店する？",
-   "gain": "ドミナント戦略と物流効率",
-   "effects": "🧠💴",
-   "src": "公式",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 25,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "量が減って値段は同じ。「シュリンクフレーション」はなぜ起きる？",
-   "gain": "実質値上げと消費者の受け止め方",
-   "effects": "🔍💴",
-   "src": "官・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 26,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "テーマパークの入場料は、なぜ日によって違う？",
-   "gain": "ダイナミックプライシング",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 27,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "「松竹梅」で真ん中が選ばれやすいのはなぜ？",
-   "gain": "極端回避と価格の並べ方",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 28,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "「980円」は、なぜ1,000円より売れやすい？",
-   "gain": "端数価格の心理と研究の限界",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 29,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "業務スーパーは、なぜ「作って売る」ことにこだわる？",
-   "gain": "製販一体で価格差をつくる",
-   "effects": "💴🧠",
-   "src": "IR",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 30,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "ニトリは、なぜ「製造物流IT小売業」を名乗る？",
-   "gain": "バリューチェーンを自社で握る意味",
-   "effects": "💴🧠",
-   "src": "公式・IR",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 31,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "ジャムは24種類より6種類のほうが売れた？",
-   "gain": "選択肢過多。そして「再現されなかった」研究の読み方",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 32,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "最初に見た数字に、なぜ判断が引っ張られる？",
-   "gain": "アンカリングと価格提示",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 33,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "臓器提供の同意率は、なぜ国によって極端に違う？",
-   "gain": "デフォルト（初期設定）の力とナッジ",
-   "effects": "🧠✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 34,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "ホテルのタオル再利用は、どんな一言で増えた？",
-   "gain": "社会的証明のメッセージ設計",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 35,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "体験の満足度は、なぜ「最後」で決まる？",
-   "gain": "ピーク・エンドの法則と顧客体験",
-   "effects": "🧠🗾✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 36,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "自分で組み立てた家具は、なぜ高く感じる？",
-   "gain": "IKEA効果と参加型の価値づくり",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 37,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "雑誌の購読プランに、なぜ「誰も選ばない選択肢」がある？",
-   "gain": "おとり効果",
-   "effects": "🔍✨",
-   "src": "論・書",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 38,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "ポイントの「失効まであと3日」は、なぜ効く？",
-   "gain": "損失回避",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 39,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "何度も見た広告を、なぜ好きになる？",
-   "gain": "単純接触効果とフリークエンシー",
-   "effects": "🔍🤖",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 40,
-   "cat": "D",
-   "catName": "消費者の心理・行動経済学",
-   "title": "「ここまでやったから」と、なぜやめられない？",
-   "gain": "サンクコストと事業撤退の判断",
-   "effects": "🧠💴",
-   "src": "論",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 41,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "240万人に聞いた調査は、なぜ大統領選を外した？",
-   "gain": "標本の偏り（1936年の予測失敗）",
-   "effects": "🔍✨",
-   "src": "書・論",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 42,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "帰還した爆撃機の弾痕から、なぜ「穴のない場所」を補強した？",
-   "gain": "生存者バイアス",
-   "effects": "🔍✨",
-   "src": "論・書",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 43,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "「買う」と答えた人は、なぜ実際には買わない？",
-   "gain": "言うこととやること（Say-Doギャップ）の扱い方",
-   "effects": "🔍",
-   "src": "論",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 44,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "NPS（推奨度）は、何を測っていて何を測れない？",
-   "gain": "指標の意味と限界",
-   "effects": "🔍",
-   "src": "論（HBR）",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 45,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "インタビューは何人に聞けば十分？",
-   "gain": "定性調査のサンプル数の目安と根拠",
-   "effects": "🔍",
-   "src": "論",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 46,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "ボタンの文言1つで、なぜ登録が大きく変わった？",
-   "gain": "A/Bテストの考え方（2008年米大統領選陣営）",
-   "effects": "🔍🤖",
-   "src": "報・書",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 47,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "アイスが売れると水難事故が増える？",
-   "gain": "相関と因果、第3の変数",
-   "effects": "🔍✨",
-   "src": "書",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 48,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "全体では不利なのに、学部ごとでは逆？",
-   "gain": "シンプソンのパラドックス（1973年の大学入試データ）",
-   "effects": "🔍✨",
-   "src": "論",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 49,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "POSとID-POS、分かることはどう違う？",
-   "gain": "「何が売れたか」と「誰が買ったか」",
-   "effects": "🔍💴",
-   "src": "書",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 50,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "セグメンテーションとペルソナは、何が違う？",
-   "gain": "市場の切り方と顧客像の使い分け",
-   "effects": "🔍🧠",
-   "src": "書",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 51,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "Wiiは、なぜ「ゲームをしない人」を狙った？",
-   "gain": "ブルーオーシャンと非顧客",
-   "effects": "🧠✨",
-   "src": "公式・書",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 52,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "ネスレは、なぜオフィスに「アンバサダー」を置いた？",
-   "gain": "新しい利用場面と仕組みで販路を作る",
-   "effects": "🧠🔍",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 53,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "コマツは、なぜ建機にGPSをつけた？",
-   "gain": "モノ売りからデータ・サービスへ（KOMTRAX）",
-   "effects": "🧠🤖",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 54,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "日本マクドナルドは、どうやって客離れから回復した？",
-   "gain": "信頼回復と顧客の声の反映",
-   "effects": "🧠🔍",
-   "src": "IR・報",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 55,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "スターバックスは、なぜ全米の店を一斉に閉めた？",
-   "gain": "品質の立て直しと現場教育",
-   "effects": "🧠",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 56,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "Instagramは、なぜ機能を「減らして」成功した？",
-   "gain": "ピボットと絞り込み",
-   "effects": "🧠🤖",
-   "src": "報",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 57,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "キーエンスは、なぜ利益率が異常に高い？",
-   "gain": "付加価値の作り方と直販",
-   "effects": "💴🧠✨",
-   "src": "IR",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 58,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "ヤマト運輸は、なぜ「個人の荷物」に賭けた？",
-   "gain": "宅急便の誕生と常識の逆張り",
-   "effects": "🧠✨",
-   "src": "公式・書",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 59,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "くら寿司の「びっくらポン」は、なぜ効く？",
-   "gain": "体験とゲームで客単価を上げる",
-   "effects": "🧠✨",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 60,
-   "cat": "F",
-   "catName": "戦略・事業転換",
-   "title": "マクロミルは、何で稼いでいる？",
-   "gain": "入社先グループのビジネスモデル（ネットリサーチの収益構造）",
-   "effects": "💴🔍",
-   "src": "IR",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 61,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "熱海は、なぜ「衰退した観光地」から回復できた？",
-   "gain": "若い世代への再ポジショニングとまちづくり",
-   "effects": "🗾🧠",
-   "src": "官・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 62,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "葉っぱが、なぜ高齢者のビジネスになった？",
-   "gain": "上勝町「いろどり」。地域資源の再定義",
-   "effects": "🗾✨",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 63,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "「ないものはない」の島に、なぜ移住者が集まる？",
-   "gain": "海士町の地域ブランディング",
-   "effects": "🗾🧠",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 64,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "由布院は、なぜ大型開発を断った？",
-   "gain": "景観と滞在価値を守る観光地づくり",
-   "effects": "🗾",
-   "src": "書・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 65,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "白川郷は、混雑とどう向き合っている？",
-   "gain": "オーバーツーリズム対策と予約制",
-   "effects": "🗾",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 66,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "京都は、観光客をどう分散させようとしている？",
-   "gain": "時間・場所の分散施策",
-   "effects": "🗾🔍",
-   "src": "官・公式",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 67,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "ニセコは、なぜ海外のスキー客に選ばれた？",
-   "gain": "外国人需要の発見と投資の流れ",
-   "effects": "🗾💴",
-   "src": "報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 68,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "道の駅は、なぜ「目的地」になった？",
-   "gain": "地域拠点の役割と稼ぎ方",
-   "effects": "🗾",
-   "src": "官",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 69,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "ふるさと納税の返礼品は、なぜルールが変わった？",
-   "gain": "制度設計と自治体間競争",
-   "effects": "🗾💴",
-   "src": "官",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 70,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "ハウステンボスは、どうやって赤字から立ち直った？",
-   "gain": "集客施設の再生とイベント戦略",
-   "effects": "🗾🧠",
-   "src": "報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 71,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "雑貨店が、なぜ「読み物」で売れる？",
-   "gain": "北欧、暮らしの道具店。コンテンツコマース",
-   "effects": "🤖🧠",
-   "src": "IR",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "skipped",
-   "note": "出典で確認できた事実が決算の売上数字のみで、読み物がなぜ売れるかの仕組みを裏付けられなかったため"
-  },
-  {
-   "n": 72,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "眼鏡を「家で試せる」D2Cは、なぜ伸びた？",
-   "gain": "Warby Parker。購買の不安を取り除く",
-   "effects": "🤖🧠",
-   "src": "公式・報",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 73,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "「ステマ」は、なぜ法律で禁止された？",
-   "gain": "2023年の景品表示法の告示。実務の必須知識",
-   "effects": "🤖🔍",
-   "src": "官",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 74,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "第三者Cookieが使えなくなると、広告はどう変わる？",
-   "gain": "ファーストパーティデータの重要性",
-   "effects": "🤖🔍",
-   "src": "公式・報",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 75,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "AIに「回答者」を演じさせた調査は、使える？",
-   "gain": "合成データ・AI回答者の可能性と限界",
-   "effects": "🤖🔍",
-   "src": "論",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 76,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "年末の「あなたの1年」まとめは、なぜ拡散される？",
-   "gain": "Spotify Wrapped。自分のデータを共有したくなる設計",
-   "effects": "🤖✨",
-   "src": "公式",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 77,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "星5つより星4.5のほうが売れる？",
-   "gain": "レビュー評価と購買率の関係",
-   "effects": "🔍🤖✨",
-   "src": "論",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 78,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "メルカリは、なぜフリマを日常にできた？",
-   "gain": "スマホ完結と信頼の仕組み",
-   "effects": "🤖💴",
-   "src": "IR",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "skipped",
-   "note": "直近の決算数字は確認できたが、設立や安心の仕組み（取引の流れ・匿名配送等）を出典で確認できなかったため"
-  },
-  {
-   "n": 79,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "フォロワー数が多いインフルエンサーほど効く？",
-   "gain": "エンゲージメント率とマイクロインフルエンサー",
-   "effects": "🤖🔍",
-   "src": "報・論",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 80,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "検索広告は、なぜ「指名検索」が一番安く売れる？",
-   "gain": "検索意図とファネルの関係",
-   "effects": "🤖🔍",
-   "src": "書",
-   "tags": [
-    "channel",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 81,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "黒字なのに、なぜ会社は倒産する？",
-   "gain": "利益とキャッシュフローの違い",
-   "effects": "💴",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 82,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "カフェのコーヒー1杯、何杯売れば赤字を抜ける？",
-   "gain": "損益分岐点",
-   "effects": "💴✨",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 83,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "売上高が同じでも、なぜ利益がこんなに違う？",
-   "gain": "粗利率・販管費の比べ方（同業2社のIR比較）",
-   "effects": "💴",
-   "src": "IR",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 84,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "ROEとROA、経営者はどちらを見るべき？",
-   "gain": "資本効率の指標",
-   "effects": "💴",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 85,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "固定費が大きい事業は、なぜ「当たると大きい」？",
-   "gain": "固定費型・変動費型と損益の振れ幅",
-   "effects": "💴🧠",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 86,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "サブスクは、なぜ「解約率」がすべて？",
-   "gain": "LTVとCACの関係",
-   "effects": "💴🤖",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 87,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "ZARAは、なぜ売れ残りが少ない？",
-   "gain": "短サイクル生産と在庫回転",
-   "effects": "💴🧠",
-   "src": "公式・書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 88,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "売上は「客数×客単価×頻度」。どこを動かす？",
-   "gain": "売上の分解と打ち手の選び方",
-   "effects": "💴🧠🔍",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 89,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "日本のコンビニおにぎりの市場、どう見積もる？",
-   "gain": "フェルミ推定と統計での検算",
-   "effects": "🧠✨",
-   "src": "官",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 90,
-   "cat": "I",
-   "catName": "数字で読むビジネス",
-   "title": "決算書の「のれん」とは何？",
-   "gain": "M&Aと買収価格の読み方",
-   "effects": "💴",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 91,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "「よいイシュー」の3つの条件とは？",
-   "gain": "何に答えるべきかを決める",
-   "effects": "🧠",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 92,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "MECEで分けると、何がうれしい？",
-   "gain": "漏れなくダブりなくの実用",
-   "effects": "🧠",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 93,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "情報を集める前に、なぜ答えを決める？",
-   "gain": "仮説思考",
-   "effects": "🧠",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 94,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "「So What?」と「Why So?」で、報告はどう変わる？",
-   "gain": "示唆の出し方",
-   "effects": "🧠",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 95,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "結論から話すと、なぜ伝わる？",
-   "gain": "ピラミッド・ストラクチャー",
-   "effects": "🧠",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 96,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "「空・雨・傘」で、事実と判断を分ける",
-   "gain": "事実→解釈→打ち手",
-   "effects": "🧠🔍",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 97,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "2割の顧客が8割の売上を作る？",
-   "gain": "パレートの法則の使いどころと誤用",
-   "effects": "🧠💴",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 98,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "3Cと4P、よくある使い方の間違い",
-   "gain": "フレームワークの正しい使い方",
-   "effects": "🧠🔍",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 99,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "売上が落ちた。ファネルのどこで漏れている？",
-   "gain": "ファネル分解でボトルネックを探す",
-   "effects": "🧠🔍🤖",
-   "src": "書",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 100,
-   "cat": "J",
-   "catName": "コンサルの考え方",
-   "title": "AIが資料を作る時代、コンサルの価値はどこに残る？",
-   "gain": "問い・判断・合意形成という付加価値",
-   "effects": "🤖🧠",
-   "src": "報・論",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 101,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "カップヌードルは、なぜ「お湯を注ぐ容器」ごと売ることにした？",
-   "gain": "食べ方の観察から、商品の形を決める",
-   "effects": "🧠🔍✨",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 102,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "ファンケルは、なぜ「無添加」を売りにした？",
-   "gain": "不安という顧客の声が、商品づくりを決めた例",
-   "effects": "🧠💴✨",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 103,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "USJは、なぜ入場者数を倍近くに増やせた？",
-   "gain": "大型投資と、数字に基づく運営の組み合わせ",
-   "effects": "🧠🗾💴",
-   "src": "報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 104,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "「インテル・インサイド」は、なぜ部品のシールが消費者に効いた？",
-   "gain": "消費者が見えない部品を、ブランドにする方法",
-   "effects": "🧠✨",
-   "src": "公式・書",
-   "tags": [
-    "customer",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 105,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "タイヤ会社は、なぜレストランのガイドブックを無料で配った？",
-   "gain": "自社商品の需要を増やす「読み物」の発想",
-   "effects": "🧠✨",
-   "src": "公式・書",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 106,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "HubSpotは、なぜ「ブログ」で営業を変えようとした？",
-   "gain": "売り込まれるより、見つけてもらう発想",
-   "effects": "🧠🤖",
-   "src": "公式・報",
-   "tags": [
-    "channel",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 107,
-   "cat": "M",
-   "catName": "海外市場・グローバル事例",
-   "title": "オレオは、なぜ中国で味とサイズを変えた？",
-   "gain": "海外市場で、商品を現地に合わせる判断",
-   "effects": "🧠🔍🗾",
-   "src": "報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 108,
-   "cat": "M",
-   "catName": "海外市場・グローバル事例",
-   "title": "日本のケンタッキーは、なぜクリスマスに売れるようになった？",
-   "gain": "日本の習慣に合わせて作った、季節の需要",
-   "effects": "🧠✨",
-   "src": "報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 109,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "ホテルの「RevPAR」は、なぜ稼働率だけより経営が見える？",
-   "gain": "稼働率と単価を同時に見る指標",
-   "effects": "💴🗾",
-   "src": "報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 110,
-   "cat": "M",
-   "catName": "海外市場・グローバル事例",
-   "title": "ホンダは、なぜ米国で「やさしい人が乗るバイク」と広告した？",
-   "gain": "商品でなく、乗る人のイメージを変える広告",
-   "effects": "🧠🔍",
-   "src": "公式・書",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 111,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "コンビニは、なぜ大手3社だけで店の9割を占める？",
-   "gain": "店舗数のシェアから、業界の構造を読む",
-   "effects": "💴🔍",
-   "src": "官・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 112,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "IBMは、なぜ「分割せず」にサービスの会社へ変われた？",
-   "gain": "顧客が欲しいのは部品でなく解決策だった、という転換",
-   "effects": "🧠💴",
-   "src": "報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 113,
-   "cat": "M",
-   "catName": "海外市場・グローバル事例",
-   "title": "キットカットは、なぜ日本で「受験のお守り」になった？",
-   "gain": "企業が仕掛けず、顧客が見つけた使い方",
-   "effects": "🧠🔍✨",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 114,
-   "cat": "M",
-   "catName": "海外市場・グローバル事例",
-   "title": "コカ・コーラは、なぜ自社のロゴを外して「名前」を載せた？",
-   "gain": "商品を、自分や友だちのものにする仕掛け",
-   "effects": "🧠✨",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 115,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "「第3のビール」は、なぜ生まれた？",
-   "gain": "税のルールが、商品開発の方向を決めた例",
-   "effects": "💴🧠✨",
-   "src": "官・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 116,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "アスクルは、なぜ「明日来る」を社名にした？",
-   "gain": "小さな事業所向けの、翌日届くカタログ通販",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 117,
-   "cat": "M",
-   "catName": "海外市場・グローバル事例",
-   "title": "味の素は、なぜ「うま味」を世界の言葉にできた？",
-   "gain": "科学的な発見を、商品と言葉に変える流れ",
-   "effects": "🧠✨",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 118,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "百貨店の売上は、ピーク時の何割まで落ちた？",
-   "gain": "30年の推移を、最高と今の差で見る",
-   "effects": "💴🔍",
-   "src": "官・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 119,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "熱海は、なぜ宿泊税を導入した？",
-   "gain": "観光客から集めたお金を、観光に戻す仕組み",
-   "effects": "🗾💴",
-   "src": "官・報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 120,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "同じ質問でも、聞く順番で答えが変わる？",
-   "gain": "アンケート設計で起きる「順序の効果」",
-   "effects": "🔍🧠✨",
-   "src": "論",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 121,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "ビール類の市場は、ピークの何割まで縮んだ？",
-   "gain": "縮む市場の大きさを、ピーク比で捉える",
-   "effects": "💴🔍",
-   "src": "官・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 122,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "ゼロックスは、なぜ複写機を「売らずに貸した」？",
-   "gain": "売り切りから、使った分だけ払う仕組みへ",
-   "effects": "🧠💴",
-   "src": "書・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 123,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "ユーロ・ディズニーは、なぜ開業当初に苦戦した？",
-   "gain": "現地の習慣を知らないと、本国流が通じない",
-   "effects": "🧠🔍",
-   "src": "報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 124,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "ドラッグストアは、なぜ薬以外が売上の3割近くを占める？",
-   "gain": "業態の売上構成から、稼ぎ方を読む",
-   "effects": "💴🔍",
-   "src": "業界団体",
-   "tags": [
-    "channel",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 125,
-   "cat": "D",
-   "catName": "行動経済学",
-   "title": "1セントの値引きで「無料」にすると、なぜ売れ筋が逆転する？",
-   "gain": "「無料」は、金額の差以上に人を動かす",
-   "effects": "🧠🔍✨",
-   "src": "論",
-   "tags": [
-    "customer",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 126,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "ヴェネツィアは、なぜ日帰り客から入場料を取り始めた？",
-   "gain": "混雑を、お金のしくみで平らにする試み",
-   "effects": "🗾💴",
-   "src": "報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 127,
-   "cat": "B",
-   "catName": "海外の名作事例",
-   "title": "シルク・ドゥ・ソレイユは、なぜサーカスなのにサーカスと戦わなかった？",
-   "gain": "競争の土俵そのものを変える発想",
-   "effects": "🧠✨",
-   "src": "書",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 128,
-   "cat": "H",
-   "catName": "デジタル・SNS・広告",
-   "title": "Dropboxは、なぜ「友だちを招待すると容量が増える」にした？",
-   "gain": "紹介の報酬の設計で、口コミを広げる",
-   "effects": "🧠🤖",
-   "src": "報",
-   "tags": [
-    "channel",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 129,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "マクドナルドは、なぜインドで牛肉を使わないメニューにした？",
-   "gain": "宗教や習慣に合わせて、看板商品を作り替える",
-   "effects": "🧠🔍",
-   "src": "報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 130,
-   "cat": "F",
-   "catName": "事業転換・ビジネスモデル",
-   "title": "アドビは、なぜ箱売りをやめて月額課金に移った？",
-   "gain": "売り切りから継続課金へ、稼ぎ方の大転換",
-   "effects": "🧠💴",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 131,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "セブンカフェは、なぜコンビニでコーヒーを100円で売れた？",
-   "gain": "コンビニコーヒーが定番商品になった理由と数字",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 132,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "Salesforceは、なぜ創業の年に「ソフトウェアの終わり」と掲げた？",
-   "gain": "新興企業が大手相手に争点を作った例",
-   "effects": "🧠🤖",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 133,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "モノタロウは、なぜ工場で使う消耗品を「ネット通販」で売る？",
-   "gain": "少額・多品種の法人購買をECが置き換える仕組み",
-   "effects": "🧠💴",
-   "src": "公式",
-   "tags": [
-    "customer",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 134,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "ユニクロは、なぜ日本より海外で多く売る会社になった？",
-   "gain": "売上・利益・店舗数の逆転を時系列で読む",
-   "effects": "🧠💴",
-   "src": "報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 135,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "ガリガリ君は、なぜ値上げをわびるCMで話題になった？",
-   "gain": "値上げの伝え方で受け止めが変わる例",
-   "effects": "🧠✨",
-   "src": "報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 136,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "サイゼリヤは、なぜ一番人気のドリアを値下げした？",
-   "gain": "原価率が上がっても利益が成り立つ理由",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 137,
-   "cat": "E",
-   "catName": "リサーチ・統計",
-   "title": "1854年のロンドンで、地図に点を打つと何が分かった？",
-   "gain": "分布と例外から原因を確かめる考え方",
-   "effects": "🔍✨",
-   "src": "報",
-   "tags": [
-    "logical",
-    "future"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 138,
-   "cat": "I",
-   "catName": "財務・数字",
-   "title": "Amazonは、なぜ売上が伸びるほど手元の現金が増えやすい？",
-   "gain": "在庫回転と支払日数が資金繰りに効く仕組み",
-   "effects": "💴",
-   "src": "官",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 139,
-   "cat": "J",
-   "catName": "コンサル思考",
-   "title": "ナイチンゲールは、なぜ数字を「バラの形の図」にして訴えた？",
-   "gain": "結論が一目で分かる図で人を動かす",
-   "effects": "🧠🔍",
-   "src": "報",
-   "tags": [
-    "logical",
-    "strategy"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 140,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "テスラは、なぜ広告費をかけずに車を売ってこられた？",
-   "gain": "広告以外の集客と直販の経路",
-   "effects": "🧠✨",
-   "src": "官",
-   "tags": [
-    "channel",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 141,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "外食の売上は、コロナ前の水準を取り戻した？",
-   "gain": "業界団体の統計で、1業界の回復を数字で読む",
-   "effects": "💴",
-   "src": "公式",
-   "tags": [
-    "numbers",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 142,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "ノンアルコールビールは、なぜ2009年に市場になった？",
-   "gain": "「飲めない場面」を狙った商品が定番になる流れ",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 143,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "外国人の宿泊は、なぜ一部の都道府県に偏る？",
-   "gain": "官公庁統計から、観光地の集中と分散を読む",
-   "effects": "🗾🔍",
-   "src": "官",
-   "tags": [
-    "numbers",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 144,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "Amazonは、なぜ小売会社なのにクラウドを貸し始めた？",
-   "gain": "自社の内部能力を外販して新事業にした例",
-   "effects": "🧠💴🤖",
-   "src": "公式",
-   "tags": [
-    "strategy",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 145,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "デルは、なぜ中間業者を飛ばして注文を直接受けた？",
-   "gain": "直販モデルが在庫と顧客理解にもたらす違い",
-   "effects": "🧠💴",
-   "src": "報",
-   "tags": [
-    "channel",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 146,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "Stripeは、なぜ開発者を入り口にして決済を売った？",
-   "gain": "開発者を顧客にした法人向けの売り方",
-   "effects": "🧠🤖",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 147,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "イケアは、なぜ日本で一度撤退し、再び戻ってこられた？",
-   "gain": "進出の失敗から、売り方を現地に合わせ直す",
-   "effects": "🧠🔍",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 148,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "ウォルマートは、なぜドイツから撤退した？",
-   "gain": "成功した型が海外で通じなかった理由",
-   "effects": "🧠",
-   "src": "報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 149,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "ウーバーは、なぜ中国事業を手放した？",
-   "gain": "資金力のある先行者に海外で挑む難しさ",
-   "effects": "🧠💴",
-   "src": "報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 150,
-   "cat": "E",
-   "catName": "リサーチ・統計",
-   "title": "1,000人に聞いた調査の誤差は、何ポイント？",
-   "gain": "標本の大きさと誤差の関係を数字で押さえる",
-   "effects": "🔍",
-   "src": "書",
-   "tags": [
-    "numbers",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 151,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "東京ディズニーランドは、なぜディズニー自身ではなく日本の会社が運営している？",
-   "gain": "ブランドを貸して海外に出る「ライセンス方式」の仕組み",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 152,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "ジレットは、本当に「本体を無料で配って替え刃で稼いだ」のか？",
-   "gain": "有名なビジネスモデルの話を、事実で確かめる習慣",
-   "effects": "🧠🔍",
-   "src": "研・報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 153,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "犬より猫のほうが多いペット市場で、何が変わっている？",
-   "gain": "民間団体の調査から、1つの市場の中身を数字で読む",
-   "effects": "🔍💴",
-   "src": "公式",
-   "tags": [
-    "numbers",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 154,
-   "cat": "H",
-   "catName": "デジタル・SNS・広告",
-   "title": "レッドブルは、なぜ「成層圏からの飛び降り」を自分たちで中継した？",
-   "gain": "広告ではなく、出来事そのものでブランドを見せる方法",
-   "effects": "🧠💡",
-   "src": "報",
-   "tags": [
-    "channel",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 155,
-   "cat": "E",
-   "catName": "リサーチ・統計",
-   "title": "叱ると成績が上がり、ほめると下がる？ 教官の経験は正しいのか",
-   "gain": "「たまたまの揺れ」を「原因」と取り違えない目",
-   "effects": "🔍🧠",
-   "src": "書",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 156,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "しまなみ海道は、なぜ自転車で走る人の聖地になった？",
-   "gain": "地域資源に国の指定とPRを重ねて、目的地にする流れ",
-   "effects": "🗾🧠",
-   "src": "官・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 157,
-   "cat": "F",
-   "catName": "事業転換・ビジネスモデル",
-   "title": "スポティファイは、なぜ「無料」を残したまま有料会員を増やした？",
-   "gain": "無料プランを、有料への入り口にするビジネスモデル",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 158,
-   "cat": "C",
-   "catName": "価格・小売の仕組み",
-   "title": "ロングテールは、本当に「売れない商品の山」が儲かるという話？",
-   "gain": "品ぞろえを広げる判断を、数字と条件で考える",
-   "effects": "🧠🔍",
-   "src": "書・報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 159,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "日本酒の輸出は、なぜ13年連続で増え続けた？",
-   "gain": "輸出額・数量・単価を分けて、海外市場の質の変化を読む",
-   "effects": "💴🔍",
-   "src": "公式・報",
-   "tags": [
-    "numbers",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 160,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "アトラシアンは、本当に「営業ゼロ」で成長したのか？",
-   "gain": "「営業ゼロ」の話を、実際の仕組みで確かめる",
-   "effects": "🧠🔍",
-   "src": "公式・報",
-   "tags": [
-    "channel",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 161,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "Slackは、なぜ「2,000件のメッセージ」を目安にした？",
-   "gain": "無料で試した顧客が、使い続けるかどうかの境目を数字で見つける考え方",
-   "effects": "🧠🔍",
-   "src": "報・書",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 162,
-   "cat": "B",
-   "catName": "海外の名作マーケ事例",
-   "title": "コカ・コーラは、なぜ自分のロゴを外して「人の名前」を載せた？",
-   "gain": "商品そのものを変えず、パッケージで「自分ごと」にして売る方法",
-   "effects": "🧠✨",
-   "src": "報",
-   "tags": [
-    "customer",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 163,
-   "cat": "E",
-   "catName": "リサーチとデータの読み方",
-   "title": "「見られていると頑張る」ホーソン効果は、本当に実験で確かめられた？",
-   "gain": "有名な実験の話を、のちの再分析で確かめ直す姿勢",
-   "effects": "🔍🧠",
-   "src": "論",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 164,
-   "cat": "F",
-   "catName": "事業転換・ビジネスモデル",
-   "title": "ポスト・イットは、なぜ「失敗した接着剤」から生まれた？",
-   "gain": "研究の失敗作に、使い道を見つけて事業にした流れ",
-   "effects": "🧠✨",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 165,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "ブータンは、なぜ観光客に1日ごとの「持続可能な開発料」を課す？",
-   "gain": "訪問客の数ではなく、質と環境を守る観光の考え方",
-   "effects": "🗾🧠",
-   "src": "報",
-   "tags": [
-    "future",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 166,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "「2か月で1億人」というChatGPTの数字は、誰が出した、何の数字？",
-   "gain": "公表値と推計値を見分け、数字の出どころを確かめる習慣",
-   "effects": "🔍🤖",
-   "src": "報",
-   "tags": [
-    "numbers",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 167,
-   "cat": "F",
-   "catName": "事業転換・ビジネスモデル",
-   "title": "ボルボは、なぜ発明した3点式シートベルトの特許を他社にも開いた？",
-   "gain": "自社の強みを囲い込まず、公開して信頼を得る判断",
-   "effects": "🧠✨",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 168,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "ドル・シェイヴ・クラブは、なぜ1本の動画で創業直後に注文が殺到した？",
-   "gain": "低予算の動画と簡単な購入の仕組みで、定期購入を伸ばした流れ",
-   "effects": "🧠🤖",
-   "src": "報",
-   "tags": [
-    "channel",
-    "customer"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 169,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "100万ドルの賞を取った推薦の仕組みは、なぜネットフリックスで使われなかった？",
-   "gain": "精度の高さと、実際に使えるかどうかの違い",
-   "effects": "🔍🤖",
-   "src": "報",
-   "tags": [
-    "logical",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 170,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "11月11日の「ポッキーの日」は、なぜ生まれた？",
-   "gain": "形や日付の連想から、記念日を作って商品の出番を増やす方法",
-   "effects": "🧠✨",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 171,
-   "cat": "D",
-   "catName": "行動経済学・心理",
-   "title": "同じ1万円でも、もらううれしさより、失う痛みのほうが大きい？",
-   "gain": "損得の感じ方が非対称であることを知り、値引きや特典の見せ方に使う",
-   "effects": "🧠🔍",
-   "src": "論・書",
-   "tags": [
-    "customer",
-    "logical"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 172,
-   "cat": "I",
-   "catName": "財務・数字の読み方",
-   "title": "トイザらスは、なぜ売れていたのに倒産した？",
-   "gain": "事業の稼ぐ力と、買収で背負った借金の重さを分けて見る",
-   "effects": "💴🧠",
-   "src": "報",
-   "tags": [
-    "numbers",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 173,
-   "cat": "J",
-   "catName": "コンサル思考法",
-   "title": "「フェルミ推定」は、なぜフェルミの名前がついた？",
-   "gain": "ざっくり見積もる力の元の逸話と、「桁と考え方で近づく」姿勢",
-   "effects": "🧠✨",
-   "src": "書・報",
-   "tags": [
-    "logical",
-    "numbers"
-   ],
-   "kind": "concept",
-   "status": "generated"
-  },
-  {
-   "n": 174,
-   "cat": "K",
-   "catName": "業界研究",
-   "title": "食品ロスは、なぜ家庭と事業者でほぼ半分ずつ出る？",
-   "gain": "全体の数字を、発生源ごとに分けて読む",
-   "effects": "💴🔍",
-   "src": "官",
-   "tags": [
-    "numbers",
-    "future"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 175,
-   "cat": "M",
-   "catName": "海外市場・グローバル",
-   "title": "ハーゲンダッツは、なぜ北欧風の名前にした？",
-   "gain": "言葉の響きで、ブランドの印象をつくる考え方",
-   "effects": "🧠✨",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 176,
-   "cat": "G",
-   "catName": "観光・地域・DMO",
-   "title": "ジャパン・レール・パスは、なぜ2023年に約1.7倍に値上げした？",
-   "gain": "安すぎる価格が、需要・混雑・採算に与える影響を考える",
-   "effects": "🗾💴",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 177,
-   "cat": "H",
-   "catName": "デジタル・SNS・AI",
-   "title": "Duolingoは、なぜ「連続日数」を数えるのか？",
-   "gain": "毎日使う習慣を、数字で見えるようにして続けてもらう考え方",
-   "effects": "🧠🤖",
-   "src": "公式・報",
-   "tags": [
-    "customer",
-    "numbers"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 178,
-   "cat": "A",
-   "catName": "国内のマーケ・ブランド事例",
-   "title": "ココイチは、なぜ「のれん分け」で店を増やしてきた？",
-   "gain": "社員の独立を支える仕組みが、店の拡大と品質維持にどう働くか",
-   "effects": "🧠💴",
-   "src": "公式",
-   "tags": [
-    "channel",
-    "strategy"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 179,
-   "cat": "C",
-   "catName": "小売・価格・売り場",
-   "title": "スシローは、なぜ皿1枚ずつにICチップをつけた？",
-   "gain": "皿の動きを記録して、作りすぎと売れ残りを減らす考え方",
-   "effects": "🧠🔍",
-   "src": "報",
-   "tags": [
-    "numbers",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  },
-  {
-   "n": 180,
-   "cat": "L",
-   "catName": "B2B・法人向けマーケ",
-   "title": "ゴアテックスは、なぜ衣料メーカーではなく素材の会社として成功した？",
-   "gain": "最終製品の会社を通して、自社の素材を消費者に知らせる考え方",
-   "effects": "🧠💴",
-   "src": "公式・報",
-   "tags": [
-    "strategy",
-    "channel"
-   ],
-   "kind": "case",
-   "status": "generated"
-  }
- ]
+  "queue": [
+    {
+      "n": 1,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "「スーパードライ」は、なぜ消費者調査から生まれた？",
+      "gain": "大規模な嗜好調査が商品コンセプト（コク・キレ）を決めた例。リサーチが事業を変える瞬間",
+      "effects": "🔍✨",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 2,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "星野リゾートは、なぜ旅館を「持たずに運営」する？",
+      "gain": "所有と運営の分離というビジネスモデルの分解",
+      "effects": "🧠🗾💴",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 3,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "無印良品は、なぜ「ブランドがないこと」がブランドになった？",
+      "gain": "「わけあって、安い」から始まるポジショニング",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 4,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "カルビー「フルグラ」は、朝食の市場をどう作り直した？",
+      "gain": "用途の提案（シリアル＝朝ごはん）で市場を広げる",
+      "effects": "🧠🔍",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 5,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "ユニクロ「ヒートテック」は、なぜ素材メーカーと組んだ？",
+      "gain": "東レとの共同開発。機能×価格で定番化する仕組み",
+      "effects": "🧠💴",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 6,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "ヤクルトは、なぜ今も「手渡し」で売る？",
+      "gain": "関係性チャネル（ヤクルトレディ）の強さ",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 7,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "「ほぼ日手帳」は、なぜ毎年買い直される？",
+      "gain": "ファンとコミュニティが継続購入を生む構造",
+      "effects": "🧠🔍",
+      "src": "公式・IR",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 8,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "「伊右衛門」は、なぜ老舗茶舗と組んだ？",
+      "gain": "本物感をつくる共同ブランディング",
+      "effects": "🧠",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 9,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "「からあげクン」は、なぜ何十年も飽きられない？",
+      "gain": "定番＋期間限定の組み合わせで鮮度を保つ",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 10,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "炎上した「離乳食無料」告知から、ブランドは何を学べる？",
+      "gain": "価値観の発信とSNSの反応、危機対応",
+      "effects": "🧠🤖",
+      "src": "報・公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 11,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ニュー・コークは、味のテストで勝ったのになぜ失敗した？",
+      "gain": "調査で聞けていなかったもの（愛着）。リサーチ設計の落とし穴",
+      "effects": "🔍✨",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 12,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ミルクシェイクは、なぜ朝に売れていた？",
+      "gain": "ジョブ理論（顧客が片づけたい用事）",
+      "effects": "🧠🔍",
+      "src": "論・書",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 13,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ダヴは、なぜ「自分を美しいと思う女性は4%」から広告を作った？",
+      "gain": "調査インサイトを起点にしたブランド広告",
+      "effects": "🔍🧠",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 14,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "「買うのは誰か」を変えたオールドスパイスの広告",
+      "gain": "使う人と買う人が違う商品のターゲット設定",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 15,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "パタゴニアは、なぜ「このジャケットを買うな」と広告した？",
+      "gain": "逆説的なメッセージとブランドの一貫性",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 16,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "Airbnbの創業者は、なぜ自分で写真を撮りに行った？",
+      "gain": "「スケールしないこと」をやって原因を確かめる",
+      "effects": "🧠🔍",
+      "src": "書・報",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 17,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "Netflixは、なぜ自社のDVD事業を食う配信に賭けた？",
+      "gain": "カニバリゼーションを恐れない事業転換",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 18,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "レゴは、どうやって倒産寸前から復活した？",
+      "gain": "多角化の失敗とコア回帰",
+      "effects": "🧠💴",
+      "src": "書・報",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 19,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "スターバックスは、なぜ「サードプレイス」を売った？",
+      "gain": "商品ではなく場所・体験を売る価値設計",
+      "effects": "🧠✨",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 20,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "Amazonプライムは、なぜ年会費を払う人ほど買う？",
+      "gain": "会員制が購買頻度を変える仕組み",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 21,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "コストコは、なぜ商品ではなく「年会費」で稼ぐ？",
+      "gain": "会費モデルと薄利の商品の関係",
+      "effects": "💴🧠✨",
+      "src": "IR",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 22,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "100円ショップは、なぜ原価がバラバラでも儲かる？",
+      "gain": "粗利ミックスという考え方",
+      "effects": "💴✨",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "skipped",
+      "note": "粗利ミックスの根拠となる原価・粗利の数字を公開資料で確認できなかったため（大創産業は非上場）"
+    },
+    {
+      "n": 23,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "ドン・キホーテは、なぜわざと「探しにくく」並べる？",
+      "gain": "圧縮陳列と宝探し体験",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 24,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "セブン‐イレブンは、なぜ同じ地域に固めて出店する？",
+      "gain": "ドミナント戦略と物流効率",
+      "effects": "🧠💴",
+      "src": "公式",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 25,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "量が減って値段は同じ。「シュリンクフレーション」はなぜ起きる？",
+      "gain": "実質値上げと消費者の受け止め方",
+      "effects": "🔍💴",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 26,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "テーマパークの入場料は、なぜ日によって違う？",
+      "gain": "ダイナミックプライシング",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 27,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "「松竹梅」で真ん中が選ばれやすいのはなぜ？",
+      "gain": "極端回避と価格の並べ方",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 28,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "「980円」は、なぜ1,000円より売れやすい？",
+      "gain": "端数価格の心理と研究の限界",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 29,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "業務スーパーは、なぜ「作って売る」ことにこだわる？",
+      "gain": "製販一体で価格差をつくる",
+      "effects": "💴🧠",
+      "src": "IR",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 30,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "ニトリは、なぜ「製造物流IT小売業」を名乗る？",
+      "gain": "バリューチェーンを自社で握る意味",
+      "effects": "💴🧠",
+      "src": "公式・IR",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 31,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "ジャムは24種類より6種類のほうが売れた？",
+      "gain": "選択肢過多。そして「再現されなかった」研究の読み方",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 32,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "最初に見た数字に、なぜ判断が引っ張られる？",
+      "gain": "アンカリングと価格提示",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 33,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "臓器提供の同意率は、なぜ国によって極端に違う？",
+      "gain": "デフォルト（初期設定）の力とナッジ",
+      "effects": "🧠✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 34,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "ホテルのタオル再利用は、どんな一言で増えた？",
+      "gain": "社会的証明のメッセージ設計",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 35,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "体験の満足度は、なぜ「最後」で決まる？",
+      "gain": "ピーク・エンドの法則と顧客体験",
+      "effects": "🧠🗾✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 36,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "自分で組み立てた家具は、なぜ高く感じる？",
+      "gain": "IKEA効果と参加型の価値づくり",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 37,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "雑誌の購読プランに、なぜ「誰も選ばない選択肢」がある？",
+      "gain": "おとり効果",
+      "effects": "🔍✨",
+      "src": "論・書",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 38,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "ポイントの「失効まであと3日」は、なぜ効く？",
+      "gain": "損失回避",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 39,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "何度も見た広告を、なぜ好きになる？",
+      "gain": "単純接触効果とフリークエンシー",
+      "effects": "🔍🤖",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 40,
+      "cat": "D",
+      "catName": "消費者の心理・行動経済学",
+      "title": "「ここまでやったから」と、なぜやめられない？",
+      "gain": "サンクコストと事業撤退の判断",
+      "effects": "🧠💴",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 41,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "240万人に聞いた調査は、なぜ大統領選を外した？",
+      "gain": "標本の偏り（1936年の予測失敗）",
+      "effects": "🔍✨",
+      "src": "書・論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 42,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "帰還した爆撃機の弾痕から、なぜ「穴のない場所」を補強した？",
+      "gain": "生存者バイアス",
+      "effects": "🔍✨",
+      "src": "論・書",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 43,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "「買う」と答えた人は、なぜ実際には買わない？",
+      "gain": "言うこととやること（Say-Doギャップ）の扱い方",
+      "effects": "🔍",
+      "src": "論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 44,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "NPS（推奨度）は、何を測っていて何を測れない？",
+      "gain": "指標の意味と限界",
+      "effects": "🔍",
+      "src": "論（HBR）",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 45,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "インタビューは何人に聞けば十分？",
+      "gain": "定性調査のサンプル数の目安と根拠",
+      "effects": "🔍",
+      "src": "論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 46,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "ボタンの文言1つで、なぜ登録が大きく変わった？",
+      "gain": "A/Bテストの考え方（2008年米大統領選陣営）",
+      "effects": "🔍🤖",
+      "src": "報・書",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 47,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "アイスが売れると水難事故が増える？",
+      "gain": "相関と因果、第3の変数",
+      "effects": "🔍✨",
+      "src": "書",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 48,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "全体では不利なのに、学部ごとでは逆？",
+      "gain": "シンプソンのパラドックス（1973年の大学入試データ）",
+      "effects": "🔍✨",
+      "src": "論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 49,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "POSとID-POS、分かることはどう違う？",
+      "gain": "「何が売れたか」と「誰が買ったか」",
+      "effects": "🔍💴",
+      "src": "書",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 50,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "セグメンテーションとペルソナは、何が違う？",
+      "gain": "市場の切り方と顧客像の使い分け",
+      "effects": "🔍🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 51,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "Wiiは、なぜ「ゲームをしない人」を狙った？",
+      "gain": "ブルーオーシャンと非顧客",
+      "effects": "🧠✨",
+      "src": "公式・書",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 52,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "ネスレは、なぜオフィスに「アンバサダー」を置いた？",
+      "gain": "新しい利用場面と仕組みで販路を作る",
+      "effects": "🧠🔍",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 53,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "コマツは、なぜ建機にGPSをつけた？",
+      "gain": "モノ売りからデータ・サービスへ（KOMTRAX）",
+      "effects": "🧠🤖",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 54,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "日本マクドナルドは、どうやって客離れから回復した？",
+      "gain": "信頼回復と顧客の声の反映",
+      "effects": "🧠🔍",
+      "src": "IR・報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 55,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "スターバックスは、なぜ全米の店を一斉に閉めた？",
+      "gain": "品質の立て直しと現場教育",
+      "effects": "🧠",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 56,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "Instagramは、なぜ機能を「減らして」成功した？",
+      "gain": "ピボットと絞り込み",
+      "effects": "🧠🤖",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 57,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "キーエンスは、なぜ利益率が異常に高い？",
+      "gain": "付加価値の作り方と直販",
+      "effects": "💴🧠✨",
+      "src": "IR",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 58,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "ヤマト運輸は、なぜ「個人の荷物」に賭けた？",
+      "gain": "宅急便の誕生と常識の逆張り",
+      "effects": "🧠✨",
+      "src": "公式・書",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 59,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "くら寿司の「びっくらポン」は、なぜ効く？",
+      "gain": "体験とゲームで客単価を上げる",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 60,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "マクロミルは、何で稼いでいる？",
+      "gain": "入社先グループのビジネスモデル（ネットリサーチの収益構造）",
+      "effects": "💴🔍",
+      "src": "IR",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 61,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "熱海は、なぜ「衰退した観光地」から回復できた？",
+      "gain": "若い世代への再ポジショニングとまちづくり",
+      "effects": "🗾🧠",
+      "src": "官・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 62,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "葉っぱが、なぜ高齢者のビジネスになった？",
+      "gain": "上勝町「いろどり」。地域資源の再定義",
+      "effects": "🗾✨",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 63,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "「ないものはない」の島に、なぜ移住者が集まる？",
+      "gain": "海士町の地域ブランディング",
+      "effects": "🗾🧠",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 64,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "由布院は、なぜ大型開発を断った？",
+      "gain": "景観と滞在価値を守る観光地づくり",
+      "effects": "🗾",
+      "src": "書・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 65,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "白川郷は、混雑とどう向き合っている？",
+      "gain": "オーバーツーリズム対策と予約制",
+      "effects": "🗾",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 66,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "京都は、観光客をどう分散させようとしている？",
+      "gain": "時間・場所の分散施策",
+      "effects": "🗾🔍",
+      "src": "官・公式",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 67,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ニセコは、なぜ海外のスキー客に選ばれた？",
+      "gain": "外国人需要の発見と投資の流れ",
+      "effects": "🗾💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 68,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "道の駅は、なぜ「目的地」になった？",
+      "gain": "地域拠点の役割と稼ぎ方",
+      "effects": "🗾",
+      "src": "官",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 69,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ふるさと納税の返礼品は、なぜルールが変わった？",
+      "gain": "制度設計と自治体間競争",
+      "effects": "🗾💴",
+      "src": "官",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 70,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ハウステンボスは、どうやって赤字から立ち直った？",
+      "gain": "集客施設の再生とイベント戦略",
+      "effects": "🗾🧠",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 71,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "雑貨店が、なぜ「読み物」で売れる？",
+      "gain": "北欧、暮らしの道具店。コンテンツコマース",
+      "effects": "🤖🧠",
+      "src": "IR",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "skipped",
+      "note": "出典で確認できた事実が決算の売上数字のみで、読み物がなぜ売れるかの仕組みを裏付けられなかったため"
+    },
+    {
+      "n": 72,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "眼鏡を「家で試せる」D2Cは、なぜ伸びた？",
+      "gain": "Warby Parker。購買の不安を取り除く",
+      "effects": "🤖🧠",
+      "src": "公式・報",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 73,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "「ステマ」は、なぜ法律で禁止された？",
+      "gain": "2023年の景品表示法の告示。実務の必須知識",
+      "effects": "🤖🔍",
+      "src": "官",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 74,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "第三者Cookieが使えなくなると、広告はどう変わる？",
+      "gain": "ファーストパーティデータの重要性",
+      "effects": "🤖🔍",
+      "src": "公式・報",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 75,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "AIに「回答者」を演じさせた調査は、使える？",
+      "gain": "合成データ・AI回答者の可能性と限界",
+      "effects": "🤖🔍",
+      "src": "論",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 76,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "年末の「あなたの1年」まとめは、なぜ拡散される？",
+      "gain": "Spotify Wrapped。自分のデータを共有したくなる設計",
+      "effects": "🤖✨",
+      "src": "公式",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 77,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "星5つより星4.5のほうが売れる？",
+      "gain": "レビュー評価と購買率の関係",
+      "effects": "🔍🤖✨",
+      "src": "論",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 78,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "メルカリは、なぜフリマを日常にできた？",
+      "gain": "スマホ完結と信頼の仕組み",
+      "effects": "🤖💴",
+      "src": "IR",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "skipped",
+      "note": "直近の決算数字は確認できたが、設立や安心の仕組み（取引の流れ・匿名配送等）を出典で確認できなかったため"
+    },
+    {
+      "n": 79,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "フォロワー数が多いインフルエンサーほど効く？",
+      "gain": "エンゲージメント率とマイクロインフルエンサー",
+      "effects": "🤖🔍",
+      "src": "報・論",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 80,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "検索広告は、なぜ「指名検索」が一番安く売れる？",
+      "gain": "検索意図とファネルの関係",
+      "effects": "🤖🔍",
+      "src": "書",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 81,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "黒字なのに、なぜ会社は倒産する？",
+      "gain": "利益とキャッシュフローの違い",
+      "effects": "💴",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 82,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "カフェのコーヒー1杯、何杯売れば赤字を抜ける？",
+      "gain": "損益分岐点",
+      "effects": "💴✨",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 83,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "売上高が同じでも、なぜ利益がこんなに違う？",
+      "gain": "粗利率・販管費の比べ方（同業2社のIR比較）",
+      "effects": "💴",
+      "src": "IR",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 84,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "ROEとROA、経営者はどちらを見るべき？",
+      "gain": "資本効率の指標",
+      "effects": "💴",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 85,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "固定費が大きい事業は、なぜ「当たると大きい」？",
+      "gain": "固定費型・変動費型と損益の振れ幅",
+      "effects": "💴🧠",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 86,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "サブスクは、なぜ「解約率」がすべて？",
+      "gain": "LTVとCACの関係",
+      "effects": "💴🤖",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 87,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "ZARAは、なぜ売れ残りが少ない？",
+      "gain": "短サイクル生産と在庫回転",
+      "effects": "💴🧠",
+      "src": "公式・書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 88,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "売上は「客数×客単価×頻度」。どこを動かす？",
+      "gain": "売上の分解と打ち手の選び方",
+      "effects": "💴🧠🔍",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 89,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "日本のコンビニおにぎりの市場、どう見積もる？",
+      "gain": "フェルミ推定と統計での検算",
+      "effects": "🧠✨",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 90,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "決算書の「のれん」とは何？",
+      "gain": "M&Aと買収価格の読み方",
+      "effects": "💴",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 91,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "「よいイシュー」の3つの条件とは？",
+      "gain": "何に答えるべきかを決める",
+      "effects": "🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 92,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "MECEで分けると、何がうれしい？",
+      "gain": "漏れなくダブりなくの実用",
+      "effects": "🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 93,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "情報を集める前に、なぜ答えを決める？",
+      "gain": "仮説思考",
+      "effects": "🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 94,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "「So What?」と「Why So?」で、報告はどう変わる？",
+      "gain": "示唆の出し方",
+      "effects": "🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 95,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "結論から話すと、なぜ伝わる？",
+      "gain": "ピラミッド・ストラクチャー",
+      "effects": "🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 96,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "「空・雨・傘」で、事実と判断を分ける",
+      "gain": "事実→解釈→打ち手",
+      "effects": "🧠🔍",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 97,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "2割の顧客が8割の売上を作る？",
+      "gain": "パレートの法則の使いどころと誤用",
+      "effects": "🧠💴",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 98,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "3Cと4P、よくある使い方の間違い",
+      "gain": "フレームワークの正しい使い方",
+      "effects": "🧠🔍",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 99,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "売上が落ちた。ファネルのどこで漏れている？",
+      "gain": "ファネル分解でボトルネックを探す",
+      "effects": "🧠🔍🤖",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 100,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "AIが資料を作る時代、コンサルの価値はどこに残る？",
+      "gain": "問い・判断・合意形成という付加価値",
+      "effects": "🤖🧠",
+      "src": "報・論",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 101,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "カップヌードルは、なぜ「お湯を注ぐ容器」ごと売ることにした？",
+      "gain": "食べ方の観察から、商品の形を決める",
+      "effects": "🧠🔍✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 102,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "ファンケルは、なぜ「無添加」を売りにした？",
+      "gain": "不安という顧客の声が、商品づくりを決めた例",
+      "effects": "🧠💴✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 103,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "USJは、なぜ入場者数を倍近くに増やせた？",
+      "gain": "大型投資と、数字に基づく運営の組み合わせ",
+      "effects": "🧠🗾💴",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 104,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "「インテル・インサイド」は、なぜ部品のシールが消費者に効いた？",
+      "gain": "消費者が見えない部品を、ブランドにする方法",
+      "effects": "🧠✨",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 105,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "タイヤ会社は、なぜレストランのガイドブックを無料で配った？",
+      "gain": "自社商品の需要を増やす「読み物」の発想",
+      "effects": "🧠✨",
+      "src": "公式・書",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 106,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "HubSpotは、なぜ「ブログ」で営業を変えようとした？",
+      "gain": "売り込まれるより、見つけてもらう発想",
+      "effects": "🧠🤖",
+      "src": "公式・報",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 107,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "オレオは、なぜ中国で味とサイズを変えた？",
+      "gain": "海外市場で、商品を現地に合わせる判断",
+      "effects": "🧠🔍🗾",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 108,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "日本のケンタッキーは、なぜクリスマスに売れるようになった？",
+      "gain": "日本の習慣に合わせて作った、季節の需要",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 109,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "ホテルの「RevPAR」は、なぜ稼働率だけより経営が見える？",
+      "gain": "稼働率と単価を同時に見る指標",
+      "effects": "💴🗾",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 110,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "ホンダは、なぜ米国で「やさしい人が乗るバイク」と広告した？",
+      "gain": "商品でなく、乗る人のイメージを変える広告",
+      "effects": "🧠🔍",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 111,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "コンビニは、なぜ大手3社だけで店の9割を占める？",
+      "gain": "店舗数のシェアから、業界の構造を読む",
+      "effects": "💴🔍",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 112,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "IBMは、なぜ「分割せず」にサービスの会社へ変われた？",
+      "gain": "顧客が欲しいのは部品でなく解決策だった、という転換",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 113,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "キットカットは、なぜ日本で「受験のお守り」になった？",
+      "gain": "企業が仕掛けず、顧客が見つけた使い方",
+      "effects": "🧠🔍✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 114,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "コカ・コーラは、なぜ自社のロゴを外して「名前」を載せた？",
+      "gain": "商品を、自分や友だちのものにする仕掛け",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 115,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "「第3のビール」は、なぜ生まれた？",
+      "gain": "税のルールが、商品開発の方向を決めた例",
+      "effects": "💴🧠✨",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 116,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "アスクルは、なぜ「明日来る」を社名にした？",
+      "gain": "小さな事業所向けの、翌日届くカタログ通販",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 117,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "味の素は、なぜ「うま味」を世界の言葉にできた？",
+      "gain": "科学的な発見を、商品と言葉に変える流れ",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 118,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "百貨店の売上は、ピーク時の何割まで落ちた？",
+      "gain": "30年の推移を、最高と今の差で見る",
+      "effects": "💴🔍",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 119,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "熱海は、なぜ宿泊税を導入した？",
+      "gain": "観光客から集めたお金を、観光に戻す仕組み",
+      "effects": "🗾💴",
+      "src": "官・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 120,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "同じ質問でも、聞く順番で答えが変わる？",
+      "gain": "アンケート設計で起きる「順序の効果」",
+      "effects": "🔍🧠✨",
+      "src": "論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 121,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "ビール類の市場は、ピークの何割まで縮んだ？",
+      "gain": "縮む市場の大きさを、ピーク比で捉える",
+      "effects": "💴🔍",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 122,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "ゼロックスは、なぜ複写機を「売らずに貸した」？",
+      "gain": "売り切りから、使った分だけ払う仕組みへ",
+      "effects": "🧠💴",
+      "src": "書・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 123,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "ユーロ・ディズニーは、なぜ開業当初に苦戦した？",
+      "gain": "現地の習慣を知らないと、本国流が通じない",
+      "effects": "🧠🔍",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 124,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "ドラッグストアは、なぜ薬以外が売上の3割近くを占める？",
+      "gain": "業態の売上構成から、稼ぎ方を読む",
+      "effects": "💴🔍",
+      "src": "業界団体",
+      "tags": [
+        "channel",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 125,
+      "cat": "D",
+      "catName": "行動経済学",
+      "title": "1セントの値引きで「無料」にすると、なぜ売れ筋が逆転する？",
+      "gain": "「無料」は、金額の差以上に人を動かす",
+      "effects": "🧠🔍✨",
+      "src": "論",
+      "tags": [
+        "customer",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 126,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ヴェネツィアは、なぜ日帰り客から入場料を取り始めた？",
+      "gain": "混雑を、お金のしくみで平らにする試み",
+      "effects": "🗾💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 127,
+      "cat": "B",
+      "catName": "海外の名作事例",
+      "title": "シルク・ドゥ・ソレイユは、なぜサーカスなのにサーカスと戦わなかった？",
+      "gain": "競争の土俵そのものを変える発想",
+      "effects": "🧠✨",
+      "src": "書",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 128,
+      "cat": "H",
+      "catName": "デジタル・SNS・広告",
+      "title": "Dropboxは、なぜ「友だちを招待すると容量が増える」にした？",
+      "gain": "紹介の報酬の設計で、口コミを広げる",
+      "effects": "🧠🤖",
+      "src": "報",
+      "tags": [
+        "channel",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 129,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "マクドナルドは、なぜインドで牛肉を使わないメニューにした？",
+      "gain": "宗教や習慣に合わせて、看板商品を作り替える",
+      "effects": "🧠🔍",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 130,
+      "cat": "F",
+      "catName": "事業転換・ビジネスモデル",
+      "title": "アドビは、なぜ箱売りをやめて月額課金に移った？",
+      "gain": "売り切りから継続課金へ、稼ぎ方の大転換",
+      "effects": "🧠💴",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 131,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "セブンカフェは、なぜコンビニでコーヒーを100円で売れた？",
+      "gain": "コンビニコーヒーが定番商品になった理由と数字",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 132,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "Salesforceは、なぜ創業の年に「ソフトウェアの終わり」と掲げた？",
+      "gain": "新興企業が大手相手に争点を作った例",
+      "effects": "🧠🤖",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 133,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "モノタロウは、なぜ工場で使う消耗品を「ネット通販」で売る？",
+      "gain": "少額・多品種の法人購買をECが置き換える仕組み",
+      "effects": "🧠💴",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 134,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "ユニクロは、なぜ日本より海外で多く売る会社になった？",
+      "gain": "売上・利益・店舗数の逆転を時系列で読む",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 135,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "ガリガリ君は、なぜ値上げをわびるCMで話題になった？",
+      "gain": "値上げの伝え方で受け止めが変わる例",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 136,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "サイゼリヤは、なぜ一番人気のドリアを値下げした？",
+      "gain": "原価率が上がっても利益が成り立つ理由",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 137,
+      "cat": "E",
+      "catName": "リサーチ・統計",
+      "title": "1854年のロンドンで、地図に点を打つと何が分かった？",
+      "gain": "分布と例外から原因を確かめる考え方",
+      "effects": "🔍✨",
+      "src": "報",
+      "tags": [
+        "logical",
+        "future"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 138,
+      "cat": "I",
+      "catName": "財務・数字",
+      "title": "Amazonは、なぜ売上が伸びるほど手元の現金が増えやすい？",
+      "gain": "在庫回転と支払日数が資金繰りに効く仕組み",
+      "effects": "💴",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 139,
+      "cat": "J",
+      "catName": "コンサル思考",
+      "title": "ナイチンゲールは、なぜ数字を「バラの形の図」にして訴えた？",
+      "gain": "結論が一目で分かる図で人を動かす",
+      "effects": "🧠🔍",
+      "src": "報",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 140,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "テスラは、なぜ広告費をかけずに車を売ってこられた？",
+      "gain": "広告以外の集客と直販の経路",
+      "effects": "🧠✨",
+      "src": "官",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 141,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "外食の売上は、コロナ前の水準を取り戻した？",
+      "gain": "業界団体の統計で、1業界の回復を数字で読む",
+      "effects": "💴",
+      "src": "公式",
+      "tags": [
+        "numbers",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 142,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "ノンアルコールビールは、なぜ2009年に市場になった？",
+      "gain": "「飲めない場面」を狙った商品が定番になる流れ",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 143,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "外国人の宿泊は、なぜ一部の都道府県に偏る？",
+      "gain": "官公庁統計から、観光地の集中と分散を読む",
+      "effects": "🗾🔍",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 144,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "Amazonは、なぜ小売会社なのにクラウドを貸し始めた？",
+      "gain": "自社の内部能力を外販して新事業にした例",
+      "effects": "🧠💴🤖",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 145,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "デルは、なぜ中間業者を飛ばして注文を直接受けた？",
+      "gain": "直販モデルが在庫と顧客理解にもたらす違い",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 146,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "Stripeは、なぜ開発者を入り口にして決済を売った？",
+      "gain": "開発者を顧客にした法人向けの売り方",
+      "effects": "🧠🤖",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 147,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "イケアは、なぜ日本で一度撤退し、再び戻ってこられた？",
+      "gain": "進出の失敗から、売り方を現地に合わせ直す",
+      "effects": "🧠🔍",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 148,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "ウォルマートは、なぜドイツから撤退した？",
+      "gain": "成功した型が海外で通じなかった理由",
+      "effects": "🧠",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 149,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "ウーバーは、なぜ中国事業を手放した？",
+      "gain": "資金力のある先行者に海外で挑む難しさ",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 150,
+      "cat": "E",
+      "catName": "リサーチ・統計",
+      "title": "1,000人に聞いた調査の誤差は、何ポイント？",
+      "gain": "標本の大きさと誤差の関係を数字で押さえる",
+      "effects": "🔍",
+      "src": "書",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 151,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "東京ディズニーランドは、なぜディズニー自身ではなく日本の会社が運営している？",
+      "gain": "ブランドを貸して海外に出る「ライセンス方式」の仕組み",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 152,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ジレットは、本当に「本体を無料で配って替え刃で稼いだ」のか？",
+      "gain": "有名なビジネスモデルの話を、事実で確かめる習慣",
+      "effects": "🧠🔍",
+      "src": "研・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 153,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "犬より猫のほうが多いペット市場で、何が変わっている？",
+      "gain": "民間団体の調査から、1つの市場の中身を数字で読む",
+      "effects": "🔍💴",
+      "src": "公式",
+      "tags": [
+        "numbers",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 154,
+      "cat": "H",
+      "catName": "デジタル・SNS・広告",
+      "title": "レッドブルは、なぜ「成層圏からの飛び降り」を自分たちで中継した？",
+      "gain": "広告ではなく、出来事そのものでブランドを見せる方法",
+      "effects": "🧠💡",
+      "src": "報",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 155,
+      "cat": "E",
+      "catName": "リサーチ・統計",
+      "title": "叱ると成績が上がり、ほめると下がる？ 教官の経験は正しいのか",
+      "gain": "「たまたまの揺れ」を「原因」と取り違えない目",
+      "effects": "🔍🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 156,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "しまなみ海道は、なぜ自転車で走る人の聖地になった？",
+      "gain": "地域資源に国の指定とPRを重ねて、目的地にする流れ",
+      "effects": "🗾🧠",
+      "src": "官・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 157,
+      "cat": "F",
+      "catName": "事業転換・ビジネスモデル",
+      "title": "スポティファイは、なぜ「無料」を残したまま有料会員を増やした？",
+      "gain": "無料プランを、有料への入り口にするビジネスモデル",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 158,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "ロングテールは、本当に「売れない商品の山」が儲かるという話？",
+      "gain": "品ぞろえを広げる判断を、数字と条件で考える",
+      "effects": "🧠🔍",
+      "src": "書・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 159,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "日本酒の輸出は、なぜ13年連続で増え続けた？",
+      "gain": "輸出額・数量・単価を分けて、海外市場の質の変化を読む",
+      "effects": "💴🔍",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 160,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "アトラシアンは、本当に「営業ゼロ」で成長したのか？",
+      "gain": "「営業ゼロ」の話を、実際の仕組みで確かめる",
+      "effects": "🧠🔍",
+      "src": "公式・報",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 161,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "Slackは、なぜ「2,000件のメッセージ」を目安にした？",
+      "gain": "無料で試した顧客が、使い続けるかどうかの境目を数字で見つける考え方",
+      "effects": "🧠🔍",
+      "src": "報・書",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 162,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "コカ・コーラは、なぜ自分のロゴを外して「人の名前」を載せた？",
+      "gain": "商品そのものを変えず、パッケージで「自分ごと」にして売る方法",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 163,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "「見られていると頑張る」ホーソン効果は、本当に実験で確かめられた？",
+      "gain": "有名な実験の話を、のちの再分析で確かめ直す姿勢",
+      "effects": "🔍🧠",
+      "src": "論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 164,
+      "cat": "F",
+      "catName": "事業転換・ビジネスモデル",
+      "title": "ポスト・イットは、なぜ「失敗した接着剤」から生まれた？",
+      "gain": "研究の失敗作に、使い道を見つけて事業にした流れ",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 165,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ブータンは、なぜ観光客に1日ごとの「持続可能な開発料」を課す？",
+      "gain": "訪問客の数ではなく、質と環境を守る観光の考え方",
+      "effects": "🗾🧠",
+      "src": "報",
+      "tags": [
+        "future",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 166,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "「2か月で1億人」というChatGPTの数字は、誰が出した、何の数字？",
+      "gain": "公表値と推計値を見分け、数字の出どころを確かめる習慣",
+      "effects": "🔍🤖",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 167,
+      "cat": "F",
+      "catName": "事業転換・ビジネスモデル",
+      "title": "ボルボは、なぜ発明した3点式シートベルトの特許を他社にも開いた？",
+      "gain": "自社の強みを囲い込まず、公開して信頼を得る判断",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 168,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "ドル・シェイヴ・クラブは、なぜ1本の動画で創業直後に注文が殺到した？",
+      "gain": "低予算の動画と簡単な購入の仕組みで、定期購入を伸ばした流れ",
+      "effects": "🧠🤖",
+      "src": "報",
+      "tags": [
+        "channel",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 169,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "100万ドルの賞を取った推薦の仕組みは、なぜネットフリックスで使われなかった？",
+      "gain": "精度の高さと、実際に使えるかどうかの違い",
+      "effects": "🔍🤖",
+      "src": "報",
+      "tags": [
+        "logical",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 170,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "11月11日の「ポッキーの日」は、なぜ生まれた？",
+      "gain": "形や日付の連想から、記念日を作って商品の出番を増やす方法",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 171,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "同じ1万円でも、もらううれしさより、失う痛みのほうが大きい？",
+      "gain": "損得の感じ方が非対称であることを知り、値引きや特典の見せ方に使う",
+      "effects": "🧠🔍",
+      "src": "論・書",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 172,
+      "cat": "I",
+      "catName": "財務・数字の読み方",
+      "title": "トイザらスは、なぜ売れていたのに倒産した？",
+      "gain": "事業の稼ぐ力と、買収で背負った借金の重さを分けて見る",
+      "effects": "💴🧠",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 173,
+      "cat": "J",
+      "catName": "コンサル思考法",
+      "title": "「フェルミ推定」は、なぜフェルミの名前がついた？",
+      "gain": "ざっくり見積もる力の元の逸話と、「桁と考え方で近づく」姿勢",
+      "effects": "🧠✨",
+      "src": "書・報",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 174,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "食品ロスは、なぜ家庭と事業者でほぼ半分ずつ出る？",
+      "gain": "全体の数字を、発生源ごとに分けて読む",
+      "effects": "💴🔍",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 175,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "ハーゲンダッツは、なぜ北欧風の名前にした？",
+      "gain": "言葉の響きで、ブランドの印象をつくる考え方",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 176,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ジャパン・レール・パスは、なぜ2023年に約1.7倍に値上げした？",
+      "gain": "安すぎる価格が、需要・混雑・採算に与える影響を考える",
+      "effects": "🗾💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 177,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "Duolingoは、なぜ「連続日数」を数えるのか？",
+      "gain": "毎日使う習慣を、数字で見えるようにして続けてもらう考え方",
+      "effects": "🧠🤖",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 178,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "ココイチは、なぜ「のれん分け」で店を増やしてきた？",
+      "gain": "社員の独立を支える仕組みが、店の拡大と品質維持にどう働くか",
+      "effects": "🧠💴",
+      "src": "公式",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 179,
+      "cat": "C",
+      "catName": "小売・価格・売り場",
+      "title": "スシローは、なぜ皿1枚ずつにICチップをつけた？",
+      "gain": "皿の動きを記録して、作りすぎと売れ残りを減らす考え方",
+      "effects": "🧠🔍",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 180,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "ゴアテックスは、なぜ衣料メーカーではなく素材の会社として成功した？",
+      "gain": "最終製品の会社を通して、自社の素材を消費者に知らせる考え方",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 181,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "デビアスは、なぜ「ダイヤモンドは永遠に」という言葉でダイヤを売った？",
+      "gain": "ブランドではなく「商品の種類」そのものの需要を育てる広告の考え方",
+      "effects": "🧠✨",
+      "src": "報・書",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 182,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "任天堂は、なぜ花札の会社からゲームの会社に変われた？",
+      "gain": "持っている強みを見直して、次の事業へ広げる考え方",
+      "effects": "🧠💴",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 183,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "Googleは、なぜ検索データでインフルエンザの流行を外すようになった？",
+      "gain": "データの量が多くても、外れる理由を考える姿勢",
+      "effects": "🔍🧠",
+      "src": "論・報",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 184,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "缶コーヒーは、なぜ日本で生まれ、広がった？",
+      "gain": "客の「不便」を見つけて、新しい商品の形を作る考え方",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 185,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "ミスミは、なぜ金型の部品を「品番で注文できるカタログ」で売った？",
+      "gain": "注文のたびの見積もりをなくして、法人客の手間を減らす考え方",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 186,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "ビッグマック指数は、なぜ生まれた？",
+      "gain": "身近な商品の値段で、国ごとの物価や通貨の強さを比べる考え方",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 187,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ななつ星in九州は、なぜ高い料金でも「抽選」になる？",
+      "gain": "高い単価で売っても需要が残る、価値のつくり方を数字で見る",
+      "effects": "🗾💴",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 188,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "ネットフリックスは、なぜ「パスワード共有」を有料にして会員を増やせた？",
+      "gain": "ルールを変えた効果を、数字でどう確かめるかを考える",
+      "effects": "🤖💴",
+      "src": "IR・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 189,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "サウスウエスト航空は、なぜ飛行機を1機種にそろえた？",
+      "gain": "設備や手順をそろえて、費用を下げる考え方",
+      "effects": "💴🧠",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 190,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "「なぜを5回」は、トヨタで何のために使われた？",
+      "gain": "表面の答えで止めず、本当の原因まで掘り下げる考え方",
+      "effects": "🧠🔍",
+      "src": "報・書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    }
+  ]
 }
