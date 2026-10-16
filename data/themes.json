@@ -18387,12 +18387,8 @@
       "image": "img/topic-221.svg",
       "sources": [
         {
-          "name": "Harvard Magazine: Clayton Christensen on disruptive innovation",
-          "url": "https://www.harvardmagazine.com/2014/06/disruptive-genius"
-        },
-        {
-          "name": "Electronic Design: Lepore challenges The Innovator's Dilemma, Christensen responds",
-          "url": "https://electronicdesign.com/home/article/21204356/lepore-challenges-39the-innovator39s-dilemma39-christensen-responds"
+          "name": "Book excerpt: The Innovator's Dilemma (Christensen 1997)",
+          "url": "https://www.cse.iitk.ac.in/users/amit/books/christensen-1997-innovators-dilemma-when.html"
         }
       ],
       "questions": [
@@ -18407,10 +18403,10 @@
           "e": "彼は、ディスクドライブをつくる会社を丸ごと調べ、業界の先頭に立つ企業が何度も入れ替わる様子を見つけました。"
         },
         {
-          "q": "1975〜1990年に、ディスクドライブはどのように小型化していきましたか？",
+          "q": "ディスクドライブのサイズは、世代が進むにつれてどう変わりましたか？",
           "o": [
-            "14→8→5.25→3.5→2.5インチと、5世代で小さくなった",
-            "14→8→5.25インチと、3世代で小さくなった",
+            "14→8→5.25→3.5インチと、世代ごとに小さくなった",
+            "3.5→5.25→8→14インチと、世代ごとに大きくなった",
             "14インチのまま、記録量だけが増え続けた"
           ],
           "a": 0,
@@ -18448,8 +18444,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 221
+      "review": "passed",
+      "topicNo": 221,
+      "reviewNote": "2問目の「5世代・1975〜90年」を未確認のため世代順の問いに直し、出典を確認済みのものに絞った。"
     },
     {
       "id": "topic-222",
@@ -18475,6 +18472,10 @@
         {
           "name": "W. P. Carey: Zappos CEO Tony Hsieh",
           "url": "https://blogs.wpcarey.asu.edu/20090114-zappos-ceo-tony-hsieh-customer-focus-key-record-sales-during-retail-slump"
+        },
+        {
+          "name": "Forbes: Tony Hsieh On His Secrets Of Success",
+          "url": "https://www.forbes.com/2010/07/01/tony-hsieh-zappos-leadership-managing-interview.html"
         }
       ],
       "questions": [
@@ -18530,8 +18531,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 222
+      "review": "passed",
+      "topicNo": 222,
+      "reviewNote": "確認できた内容のみで修正なし。24時間電話はForbes(2010)で確認。"
     },
     {
       "id": "topic-223",
@@ -18553,6 +18555,10 @@
         {
           "name": "AV Watch: ビデオリサーチ、視聴率調査をリニューアル",
           "url": "https://av.watch.impress.co.jp/docs/news/1233897.html"
+        },
+        {
+          "name": "ビデオリサーチ: 視聴率調査、変わります",
+          "url": "https://www.videor.co.jp/press/2020/200206.html"
         }
       ],
       "questions": [
@@ -18608,8 +18614,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 223
+      "review": "passed",
+      "topicNo": 223,
+      "reviewNote": "世帯数・背景ともプレスリリースで確認でき、修正なし。"
     },
     {
       "id": "topic-224",
@@ -18672,8 +18679,8 @@
           "q": "4つの中でリスクが最も高いのは「多角化」です。それはなぜですか？",
           "o": [
             "新しい技術と、新しい市場の理解の両方が必要になるから",
-            "今ある設備や人を、そのまま使い回せてしまうから",
-            "新しい商品を出すと、必ず値引きが必要になるから"
+            "今ある設備や人を、そのまま使い回してしまうから",
+            "新しい商品を出すと、必ず大幅な値引きが必要になるから"
           ],
           "a": 0,
           "e": "最初の3つは今の経営資源で進めやすい一方、多角化は新しいスキルと市場への洞察がいるため、失敗しやすいとされます。"
@@ -18690,8 +18697,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 224
+      "review": "passed",
+      "topicNo": 224,
+      "reviewNote": "誤答選択肢の長さをそろえた。"
     },
     {
       "id": "topic-225",
@@ -18707,17 +18715,17 @@
       "image": "img/topic-225.svg",
       "sources": [
         {
-          "name": "IMD: Hilti Fleet Management: Strategically moving from products to B2B solutions",
-          "url": "https://imd.org/?p=17949"
+          "name": "Hilti Group: Fleet management",
+          "url": "https://www.hilti.group/content/hilti/CP/XX/en/services/tool-services/fleet-management.html"
         },
         {
-          "name": "Pro Tool Reviews: Hilti Fleet Management with Tools on Demand Leasing",
-          "url": "https://www.protoolreviews.com/hilti-tools-on-demand-leasing/"
+          "name": "Hilti USA: Tool Fleet Management",
+          "url": "https://www.hilti.com/content/hilti/W1/US/en/business/business/equipment/fleet.html"
         }
       ],
       "questions": [
         {
-          "q": "ヒルティが2001年にスイスで始めた「フリート・マネジメント」とは？",
+          "q": "ヒルティが2000年ごろに始めた「フリート・マネジメント」とは？",
           "o": [
             "工具を、顧客に売ったあとで買い戻す方式",
             "決まった工具一式を、3〜5年、月額固定で使える方式",
@@ -18734,7 +18742,7 @@
             "現場で必要な材料の全部"
           ],
           "a": 0,
-          "e": "修理・校正・バッテリー交換・盗難の補償などが含まれ、購入時の大きな出費を月額に置き換える設計です。"
+          "e": "修理・校正・バッテリー交換などが含まれ、盗難も一部が補償されます。購入時の大きな出費を月額に置き換える設計です。"
         },
         {
           "q": "建設会社にとって、この方式の利点として考えられるのは？",
@@ -18747,14 +18755,14 @@
           "e": "買えば高額の支出と、修理・保管・紛失の管理が必要です。月額にすると費用が読みやすく、手間も減ります（推論）。"
         },
         {
-          "q": "ヒルティが、この方式で工具の総支出を下げられると説明している幅は？",
+          "q": "ヒルティの案内では、盗まれた工具についてどう扱われていますか？",
           "o": [
-            "30〜50％",
-            "3〜5％",
-            "80〜90％"
+            "費用の最大8割までを補償する",
+            "費用の全額を、顧客が負担する",
+            "補償はなく、顧客の自己責任とする"
           ],
           "a": 0,
-          "e": "これはヒルティ自身の主張で、第三者の検証による数字ではありません。使うときは出所を一緒に示す必要があります。"
+          "e": "ヒルティの公式ページには、盗難は費用の最大80％まで補償すると書かれています。補償に上限があることも、契約を比べるときの大事な点です。"
         },
         {
           "q": "クライアントの機械メーカーが、同じような貸し出しを検討しています。まず何を調べますか？",
@@ -18768,8 +18776,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 225
+      "review": "passed",
+      "topicNo": 225,
+      "reviewNote": "開始年を2000年ごろに直し、裏が取れない「30〜50％」の問いを盗難補償(最大80％)の問いに差し替えた。"
     },
     {
       "id": "topic-226",
@@ -18785,16 +18794,8 @@
       "image": "img/topic-226.svg",
       "sources": [
         {
-          "name": "Scroll.in: How Unilever used single-use plastic sachets to boost sales",
-          "url": "https://scroll.in/article/1082353/a-new-book-examines-how-unilever-used-single-use-plastic-sachets-to-boost-sales"
-        },
-        {
-          "name": "NextBillion: Understanding Rural and Low Income Customers in Asia",
-          "url": "https://nextbillion.net/news/understanding-rural-and-low-income-customers-in-asia/"
-        },
-        {
-          "name": "Syracuse University: Want To Succeed in Bottom of the Pyramid Markets? Learn from CavinKare",
-          "url": "https://snyder.syracuse.edu/?p=3118"
+          "name": "Trash Hero: Exposing the hidden cost of sachets",
+          "url": "https://trashhero.org/exposing-the-hidden-cost-of-sachets/"
         }
       ],
       "questions": [
@@ -18809,14 +18810,14 @@
           "e": "収入の少ない農村の客でも、1〜2ルピーで1回分のシャンプーを買えたと紹介されています。"
         },
         {
-          "q": "ある報道は、インドの農村部のシャンプー売上のどのくらいが小袋だと伝えていますか？",
+          "q": "ユニリーバなどが1980年代にインドで小袋を売り始めたとき、主に狙った客は？",
           "o": [
-            "約1割",
-            "約3分の1",
-            "約9割"
+            "収入の少ない地域の客",
+            "高級ホテルに泊まる旅行客",
+            "業務用に買う美容室"
           ],
-          "a": 1,
-          "e": "農村部では売上の約3分の1が小袋で、その7割をユニリーバが占めるという報道です。ただし、1つの記事の数字なので、他の調査と合わせて確認が必要です。"
+          "a": 0,
+          "e": "小袋は1ルピーほどの少額で買えるため、収入の少ない地域の客に向けた売り方として始まったと紹介されています。"
         },
         {
           "q": "小袋が、収入の少ない客に選ばれた理由として考えられるのは？",
@@ -18846,12 +18847,13 @@
             "最も安い競合より、必ず安い価格にする"
           ],
           "a": 1,
-          "e": "小袋が効いたのは、現地の客の財布と買い方に合っていたからです。批判的な研究では、小袋が主力でない商品も多く、シャンプーは例外的とされています（推論）。",
+          "e": "小袋が効いたのは、現地の客の財布と買い方に合っていたからです。日本の商品を小分けにするだけでは足りず、現地の暮らしを先に調べるのが筋です（推論）。",
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 226
+      "review": "passed",
+      "topicNo": 226,
+      "reviewNote": "報道ごとに数字が割れる「売上の約3分の1」の問いを、確認できた小袋の狙った客層の問いに差し替えた。"
     },
     {
       "id": "topic-227",
@@ -18867,16 +18869,8 @@
       "image": "img/topic-227.svg",
       "sources": [
         {
-          "name": "農林水産省: 米の消費の動き（広報誌aff）",
-          "url": "https://www.maff.go.jp/j/pr/aff/2302/spe1_01.html"
-        },
-        {
-          "name": "農林水産省: 食料・農業・農村白書（食生活の動向）",
-          "url": "https://www.maff.go.jp/j/wpaper/w_maff/r1/r1_h/trend/part1/chap3/c3_4_00.html"
-        },
-        {
-          "name": "愛知県: 米の消費に関する資料",
-          "url": "https://www.pref.aichi.jp/uploaded/attachment/594554.pdf"
+          "name": "農林水産省: 食料・農業・農村白書",
+          "url": "https://www.maff.go.jp/j/wpaper/w_maff/r6/r6_h/trend/part1/chap5/c5_4_00.html"
         }
       ],
       "questions": [
@@ -18918,7 +18912,7 @@
             "米を買える店が、年々少なくなったこと"
           ],
           "a": 0,
-          "e": "食の多様化に加え、単身世帯や共働き世帯の増加で、簡単に済ませる食事が増えたことなどが背景に挙げられています。"
+          "e": "農林水産省の白書は、人口減少に加え、少子高齢化、食生活の多様化・簡便化、炭水化物を控える食生活の広がりを背景に挙げています。"
         },
         {
           "q": "米をつくる会社の営業企画を手伝います。1人あたり消費が減る中で、まず何を調べますか？",
@@ -18932,8 +18926,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 227
+      "review": "passed",
+      "topicNo": 227,
+      "reviewNote": "白書の記述に合わせ、背景の説明を直した。"
     },
     {
       "id": "topic-228",
@@ -18949,20 +18944,12 @@
       "image": "img/topic-228.svg",
       "sources": [
         {
-          "name": "ネットショップ担当者フォーラム: 前澤社長 ZOZOSUIT 無料配布",
-          "url": "https://netshop.impress.co.jp/node/4913"
+          "name": "ITmedia NEWS: ZOZOSUIT無料配布",
+          "url": "https://www.itmedia.co.jp/news/article/1711/22/1171122095/"
         },
         {
-          "name": "東洋経済オンライン: ZOZOのPB発売",
-          "url": "https://toyokeizai.net/articles/-/198579"
-        },
-        {
-          "name": "ITmedia: 新型ZOZOSUIT 配布計画",
-          "url": "https://www.itmedia.co.jp/news/article/1804/27/1180427130/"
-        },
-        {
-          "name": "Business Insider Japan: ZOZOSUIT",
-          "url": "https://www.businessinsider.jp/post-178621"
+          "name": "日本経済新聞: ZOZOが初の減益",
+          "url": "https://www.nikkei.com/article/DGXMZO40734970R30C19A1DTD000/"
         }
       ],
       "questions": [
@@ -19004,7 +18991,7 @@
             "配当を、これまでの2倍に増やす方針"
           ],
           "a": 0,
-          "e": "2019年3月期の当期純利益が前年比で約12%減る見通しを発表しました。上場後初の減益になるとされています。"
+          "e": "2019年1月31日の見通しの修正で、2019年3月期の純利益が前年比約12％減になるとしました。上場後初の減益になるとされ、4月の確定値は約21％減でした。"
         },
         {
           "q": "クライアントが、同じように「無料で配って顧客データを集める」施策を考えています。何を確認しますか？",
@@ -19018,8 +19005,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 228
+      "review": "passed",
+      "topicNo": 228,
+      "reviewNote": "12％減は1月の見通しで確定値は約21％減と明記した。"
     },
     {
       "id": "topic-229",
@@ -19045,6 +19033,10 @@
         {
           "name": "Louisiana Law Blog: Sanctions in the Avianca case",
           "url": "https://www.louisianalawblog.com/?p=7151"
+        },
+        {
+          "name": "Wikipedia: Mata v. Avianca, Inc.",
+          "url": "https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc."
         }
       ],
       "questions": [
@@ -19100,8 +19092,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 229
+      "review": "passed",
+      "topicNo": 229,
+      "reviewNote": "確認できた内容のみで修正なし。"
     },
     {
       "id": "topic-230",
@@ -19182,8 +19175,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 230
+      "review": "passed",
+      "topicNo": 230,
+      "reviewNote": "誤答選択肢の長さをそろえた。"
     }
   ]
 }
