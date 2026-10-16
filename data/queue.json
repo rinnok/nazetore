@@ -3152,6 +3152,156 @@
       ],
       "kind": "case",
       "status": "generated"
+    },
+    {
+      "n": 211,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "ユニクロのフリースは、なぜ1,900円で爆発的に売れた？",
+      "gain": "相場より大きく安い価格と色数で、市場を広げた例を見る",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 212,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "ウォルマートは、なぜ「毎日低価格」にこだわった？",
+      "gain": "特売に頼らず毎日の低価格を保つ、小売の価格戦略の考え方を知る",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 213,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "マシュマロ・テストは、本当に「我慢できる子が成功する」と示した？",
+      "gain": "有名な実験の結果を、追試や他の要因も含めて読む力をつける",
+      "effects": "🔍🧠",
+      "src": "論・報",
+      "tags": [
+        "logical",
+        "customer"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 214,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "オバマ陣営は、なぜ登録ボタンの文言と写真をテストした？",
+      "gain": "A/Bテストで小さな違いを数字で確かめる方法と、数字の読み方を知る",
+      "effects": "🔍🤖",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 215,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "ノキアは、なぜ製紙の会社から携帯電話の会社になれた？",
+      "gain": "主力事業を時代に合わせて入れ替えてきた会社の歩みを見る",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 216,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "日帰り旅行と宿泊旅行で、1回の旅行単価はどれだけ違う？",
+      "gain": "「泊まる」ことが地域の売上にどれだけ効くかを、公的な数字で見る",
+      "effects": "🗾🔍",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 217,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "ネットフリックスは、なぜ同じ作品の「表紙の画像」を人ごとに変える？",
+      "gain": "データで画像を出し分ける、パーソナライズの考え方を知る",
+      "effects": "🤖🧠",
+      "src": "公式",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 218,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "消費者物価指数は、どうやって作られている？ 「582品目」の中身",
+      "gain": "物価の指数が、何をどう集めて作る数字かを知る",
+      "effects": "🔍💴",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 219,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "BCGの「経験曲線」とは？ 作れば作るほど安くなる理由",
+      "gain": "累積の経験とコストの関係を、戦略に生かす考え方を知る",
+      "effects": "🧠💴",
+      "src": "論・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 220,
+      "cat": "M",
+      "catName": "海外市場・グローバル",
+      "title": "タタ・ナノは、なぜ「世界でいちばん安い車」なのに売れなかった？",
+      "gain": "安さを前面に出す戦略が、ブランドの印象と衝突する例を知る",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
     }
   ]
 }
