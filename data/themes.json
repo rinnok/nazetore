@@ -17602,7 +17602,11 @@
       "sources": [
         {
           "name": "ポーター賞: ファーストリテイリング ユニクロ事業",
-          "url": "https://www.porterprize.org/pastwinner/2009/12/02111044.html"
+          "url": "https://www.porterprize.org/english/pastwinner/2009/12/03114807.html"
+        },
+        {
+          "name": "ユニクロ（ニュースリリース）: フリースが広まって20年",
+          "url": "https://www.atpress.ne.jp/news/168905"
         },
         {
           "name": "WWD JAPAN: 気がつけばみんな「ユニクロ」を着ている",
@@ -17621,24 +17625,24 @@
           "e": "1,900円です。アウトドアブランドでは1万円以上が相場だった時代で、桁違いの安さが話題になりました。"
         },
         {
-          "q": "ポーター賞の事例資料では、フリースの年間販売枚数は1998年の約200万枚から、2000年にはどこまで増えたとされていますか？",
+          "q": "ポーター賞の事例資料によると、フリースの販売枚数は1998年の約200万枚から、2000年には約何倍になったとされていますか？",
           "o": [
-            "約600万枚",
-            "約1,200万枚",
-            "約2,600万枚"
+            "約3倍",
+            "約6倍",
+            "約10倍以上"
           ],
           "a": 2,
-          "e": "1999年が約850万枚、2000年が約2,600万枚と紹介されています。数え方（年間かシーズンか）は資料で表現が分かれます。"
+          "e": "ポーター賞の資料では1998年が約200万枚、1999年が約850万枚、2000年が約2,000万枚です。ほかに2,600万枚とする記事もあり、数え方（年間かシーズンか）で差がありますが、どちらでも約10倍以上です。"
         },
         {
-          "q": "ユニクロの調査では、当時フリースを買った人のうち、複数枚を持っていた人はどのくらいでしたか？",
+          "q": "ユニクロの発表によると、1998〜2005年当時、フリースを持っていた人のうち複数枚持ちはどのくらいでしたか？",
           "o": [
             "約1割",
             "約4割",
             "約7割"
           ],
           "a": 2,
-          "e": "1998〜2005年当時は約7割が複数枚持ちと紹介されています。1枚が安く、気軽に買い増せたことがうかがえます。"
+          "e": "ユニクロの発表では、1998〜2005年当時は約7割が複数枚持ちとされています（持っている枚数の話で、自社の発表です）。1枚が安く、気軽に買い増せたことがうかがえます。"
         },
         {
           "q": "安くても「買い増したくなる」状態を作った工夫として、考えられるのは？",
@@ -17648,7 +17652,7 @@
             "限定数を絞り、手に入りにくくした"
           ],
           "a": 1,
-          "e": "2000年には色数が約50色前後に増えたとされます。安さに色の選択肢が加わり、2枚目以降を選びやすくなったと考えられます（推論）。"
+          "e": "2000年には色数が約50色（記事により51色）に増えたとされます。安さに色の選択肢が加わり、2枚目以降を選びやすくなったと考えられます（推論）。"
         },
         {
           "q": "あなたが熱海の土産店の売上を伸ばすなら、このケースの考え方をどう使いますか？",
@@ -17662,8 +17666,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 211
+      "review": "passed",
+      "topicNo": 211,
+      "reviewNote": "Q2を出典ごとに数字が割れる枚数から「約10倍以上」の倍率に直し、Q3を「持っていた枚数」の表現にそろえた。"
     },
     {
       "id": "topic-212",
@@ -17679,24 +17684,20 @@
       "image": "img/topic-212.svg",
       "sources": [
         {
-          "name": "Walmart: Everyday Affordability",
-          "url": "https://corporate.walmart.com/about/everyday-affordability"
-        },
-        {
-          "name": "Harvard: Wal-Mart: Every Day Low Prices Business Model",
-          "url": "https://d3.harvard.edu/platform-rctom/?p=3609"
+          "name": "Wikipedia: Everyday low price",
+          "url": "https://en.wikipedia.org/wiki/Everyday_low_price"
         }
       ],
       "questions": [
         {
-          "q": "創業者サム・ウォルトンが、最初の店から退けたとされる売り方は？",
+          "q": "ウォルマートが掲げた「毎日低価格（EDLP）」とは、どんな売り方ですか？",
           "o": [
-            "年に何度かの大きなセールで客を集める方法",
-            "メーカーから直接商品を仕入れる方法",
-            "小さな町の郊外に店を構える方法"
+            "特売に頼らず、毎日の売値を低いまま保つ売り方",
+            "週替わりのチラシで、目玉商品を大きく値引く売り方",
+            "会員にだけ、特別な割引価格を用意する売り方"
           ],
           "a": 0,
-          "e": "たまの大安売りでなく、毎日できる限りの低価格で売る方針をとったと紹介されています。"
+          "e": "たまの大安売りに頼らず、毎日できる限りの低価格で売る方針です。ウォルトンは利幅が薄くても売れる数が増えれば利益は増えると考えたと紹介されています。"
         },
         {
           "q": "当時の競合Kmartなどが得意としていた価格のつけ方は？",
@@ -17721,12 +17722,12 @@
         {
           "q": "低価格を保つための裏づけとして、よく挙げられる仕組みは？",
           "o": [
-            "広告費を削り、その分を値引きの原資に回す",
-            "商品の質を落とすことで、原価を下げる",
-            "メーカーと直接交渉して仕入れ値を抑える"
+            "物流や在庫の仕組みを効率化し、コストそのものを下げる",
+            "商品の質を落として、1個あたりの原価を下げる",
+            "仕入先に値引きの損失を肩代わりさせ、利益を守る"
           ],
-          "a": 2,
-          "e": "中間業者を飛ばして直接交渉し、あらゆる段階で効率を求めたことが価格を支えたと説明されます。低価格は、コスト構造がセットで初めて続きます。"
+          "a": 0,
+          "e": "物流の効率化（クロスドッキングなど）やITの活用で、コスト構造そのものを下げたことが価格を支えたと説明されます。広告の頻度を抑える点も挙げられます。低価格はコスト構造とセットで初めて続きます。"
         },
         {
           "q": "あなたが地域のスーパーの価格施策を相談されたら、何から確かめますか？",
@@ -17740,8 +17741,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 212
+      "review": "passed",
+      "topicNo": 212,
+      "reviewNote": "確認できなかった「ウォルトンが退けた売り方」の問いを定義の問いに差し替え、Q4を確認できた物流・ITの効率化に直して選択肢の長さをそろえた。"
     },
     {
       "id": "topic-213",
@@ -17757,12 +17759,12 @@
       "image": "img/topic-213.svg",
       "sources": [
         {
-          "name": "NYU: Professor Replicates Famous Marshmallow Test",
-          "url": "https://www.nyu.edu/about/news-publications/news/2018/may/nyu-professor-replicates-longitudinal-work-on-famous-marshmallow.html"
+          "name": "Psychological Science: Revisiting the Marshmallow Test (Watts, Duncan & Quan 2018)",
+          "url": "https://doi.org/10.1177/0956797618761661"
         },
         {
-          "name": "APS Observer: A New Approach to the Marshmallow Test",
-          "url": "https://www.psychologicalscience.org/publications/observer/obsonline/a-new-approach-to-the-marshmallow-test-yields-complex-findings.html"
+          "name": "PMC: Commentary on Revisiting the Marshmallow Test",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6335313/"
         }
       ],
       "questions": [
@@ -17818,8 +17820,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 213
+      "review": "passed",
+      "topicNo": 213,
+      "reviewNote": "出典を実際に確認できた論文に差し替えた（918人・元の約半分・統制で約3分の2縮小は確認済み）。"
     },
     {
       "id": "topic-214",
@@ -17836,11 +17839,7 @@
       "sources": [
         {
           "name": "Optimizely: Obama's $60 million dollar experiment",
-          "url": "https://blog.optimizely.com/2010/11/29/how-obama-raised-60-million-by-running-a-simple-experiment/"
-        },
-        {
-          "name": "Statsig: A/B testing in the Obama 2008 and 2012 campaigns",
-          "url": "https://www.statsig.com/blog/data-experimentation-testing-obama-election-campaigns"
+          "url": "https://www.optimizely.com/insights/blog/how-obama-raised-60-million-by-running-a-simple-experiment/"
         }
       ],
       "questions": [
@@ -17896,8 +17895,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 214
+      "review": "passed",
+      "topicNo": 214,
+      "reviewNote": "出典を確認できたOptimizely記事のみに絞った（24通り・8.26→11.6%・約40.6%・288万件と6,000万ドルは見積もりを確認）。"
     },
     {
       "id": "topic-215",
@@ -17913,12 +17913,12 @@
       "image": "img/topic-215.svg",
       "sources": [
         {
-          "name": "thisisFINLAND: Nokia's tradition of adaptability",
-          "url": "https://finland.fi/business-innovation/nokias-tradition-of-adaptability/"
-        },
-        {
           "name": "Irish Times: Nokia timeline",
           "url": "https://www.irishtimes.com/business/technology/nokia-timeline-1.1514981"
+        },
+        {
+          "name": "Wikipedia: History of Nokia",
+          "url": "https://en.wikipedia.org/wiki/History_of_Nokia"
         }
       ],
       "questions": [
@@ -17974,8 +17974,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 215
+      "review": "passed",
+      "topicNo": 215,
+      "reviewNote": "出典を確認できたIrish TimesとWikipediaに絞った（1865年パルプ工場・1967年3社合併・1979年サローラとのモビラ設立を確認）。"
     },
     {
       "id": "topic-216",
@@ -18028,14 +18029,14 @@
             "約10倍"
           ],
           "a": 1,
-          "e": "69,362円÷19,533円で約3.6倍です。同じ1回の旅行でも、泊まるかどうかで地域に落ちる額が大きく違います。"
+          "e": "69,362円÷19,533円で約3.5倍です。同じ1回の旅行でも、泊まるかどうかで地域に落ちる額が大きく違います。"
         },
         {
           "q": "宿泊旅行の単価が高くなる理由として、考えられるのは？",
           "o": [
-            "宿泊費に加えて、夕食・朝食・翌日の買い物など使う場面が増えるから",
-            "宿泊客は、土産を買わなくなるから",
-            "日帰り客は、交通費を払わないから"
+            "宿泊費に加え、食事や翌日の買い物など使う場面が増えるから",
+            "宿泊客は旅行中の買い物を控えるため、土産代が減るから",
+            "日帰り客は移動の費用を、ほとんど負担しないから"
           ],
           "a": 0,
           "e": "泊まると、宿泊費に加えて食事や体験、翌朝の買い物と、お金を使う機会が増えます（推論）。"
@@ -18043,17 +18044,18 @@
         {
           "q": "あなたが首都圏から近い日帰り客の多い観光地で、売上を伸ばす提案をするなら？",
           "o": [
-            "日帰り客の人数をさらに増やす広告を強化する",
-            "日帰り客が「夜まで・翌朝まで」いたくなる体験や食事を作る",
-            "日帰り客の入場料を引き上げる"
+            "日帰り客の人数をさらに増やすため、広告を強化する",
+            "日帰り客が夜や翌朝まで過ごしたくなる食事や体験を作る",
+            "日帰り客から取る入場料を引き上げて、収入を増やす"
           ],
           "a": 1,
           "e": "人数を増やすより、滞在を延ばして1人あたりの支出を増やすほうが、混雑を増やさずに売上を伸ばせます（推論）。",
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 216
+      "review": "passed",
+      "topicNo": 216,
+      "reviewNote": "倍率の解説を選択肢と同じ約3.5倍にそろえ、Q4・Q5の選択肢の長さと具体性をそろえた。"
     },
     {
       "id": "topic-217",
@@ -18108,8 +18110,8 @@
           "q": "同じ作品でも人ごとに画像を変える意味として、考えられるのは？",
           "o": [
             "別の魅力を見せたほうが、再生につながる人がいるから",
-            "画像を変えると制作費が下がり、全体の費用が安く済むから",
-            "画像を変えると作品の評価が自動で上がり、人気が出るから"
+            "画像を変えると、制作する作品の費用が下がるから",
+            "画像を変えると、作品の評価が自動で上がるから"
           ],
           "a": 0,
           "e": "好きな俳優が目立つ画像が刺さる人もいれば、ジャンルの雰囲気が刺さる人もいます。判断の指標は「その作品が再生されたか」です（推論）。"
@@ -18126,8 +18128,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 217
+      "review": "passed",
+      "topicNo": 217,
+      "reviewNote": "Q4の誤答を正解と同じ長さにそろえた。Netflix技術ブログで出し分けの変遷を確認。"
     },
     {
       "id": "topic-218",
@@ -18180,7 +18183,7 @@
             "品目の数が多すぎて、1年では集計できなかったため"
           ],
           "a": 1,
-          "e": "当初は2020年のみの予定でしたが、コロナの影響を考え、2019年と2020年の平均に変えました。"
+          "e": "当初は2020年1年分を使い、必要なら調整する計画でしたが、コロナの影響を考えて2019年と2020年の平均を使うことになりました。"
         },
         {
           "q": "この指数の計算で、重みはどう扱われますか？",
@@ -18204,8 +18207,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 218
+      "review": "passed",
+      "topicNo": 218,
+      "reviewNote": "Q3の解説を統計局の計画（2020年のみ→必要なら調整）に沿う表現に直した。582品目・家計調査・ラスパイレス型は確認済み。"
     },
     {
       "id": "topic-219",
@@ -18254,11 +18258,11 @@
           "q": "コストが下がる割合は、業界が違っても同じですか？",
           "o": [
             "どの業界でも、ぴったり同じ割合で下がる",
-            "業界で違い、1割台から2割台と幅がある",
-            "ほとんどの業界では、そもそも下がらない"
+            "業界や製品で違い、倍ごとに2〜3割が目安とされる",
+            "ほとんどの業界では、そもそも下がらないとされる"
           ],
           "a": 1,
-          "e": "BCGの研究でも、下がる割合は業界で幅があると言われます。「倍で2〜3割」は目安で、使う前に自社のデータで確かめます。"
+          "e": "BCGは、累積の生産量が倍になるごとに2〜3割下がるのが目安だと述べました。ただし割合は業界や製品で違い、法則ではありません。使う前に自社のデータで確かめます。"
         },
         {
           "q": "この考え方から導かれる戦略として、最も近いのは？",
@@ -18282,8 +18286,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 219
+      "review": "passed",
+      "topicNo": 219,
+      "reviewNote": "Q3の選択肢と解説が食い違っていたため「倍ごとに2〜3割が目安」にそろえた。"
     },
     {
       "id": "topic-220",
@@ -18299,12 +18304,16 @@
       "image": "img/topic-220.svg",
       "sources": [
         {
+          "name": "The Tribune: No Tata Nano production in first 9 months of 2019",
+          "url": "https://www.tribuneindia.com/news/archive/business/no-tata-nano-production-in-first-9-months-of-2019-just-1-unit-sold-844348/"
+        },
+        {
           "name": "Wikipedia: Tata Nano",
           "url": "https://en.wikipedia.org/wiki/Tata_Nano"
         },
         {
-          "name": "Tribune India: Tata Nano ends 2019 with zero output",
-          "url": "https://www.tribuneindia.com/news/business/tata-nano-ends-2019-with-zero-output-sale-of-1-unit-22766"
+          "name": "Forbes India: Tata Motors: Moving on from the Nano",
+          "url": "https://www.forbesindia.com/article/15th-anniversary-special/tata-motors-moving-on-from-the-nano/93218/1"
         }
       ],
       "questions": [
@@ -18336,17 +18345,17 @@
             "0台"
           ],
           "a": 2,
-          "e": "トリビューン紙は、2019年1〜9月にタタ・モーターズがナノを1台も生産しなかったと報じています。"
+          "e": "トリビューン紙は、2019年1〜9月にナノの生産が0台で、販売も2月の1台だけだったと報じています。"
         },
         {
           "q": "売れなかった理由として、多くの分析が挙げる点は？",
           "o": [
             "「いちばん安い」という売り方が、安っぽい車という印象を与えた",
-            "性能が高すぎて、客に使いこなせなかった",
-            "他社のほうが、約2倍の価格で売っていた"
+            "高性能な機能が多すぎて、客がうまく使いこなせなかった",
+            "競合各社のほうが、ナノよりずっと安い価格で売っていた"
           ],
           "a": 0,
-          "e": "「安い車」という宣伝が、ブランドを重視する中間層に敬遠されたと指摘されています。移転の遅れや安全性の評判も重なりました。"
+          "e": "「世界でいちばん安い車」という宣伝が、ブランドや安全性を重視する層に敬遠されたと指摘されています。発火の報道など安全面の評判も重なったとされます。"
         },
         {
           "q": "あなたが地域の低価格の宿泊プランを売り出すなら、どう打ち出しますか？",
@@ -18360,8 +18369,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 220
+      "review": "passed",
+      "topicNo": 220,
+      "reviewNote": "確認できていない「移転の遅れ」を削り、Q3に販売1台を補足、Q4の誤答を現実的な内容に直した。"
     }
   ]
 }
