@@ -2552,6 +2552,156 @@
    ],
    "kind": "case",
    "status": "generated"
+  },
+  {
+   "n": 171,
+   "cat": "D",
+   "catName": "行動経済学・心理",
+   "title": "同じ1万円でも、もらううれしさより、失う痛みのほうが大きい？",
+   "gain": "損得の感じ方が非対称であることを知り、値引きや特典の見せ方に使う",
+   "effects": "🧠🔍",
+   "src": "論・書",
+   "tags": [
+    "customer",
+    "logical"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 172,
+   "cat": "I",
+   "catName": "財務・数字の読み方",
+   "title": "トイザらスは、なぜ売れていたのに倒産した？",
+   "gain": "事業の稼ぐ力と、買収で背負った借金の重さを分けて見る",
+   "effects": "💴🧠",
+   "src": "報",
+   "tags": [
+    "numbers",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 173,
+   "cat": "J",
+   "catName": "コンサル思考法",
+   "title": "「フェルミ推定」は、なぜフェルミの名前がついた？",
+   "gain": "ざっくり見積もる力の元の逸話と、「桁と考え方で近づく」姿勢",
+   "effects": "🧠✨",
+   "src": "書・報",
+   "tags": [
+    "logical",
+    "numbers"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 174,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "食品ロスは、なぜ家庭と事業者でほぼ半分ずつ出る？",
+   "gain": "全体の数字を、発生源ごとに分けて読む",
+   "effects": "💴🔍",
+   "src": "官",
+   "tags": [
+    "numbers",
+    "future"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 175,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "ハーゲンダッツは、なぜ北欧風の名前にした？",
+   "gain": "言葉の響きで、ブランドの印象をつくる考え方",
+   "effects": "🧠✨",
+   "src": "公式・報",
+   "tags": [
+    "customer",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 176,
+   "cat": "G",
+   "catName": "観光・地域・DMO",
+   "title": "ジャパン・レール・パスは、なぜ2023年に約1.7倍に値上げした？",
+   "gain": "安すぎる価格が、需要・混雑・採算に与える影響を考える",
+   "effects": "🗾💴",
+   "src": "公式・報",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 177,
+   "cat": "H",
+   "catName": "デジタル・SNS・AI",
+   "title": "Duolingoは、なぜ「連続日数」を数えるのか？",
+   "gain": "毎日使う習慣を、数字で見えるようにして続けてもらう考え方",
+   "effects": "🧠🤖",
+   "src": "公式・報",
+   "tags": [
+    "customer",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 178,
+   "cat": "A",
+   "catName": "国内のマーケ・ブランド事例",
+   "title": "ココイチは、なぜ「のれん分け」で店を増やしてきた？",
+   "gain": "社員の独立を支える仕組みが、店の拡大と品質維持にどう働くか",
+   "effects": "🧠💴",
+   "src": "公式",
+   "tags": [
+    "channel",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 179,
+   "cat": "C",
+   "catName": "小売・価格・売り場",
+   "title": "スシローは、なぜ皿1枚ずつにICチップをつけた？",
+   "gain": "皿の動きを記録して、作りすぎと売れ残りを減らす考え方",
+   "effects": "🧠🔍",
+   "src": "報",
+   "tags": [
+    "numbers",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 180,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "ゴアテックスは、なぜ衣料メーカーではなく素材の会社として成功した？",
+   "gain": "最終製品の会社を通して、自社の素材を消費者に知らせる考え方",
+   "effects": "🧠💴",
+   "src": "公式・報",
+   "tags": [
+    "strategy",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
   }
  ]
 }
