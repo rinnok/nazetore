@@ -1802,6 +1802,156 @@
    ],
    "kind": "concept",
    "status": "generated"
+  },
+  {
+   "n": 121,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "ビール類の市場は、ピークの何割まで縮んだ？",
+   "gain": "縮む市場の大きさを、ピーク比で捉える",
+   "effects": "💴🔍",
+   "src": "官・報",
+   "tags": [
+    "numbers",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 122,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "ゼロックスは、なぜ複写機を「売らずに貸した」？",
+   "gain": "売り切りから、使った分だけ払う仕組みへ",
+   "effects": "🧠💴",
+   "src": "書・報",
+   "tags": [
+    "strategy",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 123,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "ユーロ・ディズニーは、なぜ開業当初に苦戦した？",
+   "gain": "現地の習慣を知らないと、本国流が通じない",
+   "effects": "🧠🔍",
+   "src": "報",
+   "tags": [
+    "customer",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 124,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "ドラッグストアは、なぜ薬以外が売上の3割近くを占める？",
+   "gain": "業態の売上構成から、稼ぎ方を読む",
+   "effects": "💴🔍",
+   "src": "業界団体",
+   "tags": [
+    "channel",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 125,
+   "cat": "D",
+   "catName": "行動経済学",
+   "title": "1セントの値引きで「無料」にすると、なぜ売れ筋が逆転する？",
+   "gain": "「無料」は、金額の差以上に人を動かす",
+   "effects": "🧠🔍✨",
+   "src": "論",
+   "tags": [
+    "customer",
+    "numbers"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 126,
+   "cat": "G",
+   "catName": "観光・地域・DMO",
+   "title": "ヴェネツィアは、なぜ日帰り客から入場料を取り始めた？",
+   "gain": "混雑を、お金のしくみで平らにする試み",
+   "effects": "🗾💴",
+   "src": "報",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 127,
+   "cat": "B",
+   "catName": "海外の名作事例",
+   "title": "シルク・ドゥ・ソレイユは、なぜサーカスなのにサーカスと戦わなかった？",
+   "gain": "競争の土俵そのものを変える発想",
+   "effects": "🧠✨",
+   "src": "書",
+   "tags": [
+    "strategy",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 128,
+   "cat": "H",
+   "catName": "デジタル・SNS・広告",
+   "title": "Dropboxは、なぜ「友だちを招待すると容量が増える」にした？",
+   "gain": "紹介の報酬の設計で、口コミを広げる",
+   "effects": "🧠🤖",
+   "src": "報",
+   "tags": [
+    "channel",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 129,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "マクドナルドは、なぜインドで牛肉を使わないメニューにした？",
+   "gain": "宗教や習慣に合わせて、看板商品を作り替える",
+   "effects": "🧠🔍",
+   "src": "報",
+   "tags": [
+    "customer",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 130,
+   "cat": "F",
+   "catName": "事業転換・ビジネスモデル",
+   "title": "アドビは、なぜ箱売りをやめて月額課金に移った？",
+   "gain": "売り切りから継続課金へ、稼ぎ方の大転換",
+   "effects": "🧠💴",
+   "src": "公式",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
   }
  ]
 }
