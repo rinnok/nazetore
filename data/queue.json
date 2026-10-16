@@ -1366,7 +1366,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 92,
@@ -1381,7 +1381,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 93,
@@ -1396,7 +1396,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 94,
@@ -1411,7 +1411,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 95,
@@ -1426,7 +1426,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 96,
@@ -1441,7 +1441,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 97,
@@ -1456,7 +1456,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 98,
@@ -1471,7 +1471,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 99,
@@ -1486,7 +1486,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     },
     {
       "n": 100,
@@ -1501,7 +1501,7 @@
         "strategy"
       ],
       "kind": "concept",
-      "status": "pending"
+      "status": "generated"
     }
   ]
 }
