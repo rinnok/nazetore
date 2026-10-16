@@ -3902,6 +3902,156 @@
       ],
       "kind": "concept",
       "status": "generated"
+    },
+    {
+      "n": 261,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "ALDIは、なぜ品ぞろえを一般のスーパーの20分の1ほどに絞った？",
+      "gain": "品数を絞って仕入れ量を集める、低価格の仕組みを知る",
+      "effects": "💴🧠",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 262,
+      "cat": "I",
+      "catName": "財務・数字の読み方",
+      "title": "為替が1円動くと、トヨタの営業利益はいくら動く？",
+      "gain": "「為替感応度」で、為替が利益に効く大きさを数字で読む",
+      "effects": "💴🧠",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 263,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "龍角散は、なぜ粉薬を水なしで飲める形に変えた？",
+      "gain": "古い定番を、新しい客に合わせて形ごと作り直す考え方を知る",
+      "effects": "🧠🔍",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 264,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "同じ偽薬でも、値段を高く伝えると痛みが和らぐ？ 価格の思い込み実験",
+      "gain": "値段が「効きそう」という期待を作る仕組みを知る",
+      "effects": "✨🧠",
+      "src": "論",
+      "tags": [
+        "customer",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 265,
+      "cat": "E",
+      "catName": "リサーチ・統計",
+      "title": "家計調査は、約9千世帯で全国の消費をどう調べている？",
+      "gain": "公的統計の調べ方を知り、数字を引用するときの注意を学ぶ",
+      "effects": "🔍💴",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 266,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "KFCは、なぜ鶏肉が切れた謝罪広告でロゴを「FCK」にした？",
+      "gain": "失敗の認め方と伝え方で、ブランドへの印象が変わる例を学ぶ",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 267,
+      "cat": "G",
+      "catName": "観光・地域",
+      "title": "富士山の吉田ルートは、なぜ1日4,000人の上限と通行料を設けた？",
+      "gain": "混雑に上限と料金で向き合う観光地の対策を、数字で読む",
+      "effects": "🗾🧠",
+      "src": "官・報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 268,
+      "cat": "F",
+      "catName": "事業転換・イノベーション",
+      "title": "ウォークマンは、なぜ録音機能を外して売った？",
+      "gain": "機能を「足す」でなく「引く」ことで生まれる商品づくりを知る",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 269,
+      "cat": "J",
+      "catName": "コンサルの思考法",
+      "title": "PDCAは、誰が考えた？ シューハートからデミングへの歩み",
+      "gain": "よく使う枠組みの生い立ちを知り、使い方を見直す",
+      "effects": "🧠✨",
+      "src": "書・報",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 270,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "日本人は、コーヒーを1週間に何杯飲んでいる？ 協会調査の読み方",
+      "gain": "業界団体の調査から、市場を数字で読むときの注意を学ぶ",
+      "effects": "🔍💴",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "customer"
+      ],
+      "kind": "concept",
+      "status": "generated"
     }
   ]
 }
