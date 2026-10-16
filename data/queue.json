@@ -2852,6 +2852,156 @@
       ],
       "kind": "concept",
       "status": "generated"
+    },
+    {
+      "n": 191,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "自分のものになると、なぜ値段が高く感じる？コーヒーカップ実験",
+      "gain": "持ち物になった途端に価値を高く見積もる「保有効果」の大きさを知る",
+      "effects": "🧠🔍",
+      "src": "論",
+      "tags": [
+        "customer",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 192,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "iPodは、なぜ「5GB」ではなく「ポケットに1,000曲」と伝えた？",
+      "gain": "スペックの数字を、客の言葉（曲数）に置き換えて伝える考え方を知る",
+      "effects": "🧠✨",
+      "src": "公式",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 193,
+      "cat": "J",
+      "catName": "コンサルの考え方",
+      "title": "報告は結論から。「ピラミッド原則」はどう生まれた？",
+      "gain": "結論を先に置き、根拠を同じ種類でまとめる「ピラミッド原則」の考え方を知る",
+      "effects": "🧠",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 194,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "Googleは、なぜ「青色41種類」をテストした？ デザイナーが辞めた理由",
+      "gain": "データで決めることの強さと限界を、A/Bテストの有名な例から学ぶ",
+      "effects": "🔍🧠",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 195,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "コダックは、なぜデジタルカメラを自分で発明したのに衰退した？",
+      "gain": "新技術を持っていても、既存の稼ぎ頭との兼ね合いで動きにくくなる構造を考える",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 196,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "ニュージーランドの「100% Pure」は、なぜ四半世紀続く？",
+      "gain": "国全体を一つの言葉でまとめる観光ブランドの作り方と、その弱点を知る",
+      "effects": "🗾🧠",
+      "src": "公式",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 197,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "Hotmailは、なぜ広告費をほとんどかけずに1,200万人を集められた？",
+      "gain": "メールの末尾の一文で利用者が増え続ける仕組み（バイラル）を知る",
+      "effects": "🤖🧠",
+      "src": "報",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 198,
+      "cat": "I",
+      "catName": "数字で読むビジネス",
+      "title": "ユニットエコノミクス。「LTVはCACの3倍」の目安はどこから？",
+      "gain": "客1人あたりの稼ぎと獲得コストを比べる、LTV÷CACの考え方を知る",
+      "effects": "💴🧠",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 199,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "サントリーは、なぜ「おじさんの酒」だったウイスキーを、若者のハイボールにできた？",
+      "gain": "縮んだ市場を、飲み方と売り場の提案で立て直した例を数字で見る",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 200,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "メールマガジンの道具が、なぜ約120億ドルで売れた？ Mailchimpの場合",
+      "gain": "外部資金なしで育った小さな事業者向けサービスが、大きく評価された理由を見る",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
     }
   ]
 }
