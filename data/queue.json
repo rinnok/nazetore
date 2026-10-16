@@ -1952,6 +1952,156 @@
    ],
    "kind": "case",
    "status": "generated"
+  },
+  {
+   "n": 131,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "セブンカフェは、なぜコンビニでコーヒーを100円で売れた？",
+   "gain": "コンビニコーヒーが定番商品になった理由と数字",
+   "effects": "🧠💴",
+   "src": "公式・報",
+   "tags": [
+    "customer",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 132,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "Salesforceは、なぜ創業の年に「ソフトウェアの終わり」と掲げた？",
+   "gain": "新興企業が大手相手に争点を作った例",
+   "effects": "🧠🤖",
+   "src": "公式",
+   "tags": [
+    "strategy",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 133,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "モノタロウは、なぜ工場で使う消耗品を「ネット通販」で売る？",
+   "gain": "少額・多品種の法人購買をECが置き換える仕組み",
+   "effects": "🧠💴",
+   "src": "公式",
+   "tags": [
+    "customer",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 134,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "ユニクロは、なぜ日本より海外で多く売る会社になった？",
+   "gain": "売上・利益・店舗数の逆転を時系列で読む",
+   "effects": "🧠💴",
+   "src": "報",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 135,
+   "cat": "A",
+   "catName": "国内のマーケ・ブランド事例",
+   "title": "ガリガリ君は、なぜ値上げをわびるCMで話題になった？",
+   "gain": "値上げの伝え方で受け止めが変わる例",
+   "effects": "🧠✨",
+   "src": "報",
+   "tags": [
+    "customer",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 136,
+   "cat": "C",
+   "catName": "価格・小売の仕組み",
+   "title": "サイゼリヤは、なぜ一番人気のドリアを値下げした？",
+   "gain": "原価率が上がっても利益が成り立つ理由",
+   "effects": "🧠💴",
+   "src": "公式・報",
+   "tags": [
+    "numbers",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 137,
+   "cat": "E",
+   "catName": "リサーチ・統計",
+   "title": "1854年のロンドンで、地図に点を打つと何が分かった？",
+   "gain": "分布と例外から原因を確かめる考え方",
+   "effects": "🔍✨",
+   "src": "報",
+   "tags": [
+    "logical",
+    "future"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 138,
+   "cat": "I",
+   "catName": "財務・数字",
+   "title": "Amazonは、なぜ売上が伸びるほど手元の現金が増えやすい？",
+   "gain": "在庫回転と支払日数が資金繰りに効く仕組み",
+   "effects": "💴",
+   "src": "官",
+   "tags": [
+    "numbers",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 139,
+   "cat": "J",
+   "catName": "コンサル思考",
+   "title": "ナイチンゲールは、なぜ数字を「バラの形の図」にして訴えた？",
+   "gain": "結論が一目で分かる図で人を動かす",
+   "effects": "🧠🔍",
+   "src": "報",
+   "tags": [
+    "logical",
+    "strategy"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 140,
+   "cat": "B",
+   "catName": "海外の名作マーケ事例",
+   "title": "テスラは、なぜ広告費をかけずに車を売ってこられた？",
+   "gain": "広告以外の集客と直販の経路",
+   "effects": "🧠✨",
+   "src": "官",
+   "tags": [
+    "channel",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
   }
  ]
 }
