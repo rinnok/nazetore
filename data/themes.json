@@ -8795,12 +8795,8 @@
       "image": "img/topic-101.svg",
       "sources": [
         {
-          "name": "カップヌードル発売（日本経済新聞）",
-          "url": "https://www.nikkei.com/article/DGKDZO14483370R10C10A9KB2000/"
-        },
-        {
-          "name": "カップヌードル発売（Forbes JAPAN）",
-          "url": "https://forbesjapan.com/articles/detail/50445"
+          "name": "カップヌードル発売 着想から5年（日本経済新聞）",
+          "url": "https://www.nikkei.com/article/DGKKZO35362620U8A910C1EAC000/"
         },
         {
           "name": "安藤百福クロニクル（日清食品）",
@@ -8822,11 +8818,11 @@
           "q": "創業者の安藤百福氏が、カップ入りの着想を得た場面は？",
           "o": [
             "国内の屋台で、客が丼ごと持ち帰る場面を何度も見かけた",
-            "米国で、買い手が麺を砕いて紙コップに入れ、湯を注いで食べていた",
+            "米国で、買い手が袋麺を小さく割ってカップに入れ、湯を注いでフォークで食べていた",
             "工場の試作品が、偶然コップの中にうまく収まった"
           ],
           "a": 1,
-          "e": "米国視察で見た「砕いて紙コップに湯を注ぐ」食べ方がヒントになったと伝えられています。丼や箸が前提の日本の食べ方とは違う使われ方の観察が出発点でした。"
+          "e": "米国視察で見た「割った麺をカップに入れ、湯を注いでフォークで食べる」姿がヒントになったと伝えられています（紙コップ・割った麺など、資料により描写に差があります）。丼と箸が前提の日本とは違う使われ方の観察が出発点でした。"
         },
         {
           "q": "なぜ、麺だけでなく容器まで含めて商品にしたのでしょうか？",
@@ -8860,8 +8856,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 101
+      "review": "passed",
+      "topicNo": 101,
+      "reviewNote": "Q2の描写を「割った麺をカップに入れてフォークで食べる」に直し、出典を確認できた記事に差し替えた。"
     },
     {
       "id": "topic-102",
@@ -8938,8 +8935,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 102
+      "review": "passed",
+      "topicNo": 102,
+      "reviewNote": "事実は公式インタビュー・年表と一致。個人創業(1980)と会社設立(1981)の区別を確認した。"
     },
     {
       "id": "topic-103",
@@ -8955,16 +8953,16 @@
       "image": "img/topic-103.svg",
       "sources": [
         {
-          "name": "USJをV字回復させた立役者が去る（NetIB-News）",
-          "url": "https://www.data-max.co.jp/article/16165"
+          "name": "USJ来場者数3年連続最高 16年度（日本経済新聞）",
+          "url": "https://www.nikkei.com/article/DGXLASDZ03IGJ_T00C17A4000000/"
         },
         {
-          "name": "USJハリポタ手掛けた森岡執行役員が退社へ（ポッターマニア）",
-          "url": "http://www.pottermania.jp/info/event/log2016/161217USJ_Executive_Tsuyoshi_Morioka_To_Resign.htm"
+          "name": "USJ「ハリポタ」総投資額450億円（Bloomberg）",
+          "url": "https://www.bloomberg.com/jp/news/articles/2012-05-10/M3RFXW0D9L3601"
         },
         {
-          "name": "ＵＳＪが攻め続ける理由（トラベルニュース）",
-          "url": "https://www.travelnews.co.jp/closeup/tokusyu/1503201023.html"
+          "name": "「ハリポタ」で大勝負、再上場にらむUSJ（東洋経済）",
+          "url": "https://toyokeizai.net/articles/-/43724"
         }
       ],
       "questions": [
@@ -8989,14 +8987,14 @@
           "e": "約450億円で、当時の年間売上の半分以上にあたる大きな投資と報じられています。"
         },
         {
-          "q": "2014年度の入場者数は、前年度からどう変わったでしょうか？",
+          "q": "2014年度の入場者数は、開業年度（2001年度、約1,100万人）と比べてどうなったでしょうか？",
           "o": [
-            "約220万人増え、約1,270万人になった",
-            "前年度とほぼ変わらず、横ばいだった",
-            "約100万人減り、約900万人になった"
+            "約1,000万人で、開業年度に届かなかった",
+            "約1,270万人で、開業年度を上回り過去最高になった",
+            "前年度と同程度の約900万人で、横ばいだった"
           ],
-          "a": 0,
-          "e": "報道では2014年度は約1,270万人で、約220万人の増加でした。新エリアの効果が数字に出た年です。"
+          "a": 1,
+          "e": "報道では2014年度は約1,270万人で、開業年度の約1,100万人を上回りました。ハリー・ポッターのエリアを7月に開業した年で、新エリアの効果が数字に出ました。"
         },
         {
           "q": "なぜ、新エリアが入場者数を大きく押し上げたのでしょうか？",
@@ -9020,8 +9018,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 103
+      "review": "passed",
+      "topicNo": 103,
+      "reviewNote": "Q3は前年度比(+220万人)が出典で確認できず、確認できた「1,270万人・開業年度超え」の問いに書き換えた。"
     },
     {
       "id": "topic-104",
@@ -9037,12 +9036,16 @@
       "image": "img/topic-104.svg",
       "sources": [
         {
-          "name": "Ingredient Branding（Intel）",
-          "url": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/end-user-marketing-intel-inside.html"
-        },
-        {
           "name": "Ingredient branding（Wikipedia）",
           "url": "https://en.wikipedia.org/wiki/Ingredient_branding"
+        },
+        {
+          "name": "Dennis Carter: Behind the Intel Inside campaign（EE Times）",
+          "url": "https://www.eetimes.com/dennis-carter-behind-the-intel-inside-campaign/"
+        },
+        {
+          "name": "Why Do Modern Computers Have So Many Marketing Stickers?（Tedium）",
+          "url": "https://tedium.co/2022/07/06/computer-sticker-marketing-history/"
         }
       ],
       "questions": [
@@ -9054,7 +9057,7 @@
             "1991年"
           ],
           "a": 2,
-          "e": "Intelの資料では、1991年に正式に始まりました。前身の試みとして「Red X」という取り組みもありました。"
+          "e": "Intelの共同広告の仕組みとともに、1991年に本格化したと説明されています。前身の試みとして「Red X」という取り組みもありましたが、開始年は資料により異なります。"
         },
         {
           "q": "この施策が、消費者に向けて知らせたかったのは？",
@@ -9084,7 +9087,7 @@
             "約50社"
           ],
           "a": 0,
-          "e": "Intelの資料では、1992年末までに500を超えるメーカーが参加したとされています。多くの製品に同じロゴが並ぶ効果を生みました。"
+          "e": "Wikipediaは、1992年末までに500社を超えるメーカーが参加したと記しています（1991年末時点は約300〜350社とする資料もあります）。多くの製品に同じロゴが並ぶ効果を生みました。"
         },
         {
           "q": "素材メーカーが、自社を消費者に知ってもらいたいとき、最初に確かめたいことは？",
@@ -9098,8 +9101,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 104
+      "review": "passed",
+      "topicNo": 104,
+      "reviewNote": "出典を確認できた記事に差し替え、Red Xの年と参加社数の資料差を解説に明記した。"
     },
     {
       "id": "topic-105",
@@ -9115,12 +9119,12 @@
       "image": "img/topic-105.svg",
       "sources": [
         {
-          "name": "History of the Michelin Guide（Michelin）",
-          "url": "https://www.michelin.com.au/blog/articles/history-of-the-michelin-guide"
-        },
-        {
           "name": "Michelin Guide（Wikipedia）",
           "url": "https://en.wikipedia.org/wiki/Michelin_Guide"
+        },
+        {
+          "name": "Guide Michelin 1900 First edition（Old Classic Car）",
+          "url": "https://www.oldclassiccar.co.uk/guide-michelin-1900.htm"
         }
       ],
       "questions": [
@@ -9176,8 +9180,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 105
+      "review": "passed",
+      "topicNo": 105,
+      "reviewNote": "事実は複数資料で一致（無料配布・約3.5万部・3,000台未満）。有料化年は資料差があるため解説で幅を示している。出典を差し替えた。"
     },
     {
       "id": "topic-106",
@@ -9194,7 +9199,7 @@
       "sources": [
         {
           "name": "Brian Halligan（HubSpot）",
-          "url": "https://www.hubspot.com/company/board-of-directors/brian-halligan"
+          "url": "https://www.hubspot.com/company/management/brian-halligan"
         },
         {
           "name": "HubSpot: An Underdog Helps Invent Modern Marketing（Sequoia）",
@@ -9254,8 +9259,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 106
+      "review": "passed",
+      "topicNo": 106,
+      "reviewNote": "創業2006年・用語の由来・趣味のブログでの検証を確認。出典を確認できたページに差し替えた。"
     },
     {
       "id": "topic-107",
@@ -9271,8 +9277,8 @@
       "image": "img/topic-107.svg",
       "sources": [
         {
-          "name": "Chinese Oreos: Kraft Reformulates Cookie For New Market（Trend Hunter）",
-          "url": "https://www.trendhunter.com/trends/new-oreo-for-china-kraft-reformulates-popular-cookie-for-new-market"
+          "name": "Rethinking The Oreo For Chinese Consumers（KUNC）",
+          "url": "https://www.kunc.org/2012-01-27/rethinking-the-oreo-for-chinese-consumers"
         },
         {
           "name": "Oreo: Case Study Analysis",
@@ -9308,17 +9314,17 @@
             "試作せず、社内の会議で味を決めた"
           ],
           "a": 1,
-          "e": "報道・事例では、約20種の試作を現地の消費者に試してもらい、好まれた処方を選んだとされます。出典により細部が異なります。"
+          "e": "報道・事例では、約20種の試作を現地の消費者に試してもらい、好まれた処方を選んだとされます。甘さを抑え、よりチョコ感を出したと説明されます。出典により細部が異なります。"
         },
         {
           "q": "量と値段については、どんな調整をしたと伝えられていますか？",
           "o": [
-            "14枚入りを小さな7枚入りにして、手頃な値段にした",
-            "14枚入りを28枚入りに大きくした",
-            "元の値段を2倍に引き上げた"
+            "枚数を減らした小さな包装も出し、手頃な値段にした",
+            "14枚入りを大容量の28枚入りに変えて、割安感を出した",
+            "元の値段を2倍に引き上げて、高級感を出した"
           ],
           "a": 0,
-          "e": "元は14枚で約5元だったところを、7枚入りで約2元にしたと伝えられています。買いやすい値段にするための調整です。"
+          "e": "14枚入りは現地の買い手には割高と受け止められたため、枚数を減らした小さな包装を手頃な値段で出したと伝えられています（具体的な枚数・金額は資料により異なり、確認できませんでした）。"
         },
         {
           "q": "日本の商品を海外で売る前に、現地向けの調整が必要か調べるとき、まず何をしますか？",
@@ -9332,8 +9338,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 107
+      "review": "passed",
+      "topicNo": 107,
+      "reviewNote": "Q4の「7枚入り・5元→2元」は出典で確認できず、確認できた「小さな包装で手頃な値段」に直した。出典も差し替えた。"
     },
     {
       "id": "topic-108",
@@ -9372,21 +9379,21 @@
           "q": "この施策を進めた人物として、名前が挙がるのは？",
           "o": [
             "創業者のサンダース氏が来日して始めた",
-            "外国人旅行者の団体が持ち込んだ",
+            "日本の旅行会社の企画担当者",
             "日本KFCの当時の幹部・大河原毅氏"
           ],
           "a": 2,
           "e": "当時の日本KFCの取締役だった大河原氏が進めたと報じられています。ただし、始まりの逸話には諸説あります。"
         },
         {
-          "q": "きっかけとして語られる逸話は？",
+          "q": "始まりのきっかけとして語られる逸話の一つは？",
           "o": [
-            "店員が新メニューをふと思いついて、広まった",
-            "国の補助金が出て、広告費を賄えたから",
-            "外国人客が七面鳥を見つけられず、代わりにチキンを買った"
+            "クリスマス前に鶏肉の在庫が余り、処分のために売り出した",
+            "外国人客が七面鳥を見つけられず、代わりにチキンを買った",
+            "本社が七面鳥の代わりにチキンを売るよう指示した"
           ],
-          "a": 2,
-          "e": "外国人客の話が語られますが、諸説ある逸話です。大切なのは、日本のクリスマスに合う場面を提案した点です。"
+          "a": 1,
+          "e": "青山店に来た外国人客が「七面鳥が手に入らないのでチキンを」と話したという逸話が語られます。ただし諸説あり、日本KFCは大河原氏がサンタ姿でパーティーに行った話も紹介しています。大切なのは、日本のクリスマスに合う場面を提案した点です。"
         },
         {
           "q": "1980年代に、家族向けにどんな商品が広がりましたか？",
@@ -9410,8 +9417,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 108
+      "review": "passed",
+      "topicNo": 108,
+      "reviewNote": "Q3の誤答が不自然だったため、正解の逸話を「諸説の一つ」と明示し、誤答を同じ長さの別案に書き直した。1974年・大河原氏・パーティバーレル(1983/85)は確認。"
     },
     {
       "id": "topic-109",
@@ -9427,12 +9435,12 @@
       "image": "img/topic-109.svg",
       "sources": [
         {
-          "name": "客室稼働率（OCC）・客室平均単価（ADR）・RevPARとは（ダイナテック）",
-          "url": "https://www.dyn.co.jp/tips/occ_adr_revpar/"
+          "name": "平均客室単価とRevPARの計算方法（CoStar/STR）",
+          "url": "https://www.costar.com/ja-jp/jpn/str-products/str-benchmark/resources/data-insights-blog/pingjunkeshidansitojisuanfangfanitsuite"
         },
         {
-          "name": "RevPAR（レブパー）とは？（リロホテルソリューションズ）",
-          "url": "https://relohotel-solutions.com/column/media-revpar/"
+          "name": "RevPARの計算（Hotel Tech Report）",
+          "url": "https://hoteltechreport.com/ja/news/revpar"
         }
       ],
       "questions": [
@@ -9469,7 +9477,7 @@
         {
           "q": "稼働率は同じでも、単価が下がると何が起きますか？",
           "o": [
-            "RevPARは必ず上がるとは限らない",
+            "稼働率が同じなら、単価が下がってもRevPARは上がる",
             "RevPARは単価に関係なく変わらない",
             "RevPARが下がり、1室あたりの売上が減る"
           ],
@@ -9479,8 +9487,8 @@
         {
           "q": "稼働率は高いが利益が出ない温泉旅館の原因を探るとき、まず何を見ますか？",
           "o": [
-            "宿のロゴの色とデザイン",
-            "口コミ投稿の文字数",
+            "近隣の宿の稼働率の平均",
+            "宿泊客の年齢の分布",
             "ADRと、そこから引かれる費用や手数料の割合"
           ],
           "a": 2,
@@ -9488,8 +9496,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 109
+      "review": "passed",
+      "topicNo": 109,
+      "reviewNote": "Q4が「上がるとは限らない」と「下がる」で両方正解になり得たため誤答を直し、Q5の不自然な誤答も差し替えた。定義と式は複数資料で一致。"
     },
     {
       "id": "topic-110",
@@ -9505,8 +9514,8 @@
       "image": "img/topic-110.svg",
       "sources": [
         {
-          "name": "Cub Stories（Honda）",
-          "url": "https://global.honda/en/Cub/history/stories/vol3/p2.html"
+          "name": "Honda Commemorates 50 Years of Innovation in America（Honda）",
+          "url": "https://global.honda/en/newsroom/worldnews/2009/c09061150-Years-in-America.html"
         },
         {
           "name": "American Honda Motor Company（Wikipedia）",
@@ -9532,7 +9541,7 @@
             "1983年"
           ],
           "a": 1,
-          "e": "Honda公式の紹介では1963年です（始まりの月について資料により差があります）。"
+          "e": "Wikipediaは1963年にキャンペーンを始めたと記しますが、1961〜62年とする資料もあり、始まりの年は資料により差があります。"
         },
         {
           "q": "この広告のスローガンとして知られるのは？",
@@ -9566,8 +9575,9 @@
           "hyp": true
         }
       ],
-      "review": "pending",
-      "topicNo": 110
+      "review": "passed",
+      "topicNo": 110,
+      "reviewNote": "1959年設立（6月11日）は公式発表で確認。キャンペーン開始年に資料差があるため解説で明記し、出典を差し替えた。"
     }
   ]
 }
