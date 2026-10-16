@@ -3002,6 +3002,156 @@
       ],
       "kind": "case",
       "status": "generated"
+    },
+    {
+      "n": 201,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "WeChatの「電子お年玉」は、なぜ決済のきっかけになった？",
+      "gain": "お祝いの習慣に乗せて、決済の利用者基盤を作った例を見る",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 202,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "洗剤の箱は、なぜ一気に小さくなった？ 花王「アタック」の場合",
+      "gain": "小型化という新しい価値で、洗剤の市場を作り替えた例を見る",
+      "effects": "🧠💴",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 203,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "ロールス・ロイスは、なぜエンジンを「飛んだ時間」で売った？",
+      "gain": "製品を売り切るのでなく、使った量で課金する契約の仕組みを知る",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "numbers"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 204,
+      "cat": "E",
+      "catName": "リサーチとデータの読み方",
+      "title": "「陽性」と出ても、本当にかかっている確率は低い？ 基準率を無視する落とし穴",
+      "gain": "「もともとの割合」を忘れると、結果を読み違える理由を知る",
+      "effects": "🔍🧠",
+      "src": "論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 205,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "瀬戸内国際芸術祭の「来場者108万人」は、どう数えた数字？",
+      "gain": "観光イベントの来場者数が「延べ人数」である意味と、数字の読み方を知る",
+      "effects": "🗾🔍",
+      "src": "公式",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 206,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "PayPayの「100億円あげちゃう」は、なぜ10日で終わった？",
+      "gain": "大型の還元キャンペーンの仕組みと、効果の見方を考える",
+      "effects": "🤖💴",
+      "src": "公式・報",
+      "tags": [
+        "numbers",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 207,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ネスプレッソは、なぜ社内の発明を「別会社」にして育てた？",
+      "gain": "社内の発明が埋もれたのち、客層を変えて立て直した例を知る",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 208,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "ナイキの「Just Do It」は、売上をどれだけ変えた？ 数字の読み方つき",
+      "gain": "広告の成功談の数字を、範囲や出典に気をつけて読む練習をする",
+      "effects": "🧠🔍",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 209,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "空港の小便器にハエの絵を描くと、なぜ汚れが減った？",
+      "gain": "「禁止」でなく「そっと後押し」して行動を変える、ナッジの考え方を知る",
+      "effects": "🧠✨",
+      "src": "報・書",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 210,
+      "cat": "F",
+      "catName": "戦略・事業転換",
+      "title": "ディズニーは、なぜ約40億ドルでマーベルを買った？",
+      "gain": "キャラクターという資産を丸ごと買う、買収の考え方を見る",
+      "effects": "🧠💴",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
     }
   ]
 }
