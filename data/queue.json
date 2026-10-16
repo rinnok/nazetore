@@ -3602,6 +3602,156 @@
       ],
       "kind": "concept",
       "status": "generated"
+    },
+    {
+      "n": 241,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "丸亀製麺は、なぜ「店の中で麺を打つ」ことを売りにした？",
+      "gain": "食の「できたて感」を、店の作りと見せ方で伝える発想を知る",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 242,
+      "cat": "B",
+      "catName": "海外の名作マーケ事例",
+      "title": "Appleの「1984」は、取締役会が嫌ったのに、なぜ放送された？",
+      "gain": "広告の「名作」が、社内の反対と偶然の中で世に出た経緯から、判断の難しさを知る",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 243,
+      "cat": "F",
+      "catName": "企業の転換・戦略",
+      "title": "プレイステーションは、なぜ任天堂との共同開発の破談から生まれた？",
+      "gain": "提携の破談が、新しい事業の出発点になることを知る",
+      "effects": "🧠✨",
+      "src": "報・公式",
+      "tags": [
+        "strategy",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 244,
+      "cat": "I",
+      "catName": "財務・数字",
+      "title": "価格を1%上げると、利益は何%増える？ 値付けが利益に効く理由",
+      "gain": "売上でなく利益で見ると、価格・費用・数量の効き方が違うことを知る",
+      "effects": "💴🧠",
+      "src": "論",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 245,
+      "cat": "J",
+      "catName": "コンサルの思考法",
+      "title": "BCGの「花形・金のなる木」とは？ 事業を2つの軸で分ける考え方",
+      "gain": "複数の事業を、成長率とシェアで分けて、お金の使い道を決める発想を知る",
+      "effects": "🧠💴",
+      "src": "書",
+      "tags": [
+        "logical",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 246,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "ブランド名を見せるだけで、味の好みはなぜ変わる？ コーラ味比べの脳の実験",
+      "gain": "ブランドの知識が、感じ方そのものを変えることを知る",
+      "effects": "✨🧠",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 247,
+      "cat": "G",
+      "catName": "観光・地域・DMO",
+      "title": "真鶴町の「美の基準」は、なぜ建物を禁止せず、言葉でまちを守った？",
+      "gain": "禁止ではなく「共通の言葉」で景観を守る、小さなまちの工夫を知る",
+      "effects": "🗾🧠",
+      "src": "官・報",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 248,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "2014年のバター不足は、なぜ起きた？ 乳製品の需給から見る",
+      "gain": "スーパーの棚の欠品の裏にある、生産と需要のズレを読む",
+      "effects": "💴🔍",
+      "src": "官・報",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 249,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "Intuitは、なぜ客の家までついて行って、使う様子を見た？",
+      "gain": "アンケートでは分からない「使い方のつまずき」を、観察で見つける方法を知る",
+      "effects": "🔍🧠",
+      "src": "書・報",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 250,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "スーパーが地下鉄の駅に「画面の店」を出す？ 韓国ホームプラスの工夫",
+      "gain": "店を持たずに、客の通勤時間を売り場に変えた発想を知る",
+      "effects": "🧠🤖",
+      "src": "報",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
     }
   ]
 }
