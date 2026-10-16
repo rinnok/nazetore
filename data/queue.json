@@ -1502,6 +1502,156 @@
       ],
       "kind": "concept",
       "status": "generated"
+    },
+    {
+      "n": 101,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "カップヌードルは、なぜ「お湯を注ぐ容器」ごと売ることにした？",
+      "gain": "食べ方の観察から、商品の形を決める",
+      "effects": "🧠🔍✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 102,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "ファンケルは、なぜ「無添加」を売りにした？",
+      "gain": "不安という顧客の声が、商品づくりを決めた例",
+      "effects": "🧠💴✨",
+      "src": "公式・報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 103,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "USJは、なぜ入場者数を倍近くに増やせた？",
+      "gain": "大型投資と、数字に基づく運営の組み合わせ",
+      "effects": "🧠🗾💴",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 104,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "「インテル・インサイド」は、なぜ部品のシールが消費者に効いた？",
+      "gain": "消費者が見えない部品を、ブランドにする方法",
+      "effects": "🧠✨",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 105,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "タイヤ会社は、なぜレストランのガイドブックを無料で配った？",
+      "gain": "自社商品の需要を増やす「読み物」の発想",
+      "effects": "🧠✨",
+      "src": "公式・書",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 106,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "HubSpotは、なぜ「ブログ」で営業を変えようとした？",
+      "gain": "売り込まれるより、見つけてもらう発想",
+      "effects": "🧠🤖",
+      "src": "公式・報",
+      "tags": [
+        "channel",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 107,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "オレオは、なぜ中国で味とサイズを変えた？",
+      "gain": "海外市場で、商品を現地に合わせる判断",
+      "effects": "🧠🔍🗾",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 108,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "日本のケンタッキーは、なぜクリスマスに売れるようになった？",
+      "gain": "日本の習慣に合わせて作った、季節の需要",
+      "effects": "🧠✨",
+      "src": "報",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 109,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "ホテルの「RevPAR」は、なぜ稼働率だけより経営が見える？",
+      "gain": "稼働率と単価を同時に見る指標",
+      "effects": "💴🗾",
+      "src": "報",
+      "tags": [
+        "numbers",
+        "strategy"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 110,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "ホンダは、なぜ米国で「やさしい人が乗るバイク」と広告した？",
+      "gain": "商品でなく、乗る人のイメージを変える広告",
+      "effects": "🧠🔍",
+      "src": "公式・書",
+      "tags": [
+        "customer",
+        "strategy"
+      ],
+      "kind": "case",
+      "status": "generated"
     }
   ]
 }
