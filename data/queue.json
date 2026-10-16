@@ -2102,6 +2102,156 @@
    ],
    "kind": "case",
    "status": "generated"
+  },
+  {
+   "n": 141,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "外食の売上は、コロナ前の水準を取り戻した？",
+   "gain": "業界団体の統計で、1業界の回復を数字で読む",
+   "effects": "💴",
+   "src": "公式",
+   "tags": [
+    "numbers",
+    "future"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 142,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "ノンアルコールビールは、なぜ2009年に市場になった？",
+   "gain": "「飲めない場面」を狙った商品が定番になる流れ",
+   "effects": "🧠💴",
+   "src": "公式・報",
+   "tags": [
+    "customer",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 143,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "外国人の宿泊は、なぜ一部の都道府県に偏る？",
+   "gain": "官公庁統計から、観光地の集中と分散を読む",
+   "effects": "🗾🔍",
+   "src": "官",
+   "tags": [
+    "numbers",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 144,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "Amazonは、なぜ小売会社なのにクラウドを貸し始めた？",
+   "gain": "自社の内部能力を外販して新事業にした例",
+   "effects": "🧠💴🤖",
+   "src": "公式",
+   "tags": [
+    "strategy",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 145,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "デルは、なぜ中間業者を飛ばして注文を直接受けた？",
+   "gain": "直販モデルが在庫と顧客理解にもたらす違い",
+   "effects": "🧠💴",
+   "src": "報",
+   "tags": [
+    "channel",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 146,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "Stripeは、なぜ開発者を入り口にして決済を売った？",
+   "gain": "開発者を顧客にした法人向けの売り方",
+   "effects": "🧠🤖",
+   "src": "公式・報",
+   "tags": [
+    "customer",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 147,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "イケアは、なぜ日本で一度撤退し、再び戻ってこられた？",
+   "gain": "進出の失敗から、売り方を現地に合わせ直す",
+   "effects": "🧠🔍",
+   "src": "公式・報",
+   "tags": [
+    "customer",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 148,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "ウォルマートは、なぜドイツから撤退した？",
+   "gain": "成功した型が海外で通じなかった理由",
+   "effects": "🧠",
+   "src": "報",
+   "tags": [
+    "strategy",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 149,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "ウーバーは、なぜ中国事業を手放した？",
+   "gain": "資金力のある先行者に海外で挑む難しさ",
+   "effects": "🧠💴",
+   "src": "報",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 150,
+   "cat": "E",
+   "catName": "リサーチ・統計",
+   "title": "1,000人に聞いた調査の誤差は、何ポイント？",
+   "gain": "標本の大きさと誤差の関係を数字で押さえる",
+   "effects": "🔍",
+   "src": "書",
+   "tags": [
+    "numbers",
+    "logical"
+   ],
+   "kind": "concept",
+   "status": "generated"
   }
  ]
 }
