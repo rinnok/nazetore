@@ -2402,6 +2402,156 @@
    ],
    "kind": "case",
    "status": "generated"
+  },
+  {
+   "n": 161,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "Slackは、なぜ「2,000件のメッセージ」を目安にした？",
+   "gain": "無料で試した顧客が、使い続けるかどうかの境目を数字で見つける考え方",
+   "effects": "🧠🔍",
+   "src": "報・書",
+   "tags": [
+    "numbers",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 162,
+   "cat": "B",
+   "catName": "海外の名作マーケ事例",
+   "title": "コカ・コーラは、なぜ自分のロゴを外して「人の名前」を載せた？",
+   "gain": "商品そのものを変えず、パッケージで「自分ごと」にして売る方法",
+   "effects": "🧠✨",
+   "src": "報",
+   "tags": [
+    "customer",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 163,
+   "cat": "E",
+   "catName": "リサーチとデータの読み方",
+   "title": "「見られていると頑張る」ホーソン効果は、本当に実験で確かめられた？",
+   "gain": "有名な実験の話を、のちの再分析で確かめ直す姿勢",
+   "effects": "🔍🧠",
+   "src": "論",
+   "tags": [
+    "logical",
+    "numbers"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 164,
+   "cat": "F",
+   "catName": "事業転換・ビジネスモデル",
+   "title": "ポスト・イットは、なぜ「失敗した接着剤」から生まれた？",
+   "gain": "研究の失敗作に、使い道を見つけて事業にした流れ",
+   "effects": "🧠✨",
+   "src": "公式・報",
+   "tags": [
+    "strategy",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 165,
+   "cat": "G",
+   "catName": "観光・地域・DMO",
+   "title": "ブータンは、なぜ観光客に1日ごとの「持続可能な開発料」を課す？",
+   "gain": "訪問客の数ではなく、質と環境を守る観光の考え方",
+   "effects": "🗾🧠",
+   "src": "報",
+   "tags": [
+    "future",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 166,
+   "cat": "H",
+   "catName": "デジタル・SNS・AI",
+   "title": "「2か月で1億人」というChatGPTの数字は、誰が出した、何の数字？",
+   "gain": "公表値と推計値を見分け、数字の出どころを確かめる習慣",
+   "effects": "🔍🤖",
+   "src": "報",
+   "tags": [
+    "numbers",
+    "future"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 167,
+   "cat": "F",
+   "catName": "事業転換・ビジネスモデル",
+   "title": "ボルボは、なぜ発明した3点式シートベルトの特許を他社にも開いた？",
+   "gain": "自社の強みを囲い込まず、公開して信頼を得る判断",
+   "effects": "🧠✨",
+   "src": "公式・報",
+   "tags": [
+    "strategy",
+    "future"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 168,
+   "cat": "H",
+   "catName": "デジタル・SNS・AI",
+   "title": "ドル・シェイヴ・クラブは、なぜ1本の動画で創業直後に注文が殺到した？",
+   "gain": "低予算の動画と簡単な購入の仕組みで、定期購入を伸ばした流れ",
+   "effects": "🧠🤖",
+   "src": "報",
+   "tags": [
+    "channel",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 169,
+   "cat": "H",
+   "catName": "デジタル・SNS・AI",
+   "title": "100万ドルの賞を取った推薦の仕組みは、なぜネットフリックスで使われなかった？",
+   "gain": "精度の高さと、実際に使えるかどうかの違い",
+   "effects": "🔍🤖",
+   "src": "報",
+   "tags": [
+    "logical",
+    "future"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 170,
+   "cat": "A",
+   "catName": "国内のマーケ・ブランド事例",
+   "title": "11月11日の「ポッキーの日」は、なぜ生まれた？",
+   "gain": "形や日付の連想から、記念日を作って商品の出番を増やす方法",
+   "effects": "🧠✨",
+   "src": "公式・報",
+   "tags": [
+    "customer",
+    "channel"
+   ],
+   "kind": "case",
+   "status": "generated"
   }
  ]
 }
