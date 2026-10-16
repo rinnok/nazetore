@@ -2252,6 +2252,156 @@
    ],
    "kind": "concept",
    "status": "generated"
+  },
+  {
+   "n": 151,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "東京ディズニーランドは、なぜディズニー自身ではなく日本の会社が運営している？",
+   "gain": "ブランドを貸して海外に出る「ライセンス方式」の仕組み",
+   "effects": "🧠💴",
+   "src": "公式・報",
+   "tags": [
+    "strategy",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 152,
+   "cat": "B",
+   "catName": "海外の名作マーケ事例",
+   "title": "ジレットは、本当に「本体を無料で配って替え刃で稼いだ」のか？",
+   "gain": "有名なビジネスモデルの話を、事実で確かめる習慣",
+   "effects": "🧠🔍",
+   "src": "研・報",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 153,
+   "cat": "K",
+   "catName": "業界研究",
+   "title": "犬より猫のほうが多いペット市場で、何が変わっている？",
+   "gain": "民間団体の調査から、1つの市場の中身を数字で読む",
+   "effects": "🔍💴",
+   "src": "公式",
+   "tags": [
+    "numbers",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 154,
+   "cat": "H",
+   "catName": "デジタル・SNS・広告",
+   "title": "レッドブルは、なぜ「成層圏からの飛び降り」を自分たちで中継した？",
+   "gain": "広告ではなく、出来事そのものでブランドを見せる方法",
+   "effects": "🧠💡",
+   "src": "報",
+   "tags": [
+    "channel",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 155,
+   "cat": "E",
+   "catName": "リサーチ・統計",
+   "title": "叱ると成績が上がり、ほめると下がる？ 教官の経験は正しいのか",
+   "gain": "「たまたまの揺れ」を「原因」と取り違えない目",
+   "effects": "🔍🧠",
+   "src": "書",
+   "tags": [
+    "logical",
+    "numbers"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 156,
+   "cat": "G",
+   "catName": "観光・地域・DMO",
+   "title": "しまなみ海道は、なぜ自転車で走る人の聖地になった？",
+   "gain": "地域資源に国の指定とPRを重ねて、目的地にする流れ",
+   "effects": "🗾🧠",
+   "src": "官・報",
+   "tags": [
+    "strategy",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 157,
+   "cat": "F",
+   "catName": "事業転換・ビジネスモデル",
+   "title": "スポティファイは、なぜ「無料」を残したまま有料会員を増やした？",
+   "gain": "無料プランを、有料への入り口にするビジネスモデル",
+   "effects": "🧠💴",
+   "src": "公式・報",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 158,
+   "cat": "C",
+   "catName": "価格・小売の仕組み",
+   "title": "ロングテールは、本当に「売れない商品の山」が儲かるという話？",
+   "gain": "品ぞろえを広げる判断を、数字と条件で考える",
+   "effects": "🧠🔍",
+   "src": "書・報",
+   "tags": [
+    "strategy",
+    "numbers"
+   ],
+   "kind": "concept",
+   "status": "generated"
+  },
+  {
+   "n": 159,
+   "cat": "M",
+   "catName": "海外市場・グローバル",
+   "title": "日本酒の輸出は、なぜ13年連続で増え続けた？",
+   "gain": "輸出額・数量・単価を分けて、海外市場の質の変化を読む",
+   "effects": "💴🔍",
+   "src": "公式・報",
+   "tags": [
+    "numbers",
+    "customer"
+   ],
+   "kind": "case",
+   "status": "generated"
+  },
+  {
+   "n": 160,
+   "cat": "L",
+   "catName": "B2B・法人向けマーケ",
+   "title": "アトラシアンは、本当に「営業ゼロ」で成長したのか？",
+   "gain": "「営業ゼロ」の話を、実際の仕組みで確かめる",
+   "effects": "🧠🔍",
+   "src": "公式・報",
+   "tags": [
+    "channel",
+    "strategy"
+   ],
+   "kind": "case",
+   "status": "generated"
   }
  ]
 }
