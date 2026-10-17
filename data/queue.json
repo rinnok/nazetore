@@ -4203,6 +4203,156 @@
       ],
       "kind": "concept",
       "status": "generated"
+    },
+    {
+      "n": 281,
+      "cat": "A",
+      "catName": "国内のマーケ・ブランド事例",
+      "title": "「うまい棒」は、なぜ長く10円で売り続けてきた？",
+      "gain": "値段を守るための、量と原材料と売り方の工夫を知る",
+      "effects": "🧠✨",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 282,
+      "cat": "C",
+      "catName": "価格・小売の仕組み",
+      "title": "ダイソーは、なぜ100円ショップなのに、300円や500円の商品も置くようになった？",
+      "gain": "均一価格の店が価格帯を広げる理由を、客と原価から考える",
+      "effects": "💴🧠",
+      "src": "公式・報",
+      "tags": [
+        "strategy",
+        "customer"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 283,
+      "cat": "I",
+      "catName": "財務・数字の読み方",
+      "title": "設備に1億円使っても、費用は1年で1億円にならない？ 減価償却の考え方",
+      "gain": "お金を払った年と、費用にする年がずれる仕組みを例題で読む",
+      "effects": "💴🧠",
+      "src": "書・公",
+      "tags": [
+        "numbers",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 284,
+      "cat": "L",
+      "catName": "B2B・法人向けマーケ",
+      "title": "Shopifyは、なぜ自分で売らずに、小さな店のネット店舗づくりを助ける側に回った？",
+      "gain": "他社の成功を事業にする、プラットフォームの考え方を知る",
+      "effects": "🧠💴",
+      "src": "IR・公式",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 285,
+      "cat": "D",
+      "catName": "行動経済学・心理",
+      "title": "スタンプカードは、ゴールが近づくほど、なぜ来店の間隔が短くなる？",
+      "gain": "目標に近づくと行動が速くなる「目標勾配」を知る",
+      "effects": "✨🧠",
+      "src": "論",
+      "tags": [
+        "customer",
+        "logical"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 286,
+      "cat": "E",
+      "catName": "リサーチ・統計",
+      "title": "A/Bテストは、途中で結果をのぞいて止めると、なぜ間違えやすい？",
+      "gain": "テストの止め時と、偶然を本物と見誤る落とし穴を知る",
+      "effects": "🔍🧠",
+      "src": "書・論",
+      "tags": [
+        "logical",
+        "numbers"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 287,
+      "cat": "M",
+      "catName": "海外市場・グローバル事例",
+      "title": "ヤクルトは、なぜ売上の約半分が海外で生まれる会社になった？",
+      "gain": "国ごとに売り方を変えて広げる、グローバル展開の型を知る",
+      "effects": "🧠💴",
+      "src": "公式・IR",
+      "tags": [
+        "strategy",
+        "channel"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 288,
+      "cat": "G",
+      "catName": "観光・地域",
+      "title": "観光立国の目標は、どんな数字で決められている？ 2030年の「6,000万人・15兆円」",
+      "gain": "国の観光目標を数字で読み、地域の戦略とつなげる",
+      "effects": "🗾🔍",
+      "src": "官",
+      "tags": [
+        "numbers",
+        "future"
+      ],
+      "kind": "concept",
+      "status": "generated"
+    },
+    {
+      "n": 289,
+      "cat": "H",
+      "catName": "デジタル・SNS・AI",
+      "title": "iPhoneの「追跡拒否」ボタンは、なぜSNS広告の会社の業績を揺らした？",
+      "gain": "プラットフォームの仕様変更が、広告ビジネスに効く仕組みを知る",
+      "effects": "🧠💴",
+      "src": "IR・報",
+      "tags": [
+        "channel",
+        "future"
+      ],
+      "kind": "case",
+      "status": "generated"
+    },
+    {
+      "n": 290,
+      "cat": "K",
+      "catName": "業界研究",
+      "title": "日本には、なぜ自動販売機がこんなに多い？ 台数から読む",
+      "gain": "1つの業界の「機械の数」と「1台あたり」から市場を読む",
+      "effects": "🔍💴",
+      "src": "業界団体・報",
+      "tags": [
+        "numbers",
+        "customer"
+      ],
+      "kind": "concept",
+      "status": "generated"
     }
   ]
 }
