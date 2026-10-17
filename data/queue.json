@@ -4186,7 +4186,8 @@
         "strategy"
       ],
       "kind": "case",
-      "status": "generated"
+      "status": "rejected",
+      "note": "56%・89%が調査元で確認できず、76%の定義も資料で不一致"
     },
     {
       "n": 280,
