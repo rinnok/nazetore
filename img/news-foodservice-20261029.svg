@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FBEFE0"/>
+  <circle cx="660" cy="100" r="150" fill="#F8E2C6"/>
+  <circle cx="120" cy="430" r="120" fill="#F6DDBB"/>
+  <rect y="420" width="800" height="80" fill="#EBC79A"/>
+  <g transform="translate(90 190)">
+    <ellipse cx="130" cy="150" rx="130" ry="20" fill="#D8A66B"/>
+    <path d="M10 70 H250 A120 120 0 0 1 10 70 Z" fill="#FFFFFF" stroke="#E0B27A" stroke-width="8"/>
+    <rect x="40" y="30" width="180" height="40" rx="20" fill="#FAC775"/>
+    <circle cx="90" cy="25" r="18" fill="#F0A08A"/><circle cx="150" cy="20" r="16" fill="#97C459"/>
+    <rect x="190" y="-40" width="10" height="90" rx="5" fill="#BA7517"/><rect x="215" y="-40" width="10" height="90" rx="5" fill="#BA7517"/>
+  </g>
+  <g transform="translate(420 170)">
+    <path d="M0 40 H130 L115 220 H15 Z" fill="#E24B4A"/>
+    <rect x="-8" y="25" width="146" height="22" rx="8" fill="#FFFFFF"/>
+    <rect x="60" y="-40" width="10" height="70" rx="5" fill="#854F0B"/>
+    <circle cx="65" cy="130" r="30" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(600 250)">
+    <circle cx="70" cy="70" r="70" fill="#FAC775"/><circle cx="95" cy="55" r="70" fill="#FBEFE0"/>
+  </g>
+  <g transform="translate(560 100)">
+    <circle cx="0" cy="0" r="26" fill="#FAC775" stroke="#BA7517" stroke-width="5"/>
+    <text x="0" y="9" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#854F0B" text-anchor="middle">¥</text>
+  </g>
+</svg>
