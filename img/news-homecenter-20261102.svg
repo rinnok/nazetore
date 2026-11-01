@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#EEF4E6"/>
+<circle cx="150" cy="110" r="140" fill="#DDE9CC"/>
+<circle cx="690" cy="400" r="130" fill="#CFE0B8"/>
+<rect y="420" width="800" height="80" fill="#A9C484"/>
+<g transform="translate(90 190)"><rect x="0" y="40" width="150" height="160" rx="10" fill="#FFFFFF" stroke="#A9C484" stroke-width="8"/><rect x="20" y="0" width="110" height="50" rx="8" fill="#7BA24C"/><rect x="30" y="70" width="90" height="30" rx="6" fill="#DDE9CC"/><rect x="30" y="120" width="90" height="30" rx="6" fill="#DDE9CC"/></g>
+<g transform="translate(300 230)"><rect x="60" y="0" width="30" height="190" rx="8" fill="#B98F5B"/><rect x="0" y="0" width="150" height="60" rx="12" fill="#7BA24C"/></g>
+<g transform="translate(500 250)"><path d="M0 40 L120 40 L105 170 L15 170 Z" fill="#FFFFFF" stroke="#A9C484" stroke-width="8"/><ellipse cx="60" cy="40" rx="60" ry="14" fill="#DDE9CC" stroke="#A9C484" stroke-width="6"/><path d="M10 40 Q60 -50 110 40" fill="none" stroke="#7BA24C" stroke-width="8"/></g>
+<g transform="translate(660 280)"><rect x="10" y="60" width="70" height="90" rx="8" fill="#FFFFFF" stroke="#A9C484" stroke-width="8"/><path d="M45 60 C45 20 15 10 5 -10 C35 -10 45 20 45 40 C45 20 60 -10 90 -10 C80 15 45 30 45 60" fill="#7BA24C"/></g>
+</svg>
