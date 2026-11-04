@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FBEFE3"/>
+  <circle cx="660" cy="90" r="150" fill="#F8E2CD"/>
+  <circle cx="110" cy="440" r="120" fill="#F9E7D6"/>
+  <rect y="420" width="800" height="80" fill="#F0D5BC"/>
+  <g transform="translate(70 170)">
+    <rect x="0" y="0" width="250" height="250" rx="18" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="250" height="40" rx="18" fill="#E8833A"/>
+    <rect x="0" y="22" width="250" height="18" fill="#E8833A"/>
+    <g fill="#F5C9A0">
+      <rect x="22" y="64" width="40" height="34" rx="5"/><rect x="82" y="64" width="40" height="34" rx="5"/><rect x="142" y="64" width="40" height="34" rx="5"/><rect x="200" y="64" width="30" height="34" rx="5"/>
+      <rect x="22" y="116" width="40" height="34" rx="5"/><rect x="82" y="116" width="40" height="34" rx="5"/><rect x="200" y="116" width="30" height="34" rx="5"/>
+      <rect x="22" y="168" width="40" height="34" rx="5"/><rect x="142" y="168" width="40" height="34" rx="5"/><rect x="200" y="168" width="30" height="34" rx="5"/>
+    </g>
+    <rect x="142" y="116" width="40" height="34" rx="5" fill="#E24B4A"/>
+    <rect x="82" y="168" width="40" height="34" rx="5" fill="#E8833A"/>
+  </g>
+  <g transform="translate(380 130)">
+    <path d="M40 60 L80 0 H160 L200 60Z" fill="#E24B4A"/>
+    <rect x="30" y="60" width="180" height="170" rx="10" fill="#FFFFFF"/>
+    <rect x="30" y="60" width="180" height="20" fill="#FAC775"/>
+    <rect x="62" y="110" width="116" height="14" rx="7" fill="#F0997B"/>
+    <rect x="62" y="140" width="80" height="14" rx="7" fill="#F5C9A0"/>
+    <circle cx="120" cy="196" r="18" fill="#E8833A"/>
+  </g>
+  <g transform="translate(640 230)">
+    <rect x="0" y="0" width="110" height="170" rx="12" fill="#FFFFFF"/>
+    <rect x="12" y="14" width="86" height="22" rx="6" fill="#F5C9A0"/>
+    <rect x="22" y="104" width="14" height="46" rx="3" fill="#F5C9A0"/>
+    <rect x="48" y="80" width="14" height="70" rx="3" fill="#E8833A"/>
+    <rect x="74" y="58" width="14" height="92" rx="3" fill="#BA5A1A"/>
+  </g>
+  <g transform="translate(330 400)">
+    <circle cx="0" cy="0" r="26" fill="#FAC775" stroke="#BA7517" stroke-width="5"/>
+    <text x="0" y="9" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#854F0B" text-anchor="middle">¥</text>
+  </g>
+</svg>
