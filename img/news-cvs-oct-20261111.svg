@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#EAF6F1"/>
+<circle cx="680" cy="95" r="145" fill="#D3EDE2"/>
+<circle cx="100" cy="440" r="120" fill="#BFE3D3"/>
+<rect y="420" width="800" height="80" fill="#9FD3BD"/>
+<g transform="translate(90 150)"><rect x="0" y="70" width="300" height="200" rx="8" fill="#FFFFFF" stroke="#7CC4A6" stroke-width="8"/><path d="M-10 70 L0 20 H300 L310 70Z" fill="#3FAE86"/><rect x="40" y="110" width="110" height="160" rx="6" fill="#CDEBDD"/><rect x="180" y="110" width="80" height="80" rx="6" fill="#F5B83D"/></g>
+<g transform="translate(450 270)"><path d="M10 0 H90 L80 120 H20Z" fill="#FFFFFF" stroke="#7CC4A6" stroke-width="8"/><rect x="18" y="40" width="64" height="30" fill="#F5B83D"/><path d="M90 25 C130 25 130 80 85 80" fill="none" stroke="#7CC4A6" stroke-width="8"/></g>
+<g transform="translate(590 290)"><ellipse cx="60" cy="70" rx="60" ry="42" fill="#E9A44B"/><path d="M20 60 H100 M30 80 H90" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/></g>
+<g transform="translate(560 60)"><circle cx="50" cy="50" r="38" fill="#F5B83D"/><path d="M50 -10 V-26 M50 110 V126 M-10 50 H-26 M110 50 H126" stroke="#F5B83D" stroke-width="8" stroke-linecap="round"/></g>
+</svg>
