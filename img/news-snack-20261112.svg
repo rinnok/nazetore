@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#FBF0E6"/>
+<circle cx="670" cy="100" r="140" fill="#F6DFC9"/>
+<circle cx="110" cy="430" r="115" fill="#F2D2B3"/>
+<rect y="420" width="800" height="80" fill="#E8BE96"/>
+<g transform="translate(120 230)"><rect x="0" y="0" width="230" height="190" rx="10" fill="#8A5A3C"/><path d="M0 63 H230 M0 126 H230 M76 0 V190 M153 0 V190" stroke="#6B4129" stroke-width="7"/><rect x="12" y="12" width="52" height="40" rx="5" fill="#A06C48"/></g>
+<g transform="translate(430 270)"><circle cx="75" cy="75" r="75" fill="#E9B872"/><circle cx="45" cy="55" r="10" fill="#8A5A3C"/><circle cx="100" cy="45" r="9" fill="#8A5A3C"/><circle cx="85" cy="105" r="11" fill="#8A5A3C"/><circle cx="48" cy="102" r="8" fill="#8A5A3C"/></g>
+<g transform="translate(610 300)"><rect x="0" y="40" width="100" height="80" rx="8" fill="#FFFFFF" stroke="#D9A066" stroke-width="8"/><path d="M100 60 C140 60 140 105 100 105" fill="none" stroke="#D9A066" stroke-width="8"/><path d="M30 30 C20 10 40 10 30 -10 M60 30 C50 10 70 10 60 -10" fill="none" stroke="#D9A066" stroke-width="6" stroke-linecap="round"/></g>
+<g transform="translate(540 70)"><circle cx="50" cy="50" r="38" fill="#F5B83D"/><path d="M50 -10 V-26 M50 110 V126 M-10 50 H-26 M110 50 H126" stroke="#F5B83D" stroke-width="8" stroke-linecap="round"/></g>
+</svg>
