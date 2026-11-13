@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#EDEAF5"/>
+<circle cx="670" cy="100" r="140" fill="#DCD6EE"/>
+<circle cx="110" cy="430" r="115" fill="#CFC7E6"/>
+<rect y="420" width="800" height="80" fill="#B9AEDB"/>
+<g transform="translate(110 230)"><path d="M20 40 H190 L175 190 H35 Z" fill="#3E3A5A"/><path d="M60 40 C60 -5 150 -5 150 40" fill="none" stroke="#3E3A5A" stroke-width="12" stroke-linecap="round"/><circle cx="105" cy="115" r="32" fill="#F5B83D"/></g>
+<g transform="translate(400 255)"><path d="M0 40 L60 0 H150 V120 H60 L0 80 Z" fill="#E4577A"/><circle cx="40" cy="40" r="9" fill="#EDEAF5"/><path d="M80 45 H125 M80 75 H110" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/></g>
+<g transform="translate(600 290)"><circle cx="60" cy="60" r="60" fill="#F5B83D"/><circle cx="60" cy="60" r="44" fill="none" stroke="#FFFFFF" stroke-width="6"/><text x="60" y="80" font-size="56" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif">¥</text></g>
+<g transform="translate(540 60)"><path d="M0 50 H70 M35 15 V85" stroke="#E4577A" stroke-width="10" stroke-linecap="round"/></g>
+</svg>
