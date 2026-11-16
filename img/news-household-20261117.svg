@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FBF3E6"/>
+  <circle cx="680" cy="100" r="150" fill="#F7E6CB"/>
+  <circle cx="110" cy="420" r="120" fill="#F9ECD6"/>
+  <rect y="420" width="800" height="80" fill="#EBD5B0"/>
+  <g transform="translate(110 200)">
+    <path d="M0 60 L90 0 L180 60 L180 220 L0 220Z" fill="#FFFFFF" stroke="#BA7517" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="65" y="130" width="50" height="90" rx="8" fill="#FAC775"/>
+    <rect x="20" y="95" width="36" height="30" rx="6" fill="#B5D4F4"/>
+    <rect x="124" y="95" width="36" height="30" rx="6" fill="#B5D4F4"/>
+  </g>
+  <g transform="translate(360 230)">
+    <path d="M10 60 L170 60 L150 190 L30 190Z" fill="#97C459" stroke="#639922" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M45 60 C45 10 135 10 135 60" fill="none" stroke="#639922" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="70" cy="110" r="16" fill="#E24B4A"/>
+    <circle cx="110" cy="125" r="14" fill="#FAC775"/>
+  </g>
+  <g transform="translate(600 250)">
+    <ellipse cx="60" cy="150" rx="70" ry="14" fill="#EF9F27" opacity=".35"/>
+    <ellipse cx="60" cy="120" rx="55" ry="16" fill="#FAC775" stroke="#EF9F27" stroke-width="5"/>
+    <ellipse cx="60" cy="90" rx="55" ry="16" fill="#FAC775" stroke="#EF9F27" stroke-width="5"/>
+    <ellipse cx="60" cy="60" rx="55" ry="16" fill="#FAC775" stroke="#EF9F27" stroke-width="5"/>
+    <text x="60" y="66" text-anchor="middle" font-size="22" fill="#BA7517" font-family="sans-serif">¥</text>
+  </g>
+  <path d="M130 130 L260 90 L390 120 L520 80" fill="none" stroke="#E24B4A" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 14" opacity="0"/>
+</svg>
