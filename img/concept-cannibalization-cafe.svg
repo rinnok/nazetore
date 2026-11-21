@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#F5EFE8"/>
+  <circle cx="660" cy="110" r="140" fill="#EADCCB"/>
+  <circle cx="110" cy="400" r="120" fill="#E3EEF8"/>
+  <g transform="translate(80 230)">
+    <path d="M30 60 H150 L135 200 H45Z" fill="#E6D3B8" stroke="#8B5E34" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M150 90 C195 90 195 160 140 160" fill="none" stroke="#8B5E34" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(330 220)">
+    <path d="M20 50 H140 L125 210 H35Z" fill="#F4C0D1" stroke="#D4537E" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="10" y="30" width="140" height="22" rx="8" fill="#FBEAF0" stroke="#D4537E" stroke-width="5"/>
+    <path d="M95 30 L115 0" stroke="#D4537E" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(580 250)">
+    <path d="M20 100 H150" stroke="#378ADD" stroke-width="10" stroke-linecap="round"/>
+    <path d="M120 70 L155 100 L120 130" fill="none" stroke="#378ADD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150 170 H20" stroke="#BA7517" stroke-width="10" stroke-linecap="round"/>
+    <path d="M50 140 L15 170 L50 200" fill="none" stroke="#BA7517" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
